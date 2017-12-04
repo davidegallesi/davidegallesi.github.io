@@ -32,4 +32,4 @@ theme_color: light
 # Build settings
 markdown: kramdown
 
-theme: jekyll-athena
+theme: jekyll-theme-minimal
