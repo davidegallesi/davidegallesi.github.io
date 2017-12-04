@@ -17,8 +17,8 @@ title: davidegallesi.com
 description: random thoughts
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
 url: "davidegallesi.github.io" # the base hostname & protocol for your site
-github_repo:   davidegallesi.github.io # the GitHub repo name for your project
-github_username: davidegallesi
+github_repo:  # the GitHub repo name for your project
+github_username: 
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
