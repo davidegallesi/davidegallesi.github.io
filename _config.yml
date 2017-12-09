@@ -34,4 +34,4 @@ markdown: kramdown
 
 remote_theme: broccolini/athena
 
-theme: jekyll-theme-minimal
+theme: jekyll-athena
