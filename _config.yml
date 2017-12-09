@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: davidegallesi.com
-description: random thoughts
+description: marginalia
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
 url: "https://davidegallesi.github.io/" # the base hostname & protocol for your site
 github_repo:   # the GitHub repo name for your project
@@ -32,6 +32,6 @@ theme_color: light
 # Build settings
 markdown: kramdown
 
-remote_theme: broccolini/athena
+# remote_theme: broccolini/athena
 
 theme: jekyll-athena
