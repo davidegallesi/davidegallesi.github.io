@@ -6,7 +6,15 @@ permalink: /now/
 
 My name is [Davide Gallesi](https://twitter.com/davidegallesi) and this is what I'm doing now.
 
-<style> ul { list-style-type: bullet; } </style>
+<style>
+
+ul  {
+      list-style-type: bullet;
+      
+    
+    }
+
+</style>
 
 - Loving my family, I'm a family guy.
 - Reading, writing, walking and biking.
