@@ -6,15 +6,13 @@ permalink: /now/
 
 My name is [Davide Gallesi](https://twitter.com/davidegallesi) and this is what I'm doing now.
 
-<style>
-
-ul  {
-      list-style-type: bullet;
-      
-    
-    }
-
+<style> ul {
+  	list-style-type: bullet;
+    font-size: $body-font-size;
+    line-height: 1;
+  } 
 </style>
+
 
 - Loving and living my family.
 - Reading, writing, walking and biking.
