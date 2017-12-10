@@ -1,13 +1,16 @@
 ---
 title: Il meglio di entrambi i mondi
 date: 2016-06-30 00:03:00 Z
-published: true
+published: false
 layout: post
 ---
 
 Non si può fare tutto.
+
 Non si può ricordare tutto.
+
 Non si può accontentare tutti.
+
 Non si può avere tutto.
 
 
