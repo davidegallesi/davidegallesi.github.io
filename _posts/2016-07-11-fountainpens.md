@@ -1,10 +1,8 @@
 ---
 title: Zen and the art of fountain pen maintenance
-date: 2016-07-11 00:00:00 Z
-tags:
-- link
-- fountainpens
+date: 2017-12-09 11:23:00
 layout: post
-external-url: http://www.penaddict.com/blog/2016/7/1/zen-and-the-art-of-fountain-pen-maintenance
 ---
+
+This is a test post to see if the RRS feed works properly.
 
