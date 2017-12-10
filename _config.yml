@@ -17,7 +17,7 @@ title: marginalia
 description: nulla dies sine linea
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
 url: "https://www.davidegallesi.com/" # the base hostname & protocol for your site
-github_repo:   # the GitHub repo name for your project
+github_repo:   davidegallesi.github.io # the GitHub repo name for your project
 github_username: 
 
 # Optional social link, you can choose from the following options:
