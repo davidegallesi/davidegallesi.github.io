@@ -16,11 +16,11 @@ ul  {
 
 </style>
 
-- Loving my family, I'm a family guy.
+- Loving and living my family.
 - Reading, writing, walking and biking.
-- Renovating my 37 years old bicycle, [here]( {{ siteurl }} ) the project journal (when ready).
+- Renovating my 37 years old bicycle.
 - Searching the right balance between analog and digital.
-- Writing with fountain pens and trying to improve my handwriting.
+- Writing with fountain pens and paper trying to improve my penmanship.
 - Working hard to grow my really [small business](http://www.nexo.me).
 - Committed to be everyday a little bit less ignorant.
 
@@ -28,4 +28,4 @@ ul  {
 
 The **/now** page movement has been inspired by [Derek Sievers](https://sivers.org/nowff).
 
-<small>Last update: January 2017</small>
+<small>Last update: December 2017</small>
