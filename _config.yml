@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: marginalia
-description: nullo dies sine linea
+description: nulla dies sine linea
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
 url: "https://davidegallesi.github.io/" # the base hostname & protocol for your site
 github_repo:   # the GitHub repo name for your project
