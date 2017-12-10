@@ -4,14 +4,9 @@ title: now
 permalink: /now/
 ---
 
-My name is [Davide Gallesi](https://twitter.com/davidegallesi) and this is what I'm doing now.
 
-<style> ul {
-  	list-style-type: bullet;
-    font-size: $body-font-size;
-    line-height: 1;
-  } 
-</style>
+
+My name is [Davide Gallesi](https://twitter.com/davidegallesi) and this is what I'm doing now.
 
 
 - Loving and living my family.
