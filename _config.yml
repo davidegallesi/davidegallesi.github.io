@@ -1,105 +1,33 @@
----
-title: davidegallesi.com
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-email: 
-author: Davide Gallesi
-description: A simple, beautiful theme for Jekyll that emphasizes content rather than
-  aesthetic fluff.
-baseurl: 
-url: http://vespene.github.io/p
-date_format: "%b %-d, %Y"
-google_verification: 
-google_analytics: 
-google_tag_manager: 
-bing_verification: 
-animated: true
-show_related_posts: false
-show_post_footers: false
-show_social_icons: false
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
-fb_page: false
-fb_page_id: 
-disqus_shortname: 
-facebook_comments: 
-facebook_appid: 
-facebook_comments_number: 10
-github_username: 
-bitbucket_username: 
-stackoverflow_id: 
-twitter_username: davidegallesi
-skype_username: 
-steam_nickname: 
-google_plus_id: 
-linkedin_username: 
-angellist_username: 
-medium_id: 
-bitcoin_url: 
-paypal_url: 
-flattr_button: 
-show_sharing_icons: false
-share_facebook: false
-share_twitter: true
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
-text:
-  pagination:
-    newer: new
-    older: old
-  share_buttons:
-    text: Share this post!
-    facebook: Share on Facebook
-    twitter: Share on Twitter
-    googleplus: Share on Google+
-    linkedin: Share on LinkedIn
-    digg: Share on Digg
-    tumblr: Share on Tumblr
-    reddit: Share on Reddit
-    stumbleupon: Share on StumbleUpon
-    hackernews: Share on Hacker News
-  post:
-    updated: Updated
-    minute_read: minute read
-    related_posts: Related Posts
-  index:
-    coming_soon: Coming soon...
-  contact:
-    email: Email Address
-    content: What would you like to say?
-    subject: New submission!
-    submit: Say Hello
-    ajax:
-      sending: sending..
-      sent: Message sent!
-      error: Error!
-  thanks: Thanks for contacting us. We will reply as soon as possible.
-  og_locale: it_IT
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Athena Jekyll Theme
+description: A simple and elegant theme for Jekyll and GitHub Pages.
+# baseurl: "/athena" # the subpath of your site, e.g. /blog
+url: "http://www.davidegallesi.com" # the base hostname & protocol for your site
+github_repo: davidegallesi.github.io # the GitHub repo name for your project
+github_username: davidegallesi
+
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: davidegallesi
+
+# Set theme color here
+# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
+theme_color: light
+
+# Build settings
 markdown: kramdown
-redcarpet:
-  extensions:
-  - smart
-  - tables
-  - with_toc_data
-permalink: pretty
-paginate: 4
-sass:
-  compressed: true
-gems:
-- jekyll-paginate
-- jekyll-sitemap
-exclude:
-- vendor
