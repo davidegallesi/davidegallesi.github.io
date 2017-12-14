@@ -1,6 +1,6 @@
 ---
 title: Zen and the art of fountain pen maintenance
-date: 2017-12-14 14:01:00
+date: 2017-12-14 6AM:01:00
 layout: post
 ---
 

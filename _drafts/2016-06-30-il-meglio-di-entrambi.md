@@ -1,7 +1,7 @@
 ---
 title: Il meglio di entrambi i mondi
-date: 2016-06-30 00:03:00 Z
-published: false
+date: 2017-12-14 6PM:03:00 
+published: true
 layout: post
 ---
 
