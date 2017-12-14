@@ -1,1 +1,1 @@
-My personal writing space.
+Note a margine di una vita.
