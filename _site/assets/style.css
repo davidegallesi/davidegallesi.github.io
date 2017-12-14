@@ -227,9 +227,7 @@ ul {
 .header-text {
   color: #2B2826; }
 
-.header-social {
-  fill: #2B2826; }
-
+/* .header-social { fill: $color-foreground; } */
 .header-link:hover {
   color: #2B2826 !important; }
 
