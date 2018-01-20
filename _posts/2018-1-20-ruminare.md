@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Abitudini"
+title:  "Ruminare"
 date:   2018-1-20 06:58AM
 published: true
 ---
