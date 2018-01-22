@@ -1,1 +1,1 @@
-Note a margine di una vita.
+Note a margine della vita.
