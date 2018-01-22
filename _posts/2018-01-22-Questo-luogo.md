@@ -2,13 +2,13 @@
 title: Questo luogo
 date: 2018-1-22 5:34PM
 layout: post
-published: false
+published: true
 ---
 
 
 È il mio laboratorio.
 
-L'ho costruito per me solo usando le mie limitate capacità artigianali.
+L'ho costruito per me solo, usando le mie limitate capacità artigianali.
 
 Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
@@ -31,7 +31,10 @@ Utilizzo poi Jekyll in locale per generare una versione di prova quando faccio m
 
 Il sito non fa uso di cookies ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=) e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F).
 
-Avrei potutto utilizzare una delle tante piattaforme 
+Avrei certo potuto utilizzare una delle tante piattaforme di publishing disponibili, alle cui regole avrei però dovuto sottostare.
+Così mi sono divertito a creare qualcosa di veramente mio, che posseggo in toto poiché ne controllo ogni elemento, dalla creazione dei contenuti alla pubblicazione.
+
+In fondo la rete prima dell'era social era un po' questo no?
 
 
 
