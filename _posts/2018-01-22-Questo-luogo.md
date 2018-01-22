@@ -2,7 +2,7 @@
 title: Questo luogo
 date: 2018-1-22 5:34PM
 layout: post
-published: true
+published: false
 ---
 
 
@@ -28,9 +28,10 @@ Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe esse
 
 Utilizzo poi Jekyll in locale per generare una versione di prova quando faccio modifiche alla struttura o aggiungo contenuti.
 
-Per chi fosse 
 
 Il sito non fa uso di cookies ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=) e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F).
+
+Avrei potutto utilizzare una delle tante piattaforme 
 
 
 
