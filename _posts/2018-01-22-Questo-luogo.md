@@ -22,7 +22,7 @@ Il tema è [Athena](https://github.com/broccolini/athena) che ho modificato un p
 
 Il contenuto può essere creato e modificato utilizzando un qualsiasi editor di testo su qualsiasi piattaforma.
 
-Io per scrivere su macOS uso sia [BBedit](http://www.barebones.com/products/bbedit/) che [iA Writer](https://ia.net/writer/) che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com) gratuito), su iOS uso [Working copy](https://workingcopyapp.com).
+Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/) che [iA Writer](https://ia.net/writer/) che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com) gratuito), su iOS uso [Working copy](https://workingcopyapp.com).
 
 Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe essere ospitato su un qualsiasi server HTTP (ho provato anche sul mio NAS di casa con un IP pubblico e funziona egregiamente) e non dipendere così da nessuna piattaforma. Per mia comodità[^2] ho scelto di usare [Github Pages](https://pages.github.com). Grazie al fatto che Jekyll è integrato in Github Pages il sito viene ripubblicato automaticamente dopo qualsiasi modifica, il tutto avviene semplicemente sincronizzando la versione memorizzata in locale con un repository di Github creato allo scopo.
 
