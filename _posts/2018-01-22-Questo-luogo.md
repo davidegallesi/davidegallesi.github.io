@@ -7,7 +7,7 @@ categories: about
 ---
 
 
-È la mia officina di scrittura.
+È la mia officina per la scrittura.
 
 Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 La presunzione è di mantenere così la proprietà dei contenuti e il possesso del workflow di pubblicazione.
