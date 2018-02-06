@@ -6,7 +6,7 @@ published: true
 ---
 
 
-Non sono un grande utilizzatore di social network, ho iniziato a usarli un po’ tutti per poi smetterli uno dopo l'altro. Unica eccezione Twitter di cui faccio uso limitato e tutto sommato improprio, per lo più come aggregatore di informazioni.
+Non sono un grande utilizzatore di social network, ho iniziato a usarli un po’ tutti per poi smetterli uno dopo l'altro. Unica eccezione Twitter, di cui faccio uso limitato e tutto sommato improprio, per lo più come aggregatore di informazioni.
 
 Seguo un po’ di persone con le quali interagisco poco o nulla, mi sono costruito un po’ di liste a tema che uso per informarmi su cose che mi interessano. Potrei in effetti farne a meno, vedremo.
 
@@ -18,15 +18,17 @@ Questo è il mio modo di leggere l'internet.
 
 I **web feed** sono (per fortuna) ancora ampiamente supportati da quasi tutti i siti e rendono semplice sottoscrivere e aggregare i contenuti che ci interessano.[^2]
 
-Trovo sia il miglior metodo per ambire a un'informazione oggettiva, pluralista e per sfuggire, un poco ma non del tutto[^3], alla [filter bubble](https://en.wikipedia.org/wiki/Filter_bubble) in cui cadiamo se usiamo solo motori di ricerca e social network[^4]. 
+Trovo sia un buon metodo per ambire a un'informazione oggettiva, pluralista e per sfuggire, un poco ma non del tutto[^3], alla [filter bubble](https://en.wikipedia.org/wiki/Filter_bubble){:target="_blank"} in cui cadiamo se usiamo solo informazioni aggregate da terzi[^4]. 
 
-Ricordo la mia professoressa di filosofia del liceo presentarsi talvolta in classe con una pila di quotidiani, quasi tutti quelli disponibili a quel tempo. Ci diceva che l'unico modo di accedere a un'informazione pluralista e formare un'idea nostra era di leggere e ascoltare tutto, anche quanto non proprio vicino al nostro modo di pensare.
+Ricordo la mia professoressa di filosofia del liceo presentarsi talvolta in classe con una pila di quotidiani, quasi tutti quelli disponibili a quel tempo. Ci diceva che l'unico modo di avere un'informazione pluralista e formare un'idea nostra era di sforzarsi a non leggere solo il nostro quotidiano preferito ma di leggere e ascoltare tutto, anche quanto non proprio vicino al nostro modo di pensare.
 
-Internet oggi ci offre l'opportunità di accedere a una quantità di informazioni neanche pensabile a quei tempi, le informazioni che possiamo aggregare grazie ai **web feed** rappresentano la versione attuale e drammaticamente espansa di quella pila di quotidiani.
+Internet oggi ci offre l'opportunità di accedere a una quantità di informazioni neanche pensabile a quei tempi, i contenuti che possiamo aggregare grazie ai **web feed** rappresentano la versione attuale e drammaticamente espansa di quella pila di quotidiani.
 
-Certo bisogna cercare, scegliere e poi leggere, usare la nostra testa (opportunità e  privilegio cui non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
+Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco usando la nostra testa (opportunità e  privilegio cui io non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
 
-Ma questo è un altro discorso che porterebbe altrove, però è tardi e *"...il pollice mi duole. Lascio questa scrittura..."* cui però tornerò.
+Bisogna imparare a capire e a non essere superficiali.
+
+Questo è un tema che mi sta a cuore e merita ulteriori riflessioni, però è tardi e *"...il pollice mi duole. Lascio questa scrittura..."* cui però tornerò.
 
 
 
@@ -36,9 +38,8 @@ Ma questo è un altro discorso che porterebbe altrove, però è tardi e *"...il 
 
 [^1]: Dai link alle rispettive pagine di Wikipedia si possono ricavare tutti gli aspetti tecnici relativi che pertanto qui ometto.
 
-[^2]: Esistono dei servizi che aiutano a farlo, io uso [Feedly](https://www.feedly.com){:target="_blank"} associato a [Reeder](http://www.reederapp.com){:target="_blank"}.
+[^2]: Esistono dei servizi che aiutano a farlo, io uso [Feedly](https://www.feedly.com){:target="_blank"} con [Reeder](http://www.reederapp.com){:target="_blank"}.
 
 [^3]: Nessuna illusione a riguardo. È vero che scegliamo noi le fonti e cosa leggere, così facendo ci creiamo comunque la nostra personalissima filter bubble. L'importante è averne la consapevolezza per non esserne prigionieri.
-
 
 [^4]: Non dico certo che non si devono utilizzare i motori di ricerca o i social, ma non si devono utilizzare **solo** quelli.
