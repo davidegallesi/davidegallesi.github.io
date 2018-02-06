@@ -1,6 +1,6 @@
 ---
 title: Leggere l'internet
-date: 2018-2-6 00:55AM
+date: 2018-02-06
 layout: post
 published: true
 ---
