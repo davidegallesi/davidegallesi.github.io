@@ -26,7 +26,7 @@ Internet oggi ci offre l'opportunità di accedere a una quantità di informazion
 
 Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco usando la nostra testa (opportunità e  privilegio cui io non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
 
-Bisogna imparare a capire e a non essere superficiali.
+Bisogna imparare a capire, imparare a non essere superficiali.
 
 Questo è un tema che mi sta a cuore e merita ulteriori riflessioni, però è tardi e *"...il pollice mi duole. Lascio questa scrittura..."* cui però tornerò.
 
