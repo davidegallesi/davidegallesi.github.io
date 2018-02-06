@@ -22,7 +22,7 @@ Trovo sia un buon metodo per ambire a un'informazione oggettiva, pluralista e pe
 
 Ricordo la mia professoressa di filosofia del liceo presentarsi talvolta in classe con una pila di quotidiani, quasi tutti quelli disponibili a quel tempo. Ci diceva che l'unico modo di avere un'informazione pluralista e formare un'idea nostra era di sforzarsi a non leggere solo il nostro quotidiano preferito ma di leggere e ascoltare tutto, anche quanto non proprio vicino al nostro modo di pensare.
 
-Internet oggi ci offre l'opportunità di accedere a una quantità di informazioni neanche pensabile a quei tempi, i contenuti che possiamo aggregare grazie ai **web feed** rappresentano la versione attuale e drammaticamente espansa di quella pila di quotidiani.
+Internet oggi ci offre l'opportunità di accedere a una quantità di informazioni neanche pensabile a quei tempi, i contenuti che possiamo aggregare grazie ai **web feed** rappresentano la mia versione attuale e drammaticamente espansa di quella pila di quotidiani.
 
 Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco usando la nostra testa (opportunità e  privilegio cui io non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
 
