@@ -24,7 +24,7 @@ Ricordo la mia professoressa di filosofia del liceo presentarsi talvolta in clas
 
 Internet oggi ci offre l'opportunità di accedere a una quantità di informazioni neanche pensabile a quei tempi, i contenuti che possiamo aggregare grazie ai **web feed** rappresentano la mia versione attuale e drammaticamente espansa di quella pila di quotidiani.
 
-Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco usando la nostra testa (opportunità e  privilegio cui io non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
+Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco, usando la nostra testa (opportunità e  privilegio cui io non intendo rinunciare) e non scorrere pigramente e passivamente una timeline assemblata da un algoritmo.
 
 Bisogna imparare a capire, imparare a non essere superficiali.
 
