@@ -28,7 +28,7 @@ Certo bisogna cercare, scegliere e poi anche leggere, approfondire un poco, usan
 
 Bisogna imparare a capire, imparare a non essere superficiali.
 
-Questo della superficialità e del dilagante culto dell'ignoranza, sono temi che mi stanno a cuore e meritano ulteriori riflessioni, però è tardi e *"...il pollice mi duole. Lascio questa scrittura..."* cui però tornerò.
+Questo della superficialità e del dilagante culto dell'ignoranza, sono temi che mi stanno a cuore e che meriterebbero ulteriori riflessioni, però è tardi e *"...il pollice mi duole. Lascio questa scrittura..."* cui però tornerò.
 
 
 
