@@ -1,6 +1,6 @@
 ---
 title: Take the power back
-date: 2018-02-07
+date: 2018-2-7 09:43PM
 layout: category-post
 published: true
 categories: linked
