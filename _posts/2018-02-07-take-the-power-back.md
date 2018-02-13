@@ -1,9 +1,9 @@
 ---
 title: Take the power back
 date: 2018-2-7 09:43PM
-layout: category-post
+layout: post
 published: true
-categories: linked
+external-url: https://ia.net/topics/take-the-power-back/
 ---
 
 > From scroll to search, from react to rethink, from like and retweet to write and link.
