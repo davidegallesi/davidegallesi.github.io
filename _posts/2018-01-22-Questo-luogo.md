@@ -7,20 +7,22 @@ categories: about
 ---
 
 
-È la mia officina per la scrittura.
+È la mia officina della scrittura.
+
+L'ho costruita per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
 Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 La presunzione è di mantenere così la proprietà dei contenuti e il possesso del workflow di pubblicazione.
 
-L'ho costruita per me solo, usando le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
-
 Ho fatto così.
+
+<!--more-->
 
 Ho realizzato un sito statico[^1] la cui struttura è creata con [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
 
-Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è [Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}.
+Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è ~~[Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}~~ [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond){:target="_blank"}.
 
-Il contenuto può essere creato e modificato utilizzando un qualsiasi editor di testo su qualsiasi piattaforma.
+I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma.
 
 Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito), invece su iOS uso [Working copy](https://workingcopyapp.com){:target="_blank"}.
 

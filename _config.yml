@@ -33,6 +33,8 @@ theme_color: light
 # Build settings
 markdown: kramdown
 
+excerpt_separator: <!--more-->
+
 plugins:
   - jekyll-feed
   

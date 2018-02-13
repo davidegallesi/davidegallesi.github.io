@@ -140,3 +140,23 @@ padding-top: 15px;
 border-top: 1px solid #efefef;
 
 }
+
+
+.post-continue {
+  a {
+    padding: 8px 15px;
+    text-decoration: none;
+    border: none;
+
+    &,
+    &:visited {
+      color: #666;
+      background-color: #efefef;
+    }
+
+    &:hover {
+      color: white;
+      background-color: #000;
+    }
+  }
+}
