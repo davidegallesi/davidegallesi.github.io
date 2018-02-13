@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
+# This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
+# yourself editing these this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -10,70 +10,28 @@
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: marginalia
-author: marginalia
-description: Note a margine di una vita
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.marginalia.cc" # the base hostname & protocol for your site, e.g. http://example.com
-lang: en
-timezone: UTC
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - README.md
-  - LICENSE.txt
-  - CHANGELOG.md
-  - jekyll-whiteglass.gemspec
-  - screenshot.png
-  - vendor
+name: Marginalia
+title: Marginalia
+description: Note a margine della vita
+# baseurl: "/athena" # the subpath of your site, e.g. /blog
+url: "http://www.marginalia.cc" # the base hostname & protocol for your site
+github_repo: davidegallesi.github.io # the GitHub repo name for your project
+github_username: davidegallesi
 
-# Social media
-twitter_username:
-twitter_image:
-facebook_app_id:
-facebook_image:
-google_analytics:
-comments: false
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: davidegallesi
 
-# Plugins
-plugins:
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
+# Set theme color here
+# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
+theme_color: light
 
 # Build settings
 markdown: kramdown
-excerpt_separator: "<!-- more -->"
 
-# custom feeds
-feed:
-  path: feed.json
-
-
-# Outputting
-permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
-
-# Markdown settings
-kramdown:
-  auto_ids: false
-  enable_coderay: false
-  entity_output: as_char
-  footnote_nr: 1
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  toc_levels: 1..6
-
-# jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+plugins:
+  - jekyll-feed
