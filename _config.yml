@@ -49,6 +49,11 @@ plugins:
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
 
+# custom feeds
+feed:
+  path: feed.json
+
+
 # Outputting
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
