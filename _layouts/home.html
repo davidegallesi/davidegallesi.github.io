@@ -1,48 +1,39 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="home">
 
-  <body>
+  {{ content }}
 
-    <div>
+  {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
 
-      <header class="clearfix">
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      {% capture post_lang %}{{ post.lang | default: site_lang }}{% endcapture %}
+      {% capture lang %}{% if post_lang != site_lang %}{{ post_lang }}{% endif %}{% endcapture %}
 
-        <div class="right absolute-lg right-0 top-0">
-          <ul class="mt-2 mr-2 mr-lg-3">
-            {% for my_page in site.pages %}
-              {% if my_page.title %}
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h4 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+      <li{% if lang != empty %} lang="{{ lang }}"{% endif %}>
+        <header class="post-header">
+          <h1 class="post-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}{% if post.external-url %} &rarr;{% endif %}</a>
+          </h1>
+
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.categories != empty or post.tags != empty %}{% include category_links.html categories=post.categories tags=post.tags %}{% endif %}</p>
+        </header>
+
+        <div class="post-content">
+          {{ post.excerpt }}
         </div>
+        {% if post.content contains site.excerpt_separator %}
+          <p class="post-continue">
+            <a href="{{ post.url | relative_url }}">Read on &rarr;</a>
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 
-        <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
+  {% include pagination.html %}
 
-          <div class="clearfix mb-4 py-1">
-            <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
-            <div class="col-1 sm-width-full border-top-thick">
-            </div>
-          </div>
-
-        </div>
-      </header>
-
-      <div class="container mx-auto px-2 py-2">
-        {% for post in site.posts %}
-          {% include post_block.html %}
-        {% endfor %}
-      </div>
-
-    </div>
-
-    <!-- {% include footer.html %} -->
-
-  </body>
-
-</html>
+</div>

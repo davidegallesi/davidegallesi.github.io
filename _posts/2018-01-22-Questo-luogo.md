@@ -3,16 +3,18 @@ title: Questo luogo
 date: 2018-1-22 5:34PM
 layout: post
 published: true
-categories: about
 ---
 
 
-È la mia officina per la scrittura.
+*È la mia officina per la scrittura.*
+
+*L'ho costruita per me solo, usando le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.*
+
+<!-- more -->
 
 Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 La presunzione è di mantenere così la proprietà dei contenuti e il possesso del workflow di pubblicazione.
 
-L'ho costruita per me solo, usando le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
 Ho fatto così.
 
