@@ -17,7 +17,7 @@ title: marginalia
 author: marginalia
 description: Note a margine di una vita
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.marginalia.cc" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC
 exclude:
