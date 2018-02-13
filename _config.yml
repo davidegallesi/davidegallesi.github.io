@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 name: Marginalia
 title: Marginalia
-description: Note a margine della vita
+description:
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
 url: "http://www.marginalia.cc" # the base hostname & protocol for your site
 github_repo: davidegallesi.github.io # the GitHub repo name for your project
