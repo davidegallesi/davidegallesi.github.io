@@ -8,5 +8,5 @@ external-url: https://ia.net/topics/take-the-power-back/
 
 > From scroll to search, from react to rethink, from like and retweet to write and link.
 
-[Take the power back](https://ia.net/topics/take-the-power-back/)
+From the iA blog.
 
