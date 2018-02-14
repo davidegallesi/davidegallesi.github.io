@@ -1,7 +1,7 @@
 ---
 title: The magic of writing
 date: 2018-1-23 6:44AM
-layout: category-post
+layout: post
 published: true
 categories: linked
 ---

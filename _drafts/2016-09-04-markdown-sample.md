@@ -2,7 +2,7 @@
 layout: post
 title:  "Markdown sample"
 date:   2016-09-04
-published: false
+published: true
 ---
 
 ### Markdown test document
@@ -10,6 +10,7 @@ published: false
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
+<!--more-->
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 

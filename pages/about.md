@@ -1,22 +1,19 @@
 ---
-title: Questo luogo
-date: 2018-1-22 5:34PM
-layout: post
-published: false
-categories: about
+layout: page
+title: About
+date: 2018-02-13 05:23PM
+permalink: /about/
+published: true
 ---
 
+Questo luogo è la mia officina della scrittura.
 
-È la mia officina della scrittura.
-
-L'ho costruita per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
+L'ho costruito per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
 Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 La presunzione è di mantenere così la proprietà dei contenuti e il possesso del workflow di pubblicazione.
 
 Ho fatto così.
-
-<!--more-->
 
 Ho realizzato un sito statico[^1] la cui struttura è creata con [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
 
@@ -31,7 +28,9 @@ Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe esse
 Utilizzo poi Jekyll in locale per generare una versione di prova quando faccio modifiche alla struttura o aggiungo contenuti.
 
 
-Il sito non fa uso di cookies ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=){:target="_blank"} e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F){:target="_blank"}.
+Il sito non fa uso di cookies ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=){:target="_blank"}.
+
+<!-- e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F){:target="_blank"} -->
 
 Avrei certo potuto utilizzare una delle tante piattaforme di publishing disponibili, alle cui regole avrei però dovuto sottostare.
 Così mi sono divertito a creare qualcosa di veramente mio, che posseggo in toto poiché ne controllo ogni elemento, dalla creazione della struttura e dei contenuti fino alla pubblicazione.
