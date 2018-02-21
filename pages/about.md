@@ -1,21 +1,20 @@
 ---
 layout: page
 title: About
-date: 2018-02-13 05:23PM
+date: 2018-02-21 11:05AM
 permalink: /about/
 published: true
 ---
 
-Questo luogo è la mia officina della scrittura.
+Questo luogo è la mia officina per la scrittura.
+
+Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
 L'ho costruito per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
-Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
-La presunzione è di mantenere così la proprietà dei contenuti e il possesso del workflow di pubblicazione.
-
 Ho fatto così.
 
-Ho realizzato un sito statico[^1] la cui struttura è creata con [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
+Ho realizzato un sito statico[^1] la cui struttura  contenuto vengono di volta in volta creati usando [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
 
 Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è ~~[Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}~~ [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond){:target="_blank"}.
 
