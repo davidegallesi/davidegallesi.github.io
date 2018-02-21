@@ -18,7 +18,7 @@ La bassa risoluzione così come teorizzata dall'autore è certo una possibilità
 
 Essere a bassa risoluzione rimane però una nostra precisa scelta.
 
-Possiamo per esempio scegliere di lasciarci informare passivamente scorrendo la timeline di un qualsiasi social network che, usando un algoritmo, aggrega le informazioni che ritiene più interessanti per noi.
+Possiamo per esempio scegliere di lasciarci informare passivamente scorrendo la timeline di un qualsiasi social network che, usando un algoritmo, aggrega le informazioni che ritiene più interessanti per noi. Potremo accontentarci e farcelo bastare.
 
 In aggiunta (una cosa non esclude certo l'altra) potremo però anche scegliere di farlo con un po' più di consapevolezza, cercando e selezionando le nostre fonti, aggregandole noi stessi per poi leggere e approfondire.
 
