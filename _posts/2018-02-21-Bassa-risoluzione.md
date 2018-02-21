@@ -7,6 +7,9 @@ published: true
 
 Durante il weekend ho letto [Bassa risoluzione](http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354), un breve saggio di [Massimo Mantellini](http://www.mantellini.it) pubblicato di recente per Einaudi.
 
+<!--more-->
+
+
 Non sono bravo a recensire libri così mi limito a consigliarne la lettura, è ben scritto e mi ha lasciato più di uno spunto di riflessione [^1].
 
 Qui solo una breve considerazione per me importante.
@@ -23,4 +26,4 @@ In aggiunta (una cosa non esclude certo l'altra) potremo però anche scegliere d
 
 Una scelta consapevole è sempre possibile, è un diritto e un privilegio cui io non intendo proprio rinunciare.
 
-[^1]:Mi ha poi fatto conoscere [Domenico Gnoli](https://it.wikipedia.org/wiki/Domenico_Gnoli_(pittore)), cosa per cui ringrazio l'autore.
+[^1]:Mi ha poi fatto conoscere [Domenico Gnoli](https://it.wikipedia.org/wiki/Domenico_Gnoli_(pittore)), cosa per cui ringrazio.
