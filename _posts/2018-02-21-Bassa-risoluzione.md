@@ -5,25 +5,28 @@ layout: post
 published: true
 ---
 
-Durante il weekend ho letto [Bassa risoluzione](http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354), un breve saggio di [Massimo Mantellini](http://www.mantellini.it) pubblicato di recente per Einaudi.
+Durante il weekend ho letto [Bassa risoluzione](http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354), un breve saggio di [Massimo Mantellini](http://www.mantellini.it) pubblicato di recente per Einaudi. Parla di come abbiamo ridotto le nostre aspettative, di come ci siamo accontentati della bassa risoluzione (foto, musica, mobili dell'IKEA) perché, in fondo, ci basta così.
 
 <!--more-->
 
 
 Non sono bravo a recensire libri così mi limito a consigliarne la lettura, è ben scritto e mi ha lasciato più di uno spunto di riflessione [^1].
 
-Qui solo una breve considerazione per me importante.
+Uno in particolare.
 
-La bassa risoluzione così come teorizzata dall'autore è certo una possibilità che internet, la tecnologia in generale, IKEA o quant'altro descritto nel libro ci rende disponibili e a cui forse siamo beatamente assuefatti.
+La bassa risoluzione, così come teorizzata, è una condizione che ci facciamo andare bene cui forse siamo pigramente assuefatti.
 
-Essere a bassa risoluzione rimane però una nostra precisa scelta.
+Penso però che essere solo a bassa risoluzione sia una nostra precisa scelta.
 
-Possiamo per esempio scegliere di lasciarci informare passivamente scorrendo la timeline di un qualsiasi social network che, usando un algoritmo, aggrega le informazioni che ritiene più interessanti per noi. Potremo accontentarci e farcelo bastare.
+Possiamo scegliere di lasciarci informare passivamente scorrendo la timeline di un qualsiasi social network, che con un algoritmo aggrega le informazioni che ritiene più interessanti per noi.
 
-In aggiunta (una cosa non esclude certo l'altra) potremo però anche scegliere di farlo con un po' più di consapevolezza, cercando e selezionando le nostre fonti, aggregandole noi stessi per poi leggere e approfondire.
+Possiamo fermarci alla home page tempestata di *"boxini morbosi"* di un qualsiasi quotidiano.
 
-È la differenza tra scegliere di ragionare anche con la propria testa o scegliere di farlo solo attraverso un algoritmo.
+Possiamo accontentarci e farcelo bastare.
 
-Una scelta consapevole è sempre possibile, è un diritto e un privilegio cui io non intendo proprio rinunciare.
+Possiamo però anche scegliere di informarci con un po' più di consapevolezza, cercando e selezionando le nostre fonti, aggregandole noi stessi per poi leggere e approfondire.
+
+È la differenza tra scegliere di ragionare con la propria testa o scegliere di rimanere alla superficie delle cose delegando la scelta a un algoritmo.
+
 
 [^1]:Mi ha poi fatto conoscere [Domenico Gnoli](https://it.wikipedia.org/wiki/Domenico_Gnoli_(pittore)), cosa per cui ringrazio.

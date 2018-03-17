@@ -6,9 +6,9 @@ permalink: /about/
 published: true
 ---
 
-Questo luogo è la mia officina per la scrittura.
+Questo luogo è il mio opificio per la scrittura sul web.
 
-Volevo un luogo dove sperimentare e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
+Volevo un luogo dove sperimentare un po' di web design e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
 L'ho costruito per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
@@ -18,7 +18,7 @@ Ho realizzato un sito statico[^1] la cui struttura  contenuto vengono di volta i
 
 Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è ~~[Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}~~ [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond){:target="_blank"}.
 
-I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma.
+I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma, ci pensa poi jekyll a trasformarli in HTML.
 
 Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito), invece su iOS uso [Working copy](https://workingcopyapp.com){:target="_blank"}.
 
