@@ -6,7 +6,7 @@ published: true
 categories: linked
 ---
 
-Lettura interessante, estremizza per esemplificare e chiude con decisione.
+Lettura interessante, estremizza un poco per esemplificare e chiude con decisione.
 
 
 > I began to see it wasn’t newspapers that were so great, but social media that was so bad... The built-in incentives on Twitter and Facebook reward speed over depth, hot takes over facts and seasoned propagandists over well-meaning analyzers of news.
