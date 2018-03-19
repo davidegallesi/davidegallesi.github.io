@@ -14,7 +14,7 @@ Non sono bravo a recensire libri così mi limito a consigliarne la lettura, è b
 
 Uno in particolare.
 
-La bassa risoluzione, così come teorizzata, è una condizione che ci facciamo andare bene cui forse siamo pigramente assuefatti.
+La bassa risoluzione, si dice nel libro, è una condizione che ci facciamo andare bene un po' per tutto dalla qualità della musica a quella dell'informazione.
 
 Penso però che essere solo a bassa risoluzione sia una nostra precisa scelta.
 
