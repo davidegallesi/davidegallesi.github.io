@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  Cambiare
+title:  Strumenti
 date:   2018-03-08 06:50AM
 published: true
 ---
 
-Carta e penna stilografica, scrivo così ed è una cosa che semplicemente mi da piacere.
+Carta e penna stilografica, scrivo così, è una cosa che semplicemente mi piace.
 
 Ho una scrittura piccola e ho sempre avuto una predilezione per i pennini molto sottili, consentono ordine e precisione.
-Ho voluto provare con pennini più larghi, erogano più inchiostro rivelandone il carattere. La scrittura è più scorrevole e il tratto meno anonimo, davvero piacevole.
+Ho però voluto cambiare provando con pennini più larghi, erogano più inchiostro rivelandone il carattere. La scrittura è più scorrevole e il tratto meno anonimo, davvero piacevole.
 
 Ora sto usando una Lamy Safari allestita con il mio primo pennino calligrafico, in particolare una [AL-star Oceanblue](https://www.lamy.com/eng/b2c/al_star/028_oceanblue) con pennino calligrafico 1.1 caricata con inchiostro Iroshizuku Tsuky-Yo.
 
