@@ -6,7 +6,7 @@ published: true
 categories: linked
 ---
 
-Ho cancellato il mio account di Facebook molto tempo fa. Ma in effetti, perché fermarsi?
+Ho cancellato il mio account di Facebook molto tempo fa. Ma in effetti, perché limitarsi a questo?
 
 > Does it bring you misery? **Delete it.**
 
