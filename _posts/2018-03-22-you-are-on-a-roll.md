@@ -10,7 +10,7 @@ Ho cancellato il mio account di Facebook molto tempo fa. Ma in effetti, perché 
 
 > Does it bring you misery? **Delete it.**
 
-Buoni consigli da [Nicholas Bate](http://blog.strategicedge.co.uk/2018/03/jagged-thoughts-for-jagged-times-285.html)
+[Buoni consigli](http://blog.strategicedge.co.uk/2018/03/jagged-thoughts-for-jagged-times-285.html) da Nicholas Bate.
 
 
 
