@@ -6,6 +6,6 @@ published: false
 categories: 
 ---
 
-Viviamo un'epoca in cui si risponde, tutti sanno tutto e hanno già le risposte in tasca che con molta generosità elargiscono.
+Viviamo un'epoca in cui tutti sanno tutto e tutti hanno già le risposte in tasca elargite poi con generosità.
 
-Ignoriamo che fare e farsi domande è in realtà strumento di conoscenza e creatività molto potente.
+Nessuno domanda più, tutti noi ignoriamo che fare e farsi domande è strumento di conoscenza molto potente.
