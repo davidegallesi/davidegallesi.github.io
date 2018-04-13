@@ -7,4 +7,4 @@ categories:
 ---
 
 
-La sezione [fotografia](https://www.theguardian.com/artanddesign/photography) del Guardian è qualcosa.
+La sezione [fotografia](https://www.theguardian.com/artanddesign/photography) del Guardian è davvero qualcosa.
