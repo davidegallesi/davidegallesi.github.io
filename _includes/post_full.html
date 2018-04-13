@@ -4,8 +4,9 @@
     <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
   <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
-   <p>
+  
   {% if post.excerpt %}
+   <p>
    {{ post.excerpt }}
     
     {% if post.content contains site.excerpt_separator %}
@@ -16,7 +17,7 @@
 {% else %}
   
   {{ post.content }}
-  
+   </p>
   {% endif %}
-  </p>
+ 
 </div>
