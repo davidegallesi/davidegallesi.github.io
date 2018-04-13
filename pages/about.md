@@ -6,7 +6,7 @@ permalink: /about/
 published: true
 ---
 
-Questo luogo è il mio opificio per la scrittura sul web.
+Questo luogo è mio, è un laboratorio, uno dei tanti.
 
 Volevo un luogo dove sperimentare un po' di web design e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
@@ -42,4 +42,4 @@ In fondo la rete prima dei socialcosi era un po' questo no?
 
 [^1]: Un sito statico è costituito di norma solo di HTML e CSS. La pagina viene presentata a tutti gli utenti così come è stata scritta, nessun contenuto dinamico, nessun codice eseguibile, nessun database.
 
-[^2]: L'utilizzo di Github Pages è molto comodo quando il workflow di pubblicazione viene eseguito con un dispositivo iOS.
+[^2]: L'utilizzo di Github Pages è molto comodo quando per il workflow di pubblicazione si usa un dispositivo iOS.
