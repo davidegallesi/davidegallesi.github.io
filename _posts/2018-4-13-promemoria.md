@@ -1,8 +1,8 @@
 ---
 title: Promemoria - Andrea Bajani
-date: 2018-04-13
+date: 2018-04-14
 layout: post
-published: false
+published: true
 categories: 
 ---
 
