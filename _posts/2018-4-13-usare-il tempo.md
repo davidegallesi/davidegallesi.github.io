@@ -5,9 +5,9 @@ layout: post
 published: false
 categories: 
 ---
-Il tempo passa, sia che lo usiamo sia che non lo usiamo. E se lo usiamo passa se lo usiamo bene ma anche se lo usiamo male.
+Il tempo passa, sia che lo usiamo bene ma anche male.
 
-Il come sta solo a noi e, quando il tempo sarà finito, il bilancio della nostra vita sarà determinato da come abbiamo usato il tempo.
+Il come sta solo a noi e, quando il tempo sarà finito, il bilancio della nostra vita sarà detto da questo, da come abbiamo usato il tempo.
 
 È tutto sommato un concetto semplice che però porta con se tutto, tutta la nosta vita.
 
