@@ -5,7 +5,7 @@ layout: post
 published: false
 categories: 
 ---
-Il tempo passa, sia che lo usiamo bene ma anche male.
+Il tempo passa, quando lo usiamo bene, quando lo usiamo male.
 
 Il come sta solo a noi e, quando il tempo sarà finito, il bilancio della nostra vita sarà detto da questo, da come abbiamo usato il tempo.
 
