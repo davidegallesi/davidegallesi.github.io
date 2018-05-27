@@ -1,5 +1,5 @@
 ---
-Title: Gli italiani non si informano
+Title: "Gli italiani non si informano"
 Date: 2018-5-27
 Layout: post
 Published: true
