@@ -13,4 +13,4 @@ E ancora.
 
 > Tutto ciò appare paradossale in un tempo in cui l’informazione di qualità è più accessibile che mai.
 
-Questo ci rende dei sempliciotti superficiali, facilmente influenzabili e condizionabili. Il male di questi tempi.
+E tutto questo non ci rende forse dei sempliciotti superficiali, facilmente influenzabili e condizionabili?
