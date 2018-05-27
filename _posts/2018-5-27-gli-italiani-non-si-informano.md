@@ -13,4 +13,4 @@ E ancora.
 
 > Tutto ciò appare paradossale in un tempo in cui l’informazione di qualità è più accessibile che mai.
 
-E tutto questo non ci rende forse dei sempliciotti superficiali, facilmente influenzabili e condizionabili?
+Il culto dell'ignoranza.
