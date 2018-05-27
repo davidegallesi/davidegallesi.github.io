@@ -14,4 +14,3 @@ E ancora.
 > Tutto ciò appare paradossale in un tempo in cui l’informazione di qualità è più accessibile che mai.
 
 Cosa che ci rende dei sempliciotti facilmente influenzabili e condizionabili. Il male di questi tempi.
-
