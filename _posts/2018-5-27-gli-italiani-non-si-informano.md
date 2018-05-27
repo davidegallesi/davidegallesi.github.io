@@ -1,7 +1,7 @@
 ---
 Title: Gli italiani non si informano
 Date: 2018-5-27
-Layout: true
+Layout: post
 Published: true
 
 ---
