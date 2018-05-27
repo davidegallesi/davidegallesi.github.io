@@ -5,7 +5,7 @@ layout: post
 published: true
 ---
 
-Durante il weekend ho letto [Bassa risoluzione](http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354), un breve saggio di [Massimo Mantellini](http://www.mantellini.it) pubblicato di recente per Einaudi. Parla di come abbiamo ridotto le nostre aspettative, di come ci siamo accontentati della bassa risoluzione (foto, musica, mobili dell'IKEA) perché, in fondo, ci basta così.
+Durante il fine settimana ho letto [Bassa risoluzione](http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354), un breve saggio di [Massimo Mantellini](http://www.mantellini.it) pubblicato di recente per Einaudi. Parla di come abbiamo ridotto le nostre aspettative, di come ci siamo accontentati della bassa risoluzione (foto, musica, mobili dell'IKEA) perché, in fondo, ci basta così.
 
 <!--more-->
 
