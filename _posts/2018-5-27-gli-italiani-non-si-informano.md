@@ -1,9 +1,8 @@
 ---
-Title: "Gli italiani non si informano"
-Date: 2018-5-27
-Layout: post
-Published: true
-
+title: "Gli italiani non si informano"
+date: 2018-5-27
+layout: post
+published: true
 ---
 Annamaria Testa su [Nuovo e Utile](https://nuovoeutile.it/gli-italiani-non-si-informano/) riguardo la scarsa propensione di noi italiani a leggere e informarsi.
 
