@@ -1,5 +1,5 @@
 ---
-title: La menzogna è onestà
+title: "La menzogna è onestà"
 date: 2018-6-18
 layout: post
 published: true
