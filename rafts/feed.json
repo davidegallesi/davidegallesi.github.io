@@ -1,0 +1,80 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Marginalia",
+    "description": null,
+    "home_page_url": "http://localhost:4000/",
+    "feed_url": "http://localhost:4000/feed.json",
+    "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format.",
+    "items": [
+        {
+            "id": "http://localhost:4000/2018/06/18/la-menzogna-e-onesta.html",
+            "url": "http://localhost:4000/2018/06/18/la-menzogna-e-onesta.html",
+            "title": "La menzogna è onestà",
+            "content_html": "<blockquote>\n  <p>Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma poiché tutti se ne rendono conto, possiamo ben considerarlo un discorso onesto, non vi pare?</p>\n</blockquote>\n\n<p><small>Ryūnosuke Akutagawa – KAPPA</small></p>\n",
+            "date_published": "2018-06-18T00:00:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/06/08/usare-il-tempo.html",
+            "url": "http://localhost:4000/2018/06/08/usare-il-tempo.html",
+            "title": "Usare il tempo",
+            "content_html": "<p>Il tempo passa e per me in effetti ne è trascorso già molto.</p>\n\n<p>Non sono però ossessionato dal tempo che passa, piuttosto del pessimo uso che ne potrei fare.</p>\n\n<blockquote>\n  <p>…si è oculatissimi nel tenere ben stretto il proprio patrimonio, ma quando si tratta di sprecare il tempo, ossia quella cosa per la quale solo è onorevole essere avari, si è sommamente prodighi.</p>\n</blockquote>\n\n<p><small>Seneca - De brevitate vitae<small></small></small></p>\n\n",
+            "date_published": "2018-06-08T06:40:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/05/27/gli-italiani-non-si-informano.html",
+            "url": "http://localhost:4000/2018/05/27/gli-italiani-non-si-informano.html",
+            "title": "Gli italiani non si informano",
+            "content_html": "<p>Annamaria Testa su <a href=\"https://nuovoeutile.it/gli-italiani-non-si-informano/\">Nuovo e Utile</a> riguardo la scarsa propensione di noi italiani a leggere e informarsi.</p>\n\n<blockquote>\n  <p>Ho lo sconfortante sospetto che tutto ciò denoti una decrescente attitudine a prendere contatto coi fatti e coi dati. A far la fatica di selezionare e verificare le fonti. A  prendersi l’ulteriore onere di ragionarci sopra applicando un minimo di pensiero critico.</p>\n</blockquote>\n\n<p>E ancora.</p>\n\n<blockquote>\n  <p>Tutto ciò appare paradossale in un tempo in cui l’informazione di qualità è più accessibile che mai.</p>\n</blockquote>\n\n<p>Il culto dell’ignoranza.</p>\n",
+            "date_published": "2018-05-27T00:00:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/04/14/promemoria.html",
+            "url": "http://localhost:4000/2018/04/14/promemoria.html",
+            "title": "Promemoria - Andrea Bajani",
+            "content_html": "<blockquote>\n  <p>Ricordarsi prima di morire<br />\nche le palpebre resteranno<br />\nalzate. La morte non chiude<br />\ngli occhi a chi l’ha vista<br />\narrivare. Glieli chiudono i vivi<br />\nper non farsi guardare.<br /></p>\n</blockquote>\n",
+            "date_published": "2018-04-14T00:00:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/04/13/guardian-photography.html",
+            "url": "http://localhost:4000/2018/04/13/guardian-photography.html",
+            "title": "The Guardian Photography",
+            "content_html": "<p>La sezione <a href=\"https://www.theguardian.com/artanddesign/photography\" target=\"_blank\">fotografia</a> del Guardian è davvero qualcosa.</p>\n",
+            "date_published": "2018-04-13T00:00:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/04/01/indeed.html",
+            "url": "http://localhost:4000/2018/04/01/indeed.html",
+            "title": "Indeed",
+            "content_html": "<p>Wired says <a href=\"https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/\" target=\"_blank\">RSS readers are due for a comeback</a>. For some of us, they never went away.</p>\n\n<p><a href=\"http://www.patrickrhone.net/3704-2/\">Via Patric Rhone</a></p>\n",
+            "date_published": "2018-04-01T00:00:00+02:00"
+        },
+        {
+            "id": "http://localhost:4000/linked/2018/03/22/you-are-on-a-roll.html",
+            "url": "http://localhost:4000/linked/2018/03/22/you-are-on-a-roll.html",
+            "title": "You're on a roll",
+            "content_html": "<p>Ho cancellato il mio account di Facebook molto tempo fa. Ma in effetti, perché limitarsi a questo?</p>\n\n<blockquote>\n  <p>Does it bring you misery? <strong>Delete it.</strong></p>\n</blockquote>\n\n<p><a href=\"http://blog.strategicedge.co.uk/2018/03/jagged-thoughts-for-jagged-times-285.html\">Buoni consigli</a> da Nicholas Bate.</p>\n\n",
+            "date_published": "2018-03-22T17:00:00+01:00"
+        },
+        {
+            "id": "http://localhost:4000/linked/2018/03/12/depth-over-speed.html",
+            "url": "http://localhost:4000/linked/2018/03/12/depth-over-speed.html",
+            "title": "Depth over speed",
+            "content_html": "<p>Lettura interessante, estremizza un poco per esemplificare e chiude con decisione.</p>\n\n<blockquote>\n  <p>I began to see it wasn’t newspapers that were so great, but social media that was so bad… The built-in incentives on Twitter and Facebook reward speed over depth, hot takes over facts and seasoned propagandists over well-meaning analyzers of news.\nYou don’t have to read a print newspaper to get a better relationship with the news. But, for goodness’ sake, please stop getting your news mainly from Twitter and Facebook.</p>\n</blockquote>\n\n<p><a href=\"https://www.nytimes.com/2018/03/07/technology/two-months-news-newspapers.html\" target=\"_blank\">For Two Months, I Got My News From Print Newspapers. Here’s What I Learned.</a></p>\n\n",
+            "date_published": "2018-03-12T06:44:00+01:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/03/08/strumenti.html",
+            "url": "http://localhost:4000/2018/03/08/strumenti.html",
+            "title": "Strumenti",
+            "content_html": "<p>Carta e penna stilografica, scrivo così, è una cosa che semplicemente mi piace.</p>\n\n<p>Ho una scrittura piccola e ho sempre avuto una predilezione per i pennini molto sottili, consentono precisione e ordine.\nHo però voluto cambiare provando con pennini più larghi, erogano più inchiostro rivelandone il carattere. La scrittura è più scorrevole e il tratto meno anonimo, davvero piacevole.</p>\n\n<p>Ora sto usando una Lamy Safari allestita con il mio primo pennino calligrafico, una <a href=\"https://www.lamy.com/eng/b2c/al_star/028_oceanblue\">AL-star Oceanblue</a> con pennino calligrafico 1.1 caricata con inchiostro Iroshizuku Tsuky-Yo.</p>\n\n",
+            "date_published": "2018-03-08T06:50:00+01:00"
+        },
+        {
+            "id": "http://localhost:4000/2018/02/21/Bassa-risoluzione.html",
+            "url": "http://localhost:4000/2018/02/21/Bassa-risoluzione.html",
+            "title": "Bassa risoluzione",
+            "content_html": "<p>Durante il fine settimana ho letto <a href=\"http://www.einaudi.it/libri/libro/massimo-mantellini/bassa-risoluzione/978880623354\">Bassa risoluzione</a>, un breve saggio di <a href=\"http://www.mantellini.it\">Massimo Mantellini</a> pubblicato di recente per Einaudi. Parla di come abbiamo ridotto le nostre aspettative, di come ci siamo accontentati della bassa risoluzione (foto, musica, mobili dell’IKEA) perché, in fondo, ci basta così.</p>\n\n<!--more-->\n\n<p>Non sono bravo a recensire libri così mi limito a consigliarne la lettura, è ben scritto e mi ha lasciato più di uno spunto di riflessione <sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup>.</p>\n\n<p>Uno in particolare.</p>\n\n<p>La bassa risoluzione, si dice nel libro, è una condizione che ci facciamo andare bene un po’ per tutto dalla qualità della musica a quella dell’informazione.</p>\n\n<p>Penso però che essere solo a bassa risoluzione sia una nostra precisa scelta.</p>\n\n<p>Possiamo scegliere di lasciarci informare passivamente scorrendo la timeline di un qualsiasi social network, che con un algoritmo aggrega le informazioni che ritiene più interessanti per noi.</p>\n\n<p>Possiamo fermarci alla home page tempestata di <em>“boxini morbosi”</em> di un qualsiasi quotidiano.</p>\n\n<p>Possiamo accontentarci e farcelo bastare.</p>\n\n<p>Possiamo però anche scegliere di informarci con un po’ più di consapevolezza, cercando e selezionando le nostre fonti, aggregandole noi stessi per poi leggere e approfondire.</p>\n\n<p>È la differenza tra scegliere di ragionare con la propria testa o scegliere di rimanere alla superficie delle cose delegando la scelta a un algoritmo.</p>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>Mi ha poi fatto conoscere <a href=\"https://it.wikipedia.org/wiki/Domenico_Gnoli_(pittore)\">Domenico Gnoli</a>, cosa per cui ringrazio. <a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "date_published": "2018-02-21T00:00:00+01:00"
+        }
+    ]
+}
