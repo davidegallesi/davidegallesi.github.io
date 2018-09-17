@@ -19,5 +19,3 @@ Ecco quindi che parlando di vaccini, secondo questa logica distorta, l'opinione 
 Siamo invece mediamente ignoranti e talvolta in maniera così profonda da non essere nemmeno in grado di averne coscienza.
 
 Così la consapevolezza dell'ignoranza acquisisce un valore inestimabile, motivo per cui scherzando dico sempre ai miei figli che devono imparare a essere ignoranti.
-
-Io sono un ignorante cronico e mi auguro di esserlo sempre così da avere sempre cose da imparare.
