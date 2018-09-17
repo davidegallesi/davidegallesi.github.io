@@ -20,4 +20,4 @@ Siamo invece mediamente ignoranti e talvolta in maniera così profonda da non es
 
 Così la consapevolezza dell'ignoranza acquisisce un valore inestimabile, motivo per cui scherzando dico sempre ai miei figli che devono imparare a essere ignoranti.
 
-Io ho imparato, sono un ignorante cronico e mi auguro di esserlo sempre per potere avere sempre cose da imparare.
+Io sono un ignorante cronico e mi auguro di esserlo sempre per potere avere sempre cose da imparare.
