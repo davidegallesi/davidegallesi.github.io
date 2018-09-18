@@ -8,6 +8,8 @@ categories:
 
 Non penso, questo è ovvio, che l’ignoranza in sé sia un valore, averne la consapevolezza ha invece valore inestimabile.
 
+<!--more-->
+
 Tutta la conoscenza è di fatto preceduta dall’ignoranza e riconoscerla con umiltà è presupposto fondamentale per un nuovo percorso di conoscenza.
 So che sto dicendo cose scontate e banali, tuttavia viviamo proprio un tempo in cui la propria ignoranza non viene minimamente percepita né tantomeno ammessa.
 
