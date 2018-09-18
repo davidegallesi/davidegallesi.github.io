@@ -8,7 +8,7 @@ published: true
 
 Questo luogo è mio, è un laboratorio, uno dei tanti.
 
-Volevo un luogo dove sperimentare un po' di web design e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
+Volevo un luogo dove sperimentare un po' di tipografia e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
 L'ho costruito per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
@@ -20,7 +20,7 @@ Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che 
 
 I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma, ci pensa poi jekyll a trasformarli in HTML.
 
-Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito), invece su iOS uso [Working copy](https://workingcopyapp.com){:target="_blank"}.
+Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito) e [Working copy](https://workingcopyapp.com){:target="_blank"} su iOS.
 
 Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe essere ospitato su una qualsiasi macchina che esegua un server HTTP (ho provato anche sul mio NAS di casa con un IP pubblico e funziona egregiamente) e non dipendere così da nessuna piattaforma. Per mia comodità[^2] ho scelto di usare [Github Pages](https://pages.github.com){:target="_blank"}. Grazie al fatto che Jekyll è integrato in Github Pages il sito viene rigenerato automaticamente dopo qualsiasi modifica, il tutto avviene semplicemente sincronizzando la versione memorizzata in locale con un repository di Github creato allo scopo.
 
@@ -30,10 +30,8 @@ Utilizzo poi Jekyll in locale per generare una versione di prova quando faccio m
 Il sito non traccia niente e nessuno ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=){:target="_blank"} e 
 [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F){:target="_blank"}.
 
-Avrei certo potuto utilizzare una delle tante piattaforme di publishing disponibili, alle cui regole avrei però dovuto sottostare.
+Avrei certo potuto utilizzare una delle tante piattaforme di publishing disponibili, avrei però perso la proprietà di quanto avrei pubblicato.
 Così mi sono divertito a creare qualcosa di veramente mio, che posseggo in toto poiché ne controllo ogni elemento, dalla creazione della struttura e dei contenuti fino alla pubblicazione.
-
-In fondo la rete prima dei socialcosi era un po' questo no?
 
 
 
