@@ -3,7 +3,7 @@ title: Sono ignorante, ovvero il valore dell’ignoranza
 date: 2018-09-17 7:36AM
 layout: post
 published: true
-categories: 
+categories:
 ---
 
 Non penso, questo è ovvio, che l’ignoranza in sé sia un valore, averne la consapevolezza ha invece valore inestimabile.
@@ -21,3 +21,4 @@ Ecco quindi che parlando di vaccini, secondo questa logica distorta, l'opinione 
 Giusto sapere che siamo invece mediamente ignoranti e talvolta in maniera così profonda da non essere nemmeno in grado di averne coscienza.
 
 Così la consapevolezza dell'ignoranza acquisisce un valore inestimabile, motivo per cui scherzando dico sempre ai miei figli che devono imparare a essere ignoranti.
+Conoscere e riconoscere la prpria ignoranza è il primo passo verso una nuova conoscenza.
