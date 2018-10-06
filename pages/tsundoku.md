@@ -6,4 +6,4 @@ permalink: /tsundoku/
 published: true
 ---
 
-Coming soon...
+Ci sto lavorando.
