@@ -1,5 +1,5 @@
 ---
-title: Sono ignorante, ovvero il valore dell’ignoranza
+title: Il valore dell’ignoranza
 date: 2018-09-17 7:36AM
 layout: post
 published: true
