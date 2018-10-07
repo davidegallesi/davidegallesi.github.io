@@ -6,7 +6,7 @@ published: true
 categories: 
 ---
 
-Tsundoku (積ん読) è un [concetto](https://en.wikipedia.org/wiki/Tsundoku) giapponese che può essere utilizzato anche come verbo, significa *"acquisire libri lasciando che formino una pila nella propria casa ma senza leggerli"*.
+Tsundoku (積ん読) è un [concetto](https://en.wikipedia.org/wiki/Tsundoku) giapponese che può essere utilizzato anche come verbo, letteralmente significa *"acquisire libri lasciando che formino una pila nella propria casa ma senza leggerli"*.
 
 A chi non capita? La lettura è spesso uno dei tanti buoni propositi che facciamo e che poi rimangono li, accatastati in una pila.
 
