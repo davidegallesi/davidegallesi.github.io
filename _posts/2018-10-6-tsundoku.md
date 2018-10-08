@@ -14,6 +14,6 @@ Io vorrei leggere molto di più di quanto non riesca a fare ma sono un lettore l
 
 Ma lo Tsundoku per me non ha accezione negativa, bisogna essere pronti per leggere un libro, mi capita anche di iniziare, poi di lasciare e riprendere dopo molto tempo. L'importante è leggere e farlo con consapevolezza. 
 
-Non riuscirei in ogni caso a pensare alla mia vita senza lettura e all ami casa senza libri. Poicé anche questo luogo è la mia casa mi piace che anche qui vi sia uno scaffale con i libri letti e un comodino con la pila in attesa di lettura.
+Non riuscirei in ogni caso a pensare alla mia vita senza lettura e alla mia casa senza libri. Poiché anche questo luogo è la mia casa mi piace l'idea di avere anche qui  uno scaffale con i libri letti e un comodino con la pila in attesa di lettura.
 
 Sarà [qui](https://www.marginalia.cc/tsundoku).
