@@ -12,6 +12,8 @@ published: true
 - Le otto montagne - Paolo Cognetti
 - On writing - Stephen King
 - Walden - Henry David Thoreau
+- Fai spazio nella tua vita - Fumio Sasaki
+
 
 -->
 
@@ -24,8 +26,8 @@ published: true
 - La metamorfosi - Kafka
 - Camminare - Henry David Thoreau
 - You only better - Nicholas Bate
-- Andrea Bajani - Promemoria
-- Seth Godin - Quel pollo di Icaro
+- Promemoria - Andrea Bajani
+- Quel pollo di Icaro - Seth Godin
 - Il silenzio - Erlin Kagge
 - Camminare  - Erlin Kagge
 - Gli anni del nostro incanto - Giuseppe Lupo
