@@ -6,4 +6,21 @@ permalink: /tsundoku/
 published: true
 ---
 
-Ci sto lavorando.
+# 2018 (in ordine sparso)
+
+**Letti**
+Meditazioni - Kafka
+La metamorfosi - Kafka
+Camminare - Henry David Thoreau
+You only better - Nicholas Bate
+Andrea Bajani - Promemoria
+Seth Godin - Quel pollo di Icaro
+Il silenzio - Erlin Kagge
+Camminare  - Erlin Kagge
+Gli anni del nostro incanto - Giuseppe Lupo
+Martini - Pietro Grossi
+Le persiane verdi - Georges Simenon
+L'arte della guerra - Sun Tzu
+Essentialism - Greg McKeown
+Il pomeriggio di un piastrellista - Lars Gustaffson
+Bassa risoluzione - Massimo Mantellini
