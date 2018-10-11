@@ -4,14 +4,12 @@ date: 2018-3-22 5:00PM
 layout: post
 published: true
 categories: linked
+external-url: http://blog.strategicedge.co.uk/2018/03/jagged-thoughts-for-jagged-times-285.html
 ---
 
 Ho cancellato il mio account di Facebook molto tempo fa. Ma in effetti, perché limitarsi a questo?
 
 > Does it bring you misery? **Delete it.**
-
-[Buoni consigli](http://blog.strategicedge.co.uk/2018/03/jagged-thoughts-for-jagged-times-285.html) da Nicholas Bate.
-
 
 
 
