@@ -141,22 +141,38 @@ border-top: 1px solid #efefef;
 
 }
 
-// mia aggiunta 2018-02-13
+// mia aggiunta 2018-10-13
 .post-continue {
   a {
     padding: 8px 15px;
     text-decoration: none;
     border: 1px solid;
+    -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 
-    &,
+    
     &:visited {
-      color: #000
-      /*background-color: #efefef;*/
+      color: $color-foreground
+    
     }
 
     &:hover {
-      color: white;
-      background-color: #000;
+      color: $color-background;
+      background-color: $color-foreground;
+      
+      
+      -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
     }
   }
 }
+
+
+
+
