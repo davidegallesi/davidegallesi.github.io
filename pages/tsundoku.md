@@ -28,6 +28,7 @@ published: true
 - You only better - Nicholas Bate
 - Promemoria - Andrea Bajani
 - Quel pollo di Icaro - Seth Godin
+- De brevitate vitae -  Seneca
 - Il silenzio - Erlin Kagge
 - Camminare  - Erlin Kagge
 - Gli anni del nostro incanto - Giuseppe Lupo
