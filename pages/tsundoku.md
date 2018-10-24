@@ -22,6 +22,21 @@ published: true
 
 # 2018 (in ordine sparso)
 
+**Comodino**
+
+* - Le otto montagne - Paolo Cognetti*
+* - On writing: a memoir of the craft - Stephen King*
+* - Infinite Jest - David Foster Wallace*
+* -Le sei reincarnazioni di Ximen Nao -  Mo Yan*
+* -Chi ti credi di essewre? - Alice Munro*
+* -Scritti corsari -  Pier Paolo Pasolini* (rilettura)
+* -La cosienza di Zeno  -  Italo Svevo* (rilettura)
+* -Il Castello  - Kafka* (rilettura)
+
+****
+
+**Letti**
+
 - Meditazioni - Kafka
 - La metamorfosi - Kafka
 - Camminare - Henry David Thoreau
