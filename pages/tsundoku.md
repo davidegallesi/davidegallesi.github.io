@@ -38,3 +38,4 @@ published: true
 - Il pomeriggio di un piastrellista - Lars Gustaffson
 - Bassa risoluzione - Massimo Mantellini
 - Noi sogniamo il silenzio - Adriano Olivetti
+- Fai spazio nella tua vita - Fumio Sasaki
