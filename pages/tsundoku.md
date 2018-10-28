@@ -28,6 +28,7 @@ published: true
 - *Le sei reincarnazioni di Ximen Nao -  Mo Yan*
 - *Chi ti credi di essere? - Alice Munro*
 - *Walden - Henry David Thoreau*
+- *Il piccolo principe - Antoine de Saint-Exupéry*
 - *Scritti corsari -  Pier Paolo Pasolini* (rilettura)
 - *La cosienza di Zeno  -  Italo Svevo* (rilettura)
 - *Il Castello  - Kafka* (rilettura)
