@@ -32,6 +32,7 @@ published: true
 - *Scritti corsari -  Pier Paolo Pasolini* (rilettura)
 - *La cosienza di Zeno  -  Italo Svevo* (rilettura)
 - *Il Castello  - Kafka* (rilettura)
+- *The death of truth - Michiko Kakutani*
 
 
 **Letti**
