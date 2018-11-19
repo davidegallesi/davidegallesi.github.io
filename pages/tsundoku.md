@@ -28,11 +28,11 @@ published: true
 - *Le sei reincarnazioni di Ximen Nao -  Mo Yan*
 - *Chi ti credi di essere? - Alice Munro*
 - *Walden - Henry David Thoreau*
-- *Il piccolo principe - Antoine de Saint-Exupéry*
 - *Scritti corsari -  Pier Paolo Pasolini* (rilettura)
 - *La cosienza di Zeno  -  Italo Svevo* (rilettura)
 - *Il Castello  - Kafka* (rilettura)
 - *The death of truth - Michiko Kakutani*
+- *This is marketing - Seth Godin*
 
 
 **Letti**
@@ -55,3 +55,4 @@ published: true
 - Bassa risoluzione - Massimo Mantellini
 - Noi sogniamo il silenzio - Adriano Olivetti
 - Fai spazio nella tua vita - Fumio Sasaki
+- Il piccolo principe - Antoine de Saint-Exupéry
