@@ -6,18 +6,6 @@ permalink: /tsundoku/
 published: true
 ---
 
-<!--
-
-- Chi ti credi di essere? - Alice Munro
-- Le otto montagne - Paolo Cognetti
-- On writing - Stephen King
-- Walden - Henry David Thoreau
-- Fai spazio nella tua vita - Fumio Sasaki
-
-
--->
-
-
 
 
 # 2018 (in ordine sparso)
