@@ -1,3 +1,5 @@
+
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole site, values
@@ -17,7 +19,7 @@ name: Marginalia
 title: Marginalia
 description:
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
-url: "https://www.marginalia.cc" # the base hostname & protocol for your site
+url: "http://www.marginalia.cc" # the base hostname & protocol for your site
 github_repo: davidegallesi.github.io # the GitHub repo name for your project
 github_username: davidegallesi
 
