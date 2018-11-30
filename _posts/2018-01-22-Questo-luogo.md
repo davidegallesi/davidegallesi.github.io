@@ -1,10 +1,15 @@
 ---
 title: Questo luogo
-date: 2018-1-22 5:34PM
+date: 2018-10-28
 layout: post
 published: false
-categories: about
+categories:
 ---
+
+Sto modificando il contenuto solo per fare qualche prova.
+
+Dovrei scrivere di come ho cambiato Im font e del perché.
+Dovrei anche spiegare la nuova architettura anche se devo ancora organizzarmi con un workflow consistente su iOS.
 
 
 È la mia officina della scrittura.
@@ -31,7 +36,7 @@ Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe esse
 Utilizzo poi Jekyll in locale per generare una versione di prova quando faccio modifiche alla struttura o aggiungo contenuti.
 
 
-Il sito non fa uso di cookies ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=){:target="_blank"} e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F){:target="_blank"}.
+Il sito non fa uso di cookies, trackers o altro ed è validato [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=www.marginalia.cc&profile=css3svg&usermedium=all&warning=1&vextwarning=){:target="_blank"} e [HTML5](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.marginalia.cc%2F){:target="_blank"}.
 
 Avrei certo potuto utilizzare una delle tante piattaforme di publishing disponibili, alle cui regole avrei però dovuto sottostare.
 Così mi sono divertito a creare qualcosa di veramente mio, che posseggo in toto poiché ne controllo ogni elemento, dalla creazione della struttura e dei contenuti fino alla pubblicazione.
