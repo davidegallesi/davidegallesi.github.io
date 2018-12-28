@@ -1,21 +1,10 @@
----
-title: "Meglio mettere il titolo"
-date: 2018-10-14
-layout: post
-published: true
-categories: linked
-external-url:
----
-
-Questo è un test per verificare se lo status funziona.
-
-```
-// White theme
+// Paper theme
 
 // Color variables
 $black: #2B2826;
 $gray-dark: #423F38;
 $wenge: #635D5C;
+$rice: #E8D9C3;
 $oldburgundy: #332729;
 $gray: #A09992;
 $gray-light: #D7D5D1;
@@ -44,7 +33,3 @@ $color-border: $wenge !default;
         "components",
         "utilities"
 ;
-
-```
-
-Ecco, ora dovrebbe essere testo normale.

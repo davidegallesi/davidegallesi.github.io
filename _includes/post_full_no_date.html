@@ -1,0 +1,78 @@
+<!-- Renders post date, title, and snippet of text. -->
+
+
+<!-- added linked posts handling via external-url: in the front matter -->
+
+
+
+
+
+{% if post.external-url %}
+
+<div class="py-2 mb-2 prose">
+
+<!--     {% if post.title %} -->
+
+  <h2 class="h1 lh-condensed col-9 mb-0">
+    
+
+    <a class="link-primary" title="{{ post.external-url | prepend: site.baseurl }}" href="{{ post.external-url | prepend: site.baseurl }}">{{ post.title }}</a> *
+  </h2>
+<!--   {% endif %} -->
+  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.external-url | prepend: site.baseurl }}" href="{{ post.external-url | prepend: site.baseurl }}"></a>
+  
+  {{ post.content }}
+{% else %}
+
+<!-- end of the custom external-url handling -->
+
+
+
+<!-- below the theme original -->
+
+<div class="py-2 mb-2 prose">
+{% if post.title %}
+
+  <h2 class="h1 lh-condensed col-9 mb-0">
+    <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h2>
+  
+  {% endif %}
+  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" ></a>
+  
+ 
+
+
+ 
+ 
+ 
+ 
+  {% if post.excerpt %}
+   <p>
+   {{ post.excerpt }}
+    
+    {% if post.content contains site.excerpt_separator %}
+          <p class="post-continue">
+            <a href="{{ post.url | relative_url }}">Read on &rarr;</a>
+          </p>
+        {% endif %}
+{% else %}
+  
+ 
+
+  {{ post.content }}
+  
+   
+   </p>
+   
+   
+  {% endif %}
+{% endif %}
+
+ 
+</div>
+
+
+
+
+

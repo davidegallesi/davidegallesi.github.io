@@ -12,7 +12,7 @@ Non sono un grande utilizzatore di social network, ho iniziato a usarli un po’
 
 Seguo un po’ di persone con le quali interagisco poco o nulla, mi sono costruito un po’ di liste a tema che uso per informarmi su cose che mi interessano. Potrei in effetti farne a meno, vedremo.
 
-Non potrei invece fare a meno di una cosa della vecchia internet, che uso da sempre, il [web feed](https://en.wikipedia.org/wiki/Web_feed){:target="_blank"} i cui due formati principali sono [RSS](https://en.wikipedia.org/wiki/RSS){:target="_blank"} e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)){:target="_blank"}.[^1] 
+Non potrei invece fare a meno di una cosa della vecchia internet, che uso da sempre, il [web feed](https://en.wikipedia.org/wiki/Web_feed){:target="_blank"} i cui due formati principali sono [RSS](https://en.wikipedia.org/wiki/RSS){:target="_blank"} e [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)){:target="_blank"}.[^a]
 
 Vi sarà certo capitato di vedere [l'icona arancione](https://it.wikipedia.org/wiki/File:Feed-icon.svg){:target="_blank"} che indica la presenza di un **web feed** e vi invita a sottoscrivere i contenuti del sito. Ecco quella cosa li.
 
@@ -38,7 +38,7 @@ Questo della superficialità e del dilagante culto dell'ignoranza sono temi che 
 
 
 
-[^1]: Dai link alle rispettive pagine di Wikipedia si possono ricavare tutti gli aspetti tecnici relativi che pertanto qui ometto.
+[^a]: Dai link alle rispettive pagine di Wikipedia si possono ricavare tutti gli aspetti tecnici relativi che pertanto qui ometto.
 
 [^2]: Esistono dei servizi che aiutano a farlo, io uso [Feedly](https://www.feedly.com){:target="_blank"} con [Reeder](http://www.reederapp.com){:target="_blank"}.
 

@@ -7,9 +7,6 @@ published: true
 ---
 
 
-
-# 2018 (in ordine sparso)
-
 - *Le otto montagne - Paolo Cognetti*
 - *On writing: a memoir of the craft - Stephen King*
 - *Infinite Jest - David Foster Wallace*
@@ -21,9 +18,11 @@ published: true
 - *Il Castello  - Kafka* (rilettura)
 - *The death of truth - Michiko Kakutani*
 - *This is marketing - Seth Godin*
+- *Gli anni - Annie Ernaux*
+- *Stranieri alle porte - Zygmunt Bauman*
 
 
-**Letti**
+# 2018 in ordine sparso
 
 - Meditazioni - Kafka
 - La metamorfosi - Kafka
