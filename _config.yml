@@ -42,6 +42,6 @@ plugins:
 
   
   
-exclude: [test.txt, deploy.sh, todo.txt, README.md, build.sh]
+exclude: [test.txt, deploy.sh, todo.txt, README.md, upload.sh, todo.md, build.sh]
   
 

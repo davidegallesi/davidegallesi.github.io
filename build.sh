@@ -1,7 +1,7 @@
 #!/bin/bash
 
-bundle exec jekyll build
+bundle exec jekyll build --incremental
 
 cd _site
 
-ncftpput -R -u 1879074@aruba.it -p fdmtygro ftp.marginalia.cc www.marginalia.cc *
+ncftpput -z -R -u 1879074@aruba.it -p fdmtygro ftp.marginalia.cc www.marginalia.cc *
