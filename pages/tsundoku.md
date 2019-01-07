@@ -19,11 +19,11 @@ published: true
 - *The death of truth - Michiko Kakutani*
 - *Gli anni - Annie Ernaux*
 - *Stranieri alle porte - Zygmunt Bauman*
-- *Elogio della lentezza - Lamberto Maffei*
 
 
 # 2019
 
+- Elogio della lentezza - Lamberto Maffei
 - This is marketing - Seth Godin
 
 # 2018 in ordine sparso
