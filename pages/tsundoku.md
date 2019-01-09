@@ -17,10 +17,14 @@ published: true
 - *La cosienza di Zeno  -  Italo Svevo* (rilettura)
 - *Il Castello  - Kafka* (rilettura)
 - *The death of truth - Michiko Kakutani*
-- *This is marketing - Seth Godin*
 - *Gli anni - Annie Ernaux*
 - *Stranieri alle porte - Zygmunt Bauman*
 
+
+# 2019
+
+- Elogio della lentezza - Lamberto Maffei
+- This is marketing - Seth Godin
 
 # 2018 in ordine sparso
 

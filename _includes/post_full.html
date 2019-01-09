@@ -1,18 +1,27 @@
-<!-- Renders post date, title, and snippet of text. -->
+å<!-- Renders post date, title, and snippet of text. -->
 
 
-<!-- added linked posts handling via external-url: in the fornta matter -->
+<!-- added linked posts handling via external-url: in the front matter -->
+
+
+
+
 
 {% if post.external-url %}
 
 <div class="py-2 mb-2 prose">
+
+<!--     {% if post.title %} -->
+
   <h2 class="h1 lh-condensed col-9 mb-0">
+    
+
     <a class="link-primary" title="{{ post.external-url | prepend: site.baseurl }}" href="{{ post.external-url | prepend: site.baseurl }}">{{ post.title }}</a> *
   </h2>
+<!--   {% endif %} -->
   <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.external-url | prepend: site.baseurl }}" href="{{ post.external-url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
   
   {{ post.content }}
-
 {% else %}
 
 <!-- end of the custom external-url handling -->
@@ -22,10 +31,17 @@
 <!-- below the theme original -->
 
 <div class="py-2 mb-2 prose">
+
+
+
+{% if post.title != ""%}
+
   <h2 class="h1 lh-condensed col-9 mb-0">
-    <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
   </h2>
-  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+  
+  {% endif %}
+  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" >{{ post.date | date: "%b %-d, %Y" }}</a>
   
  
 
@@ -45,10 +61,27 @@
         {% endif %}
 {% else %}
   
+ 
+
   {{ post.content }}
+  
+
+  
+  
+  
+  
+   
    </p>
+   
+   
+      
   {% endif %}
 {% endif %}
 
  
 </div>
+
+
+
+
+

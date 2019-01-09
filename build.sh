@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bundle exec jekyll build --incremental
+bundle exec jekyll build
 
 cd _site
 
