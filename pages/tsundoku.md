@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tsundoku
-date: 2018-10-8 07:47AM
+date: 2019-1-30 07:47AM
 permalink: /tsundoku/
 published: true
 ---
@@ -19,12 +19,14 @@ published: true
 - *The death of truth - Michiko Kakutani*
 - *Gli anni - Annie Ernaux*
 - *Stranieri alle porte - Zygmunt Bauman*
+- *Company of one - Paul Jarvis*
 
 
 # 2019
 
 - Elogio della lentezza - Lamberto Maffei
 - This is marketing - Seth Godin
+- Il giovane Holden - J.D. Salinger
 
 # 2018 in ordine sparso
 
