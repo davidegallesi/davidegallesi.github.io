@@ -26,6 +26,7 @@ published: true
 
 - Elogio della lentezza - Lamberto Maffei
 - This is marketing - Seth Godin
+- Il giovane Holden - J.D. Salinger
 
 # 2018 in ordine sparso
 
