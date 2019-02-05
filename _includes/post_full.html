@@ -1,4 +1,4 @@
-å<!-- Renders post date, title, and snippet of text. -->
+<!-- Renders post date, title, and snippet of text. -->
 
 
 <!-- added linked posts handling via external-url: in the front matter -->
@@ -34,13 +34,13 @@
 
 
 
-{% if post.title != ""%}
+<!--  {% if post.title != ""%}
 
   <h2 class="h1 lh-condensed col-9 mb-0">
     <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
   </h2>
   
-  {% endif %}
+  {% endif %} -->
   <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" >{{ post.date | date: "%b %-d, %Y" }}</a>
   
  
