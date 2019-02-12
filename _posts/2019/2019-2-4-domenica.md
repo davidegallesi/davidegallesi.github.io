@@ -16,7 +16,6 @@ Apro un quotidiano, di questi tempi la domenica i quotidiani sono un poco più l
 Salinger non scriveva in maniera lineare, scriveva sempre, molto su dei taccuini dove e quando gli capitava, così mettere insieme il tutto sarà complicato. E quando scriveva rimaneva li, fermo, sorridendo, taccuino e penna in mano, a raccogliere i suoi pensieri e se stesso.
 
 Per me che che scrivo tutti i giorni, carta e penna, leggere queste cose è un “sollucchero”. Così mi viene da leggere il *Giovane Holden*, lo avevo letto al liceo, forse. Comunque lo avevo in libreria. Il prezzo è in euro, in effetti non dei miei tempi.
-Prendo e leggo, tutto d'un fiato.
 
-Una domenica, grigia, triste, uggiosa e un libro intero. Cosa di meglio.
+Prendo e leggo, tutto d'un fiato, una domenica.
 
