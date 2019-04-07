@@ -22,13 +22,13 @@ published: true
 - *Company of one - Paul Jarvis*
 
 
-# 2019
+# letti nel 2019
 
 - Elogio della lentezza - Lamberto Maffei
 - This is marketing - Seth Godin
 - Il giovane Holden - J.D. Salinger
 
-# 2018 in ordine sparso
+# letti nel 2018 in ordine sparso
 
 - Meditazioni - Kafka
 - La metamorfosi - Kafka
