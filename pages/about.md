@@ -6,21 +6,21 @@ permalink: /about/
 published: true
 ---
 
-Questo luogo è mio, è un laboratorio, uno dei tanti.
+Questo è un luogo, il mio, uno dei tanti.
 
 Volevo un luogo dove sperimentare un po' di tipografia e scrivere, quello che voglio, quando voglio senza dipendere da nessuna piattaforma per la pubblicazione.
 
-L'ho costruito per me solo, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
+L'ho costruito per me, con le mie limitate capacità artigianali utilizzando strumenti per lo più gratuiti e disponibili a tutti.
 
 Ho fatto così.
 
 Ho realizzato un sito statico[^1] la cui struttura e contenuto vengono di volta in volta creati usando [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
 
-Il tema è [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è ~~[Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}~~ [ET Book](https://github.com/edwardtufte/et-book){:target="_blank"}.
+Sono disponibili molti temi per jekyll, ho scelto [Athena](https://github.com/broccolini/athena){:target="_blank"} che ho modificato un poco. È un tema semplice, minimale e dalla bella tipografia (ho una sorta di ossessione per la tipografia), il font usato è ~~[Athelas](https://www.fonts.com/font/typetogether/athelas){:target="_blank"}~~ [ET Book](https://github.com/edwardtufte/et-book){:target="_blank"}.
 
-I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma, ci pensa poi jekyll a trasformarli in HTML.
+I post e le pagine possono essere creati e modificati utilizzando un qualsiasi editor di testo su qualsiasi piattaforma, ci pensa poi jekyll a generare un sito HTML, pronto per la pubblicazione.
 
-Io per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito) e [Working copy](https://workingcopyapp.com){:target="_blank"} su iOS.
+Per scrivere su macOS uso sia [BBEdit](http://www.barebones.com/products/bbedit/){:target="_blank"} che [iA Writer](https://ia.net/writer/){:target="_blank"} che uso anche su iOS. Per pubblicare uso Github da terminale su macOS (ma si potrebbe usare anche il [client](https://desktop.github.com){:target="_blank"} gratuito) e [Working copy](https://workingcopyapp.com){:target="_blank"} su iOS.
 
 Una volta creati i contenuti e generato l'HTML con Jekyll, il sito potrebbe essere ospitato su una qualsiasi macchina che esegua un server HTTP (ho provato anche sul mio NAS di casa con un IP pubblico e funziona egregiamente) e non dipendere così da nessuna piattaforma. Per mia comodità[^2] ho scelto di usare [Github Pages](https://pages.github.com){:target="_blank"}. Grazie al fatto che Jekyll è integrato in Github Pages il sito viene rigenerato automaticamente dopo qualsiasi modifica, il tutto avviene semplicemente sincronizzando la versione memorizzata in locale con un repository di Github creato allo scopo.
 

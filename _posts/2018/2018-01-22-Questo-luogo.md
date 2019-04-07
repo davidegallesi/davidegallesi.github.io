@@ -21,7 +21,7 @@ La presunzione è di mantenere così la proprietà dei contenuti e il possesso d
 
 Ho fatto così.
 
-<!--more-->
+<!-- more -->
 
 Ho realizzato un sito statico[^1] la cui struttura è creata con [Jekyll](https://jekyllrb.com){:target="_blank"}, un generatore per l'appunto di siti statici che trasforma in pagine HTML dei file di testo scritti in [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"}.
 

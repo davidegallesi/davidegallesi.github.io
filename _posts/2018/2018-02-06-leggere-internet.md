@@ -8,7 +8,7 @@ published: true
 
 Non sono un grande utilizzatore di social network, ho iniziato a usarli un po’ tutti per poi smetterli uno dopo l'altro. Unica eccezione Twitter, di cui faccio uso limitato e tutto sommato improprio, per lo più come aggregatore di informazioni.
 
-<!--more-->
+<!-- more -->
 
 Seguo un po’ di persone con le quali interagisco poco o nulla, mi sono costruito un po’ di liste a tema che uso per informarmi su cose che mi interessano. Potrei in effetti farne a meno, vedremo.
 
