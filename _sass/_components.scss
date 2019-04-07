@@ -185,3 +185,117 @@ border-to-length: 10px;
 position:absolute;
 left:60%;
 }
+
+.btn {
+
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+    -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+
+
+
+}
+
+
+.btn a hover {
+
+    color: $color-background;
+      background-color: $color-foreground;
+      
+      
+      -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+
+
+
+}
+
+
+// mia aggiunta 2019-04-07
+
+.pagination {
+
+
+border-top: 1px solid $light;
+
+padding-top:45px;
+padding-bottom:45px;
+
+margin: auto;
+
+}
+
+.page_number{
+
+margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+.pagination .previous{
+ padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+    
+font-size: 18px;
+
+}
+
+.no_previous{
+
+border: none;
+
+}
+
+
+.no_next{
+
+border: none;
+
+}
+
+
+
+.pagination .next{
+
+ padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+    
+float: right;
+font-size: 18px;
+
+}
+
+
+.pagination a:hover {
+
+    color: $color-background;
+      background-color: $color-foreground;
+      
+      
+      -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+
+
+
+}
+

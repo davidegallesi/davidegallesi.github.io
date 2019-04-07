@@ -22,7 +22,7 @@
         </div>
 
         <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
+          <h1 class="h0 inline-block py-2 mt-4 header-title" href="{{ site.baseurl }}">{{ site.title }} </h1>
 
           <div class="clearfix mb-4 py-1">
             <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
@@ -34,12 +34,42 @@
       </header>
 
       <div class="container mx-auto px-2 py-2">
-        {% for post in site.posts %}
+      
+        {% for post in paginator.posts  %}
+        <!-- for post in site.posts pe eliminare il paginator -->
           {% include post_full_no_date.html %}
         {% endfor %}
+        
+        <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      &larr; Previous page 
+    </a>
+  {% else %}
+    <span class="no_previous">  </span> <!-- testo visualizzato nel caso non ci siano pagine precedenti -->
+  {% endif %}
+  <span class="page_number">
+    <!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next page &rarr;</a>
+  {% else %}
+    <span class="no_next ">  </span> <!-- testo visualizzato nel caso non ci siano pagine successive -->
+  {% endif %}
+</div>
+
+        
+        
+        
       </div>
+      
+      
+       <!-- Pagination links -->
 
     </div>
+    
+    
+   
 
     <!-- {% include footer.html %} -->
 

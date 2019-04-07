@@ -35,8 +35,18 @@ markdown: kramdown
 
 excerpt_separator: <!-- more -->
 
+paginate_path: "/blog/page:num/"
+
+paginate: 3
+
+author:
+    twitter: davidegallesi
+
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  
   
 
 
