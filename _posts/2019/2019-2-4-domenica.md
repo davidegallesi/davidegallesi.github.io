@@ -9,6 +9,8 @@ categories:
 Questa ultima domenica, ma come ogni giorno del resto, mi sono svegliato sul presto.
 
 
+<!-- more -->
+
 Avevo dormito bene, per almeno sei ore filate, senza interruzioni, cosa rara. Così, credo fossero le cinque, mi sveglio secco.
 Il gatto, ovvio, mi sente e arriva miagolando. Allora mi alzo, infilo le ciabatte e nutro gli animali, si perché di gatti ne ho due.
 Mi infilo sotto la doccia e poi caffè, senza il caffè la giornata non inizia proprio. Il mio rito è doccia, caffè e lettura dei miei feed sull'iPad.
