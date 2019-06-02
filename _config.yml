@@ -37,7 +37,7 @@ excerpt_separator: <!-- more -->
 
 paginate_path: "/blog/page:num/"
 
-paginate: 3
+paginate: 7
 
 author:
     twitter: davidegallesi
@@ -52,6 +52,13 @@ plugins:
 
   
   
-exclude: [test.txt, deploy.sh, todo.txt, README.md, upload.sh, todo.md, build.sh]
-  
+exclude:
+- test.txt
+- deploy.sh
+- todo.txt
+- README.md
+- todo.md
+- build.sh
+- publish.sh
+- test.sh
 

@@ -18,6 +18,12 @@
               </li>
               {% endif %}
             {% endfor %}
+		
+		<!-- <a class="italic h4 no-underline font-smoothing" href="https://davidegallesi.micro.blog">
+            
+		 Micro.blog
+        </a> -->
+
           </ul>
         </div>
 
@@ -48,9 +54,11 @@
   {% else %}
     <span class="no_previous">  </span> <!-- testo visualizzato nel caso non ci siano pagine precedenti -->
   {% endif %}
-  <span class="page_number">
-    <!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
-  </span>
+  
+  <!-- <span class="page_number">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span> -->
+  
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next page &rarr;</a>
   {% else %}
