@@ -1,86 +1,21 @@
-<!DOCTYPE html>
-<html lang="it">
+---
+layout: default
+---
 
-  {% include head.html %}
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
-  <body>
-
-    <div>
-
-      <header class="clearfix">
-
-        <div class="right absolute-lg right-0 top-0">
-          <ul class="mt-2 mr-2 mr-lg-3">
-            {% for my_page in site.pages %}
-              {% if my_page.title %}
-              <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-                <a class="italic no-underline h4 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-		
-		<!-- <a class="italic h4 no-underline font-smoothing" href="https://davidegallesi.micro.blog">
-            
-		 Micro.blog
-        </a> -->
-
-          </ul>
-        </div>
-
-        <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block py-2 mt-4 header-title" href="{{ site.baseurl }}">{{ site.title }} </h1>
-
-          <div class="clearfix mb-4 py-1">
-            <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
-            <div class="col-1 sm-width-full border-top-thick">
-            </div>
-          </div>
-
-        </div>
-      </header>
-
-      <div class="container mx-auto px-2 py-2">
-      
-        {% for post in paginator.posts  %}
-        <!-- for post in site.posts pe eliminare il paginator -->
-          {% include post_full_no_date.html %}
-        {% endfor %}
-        
-        <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      &larr; Previous page 
-    </a>
-  {% else %}
-    <span class="no_previous">  </span> <!-- testo visualizzato nel caso non ci siano pagine precedenti -->
-  {% endif %}
-  
-  <!-- <span class="page_number">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span> -->
-  
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next page &rarr;</a>
-  {% else %}
-    <span class="no_next ">  </span> <!-- testo visualizzato nel caso non ci siano pagine successive -->
-  {% endif %}
+<div class="mainlist">
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts limit:20 -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+       {{ post.date | date: date_format }} \ <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
 </div>
 
-        
-        
-        
-      </div>
-      
-      
-       <!-- Pagination links -->
 
-    </div>
-    
-    
-   
-
-    <!-- {% include footer.html %} -->
-
-  </body>
-
-</html>

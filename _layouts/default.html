@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
-  
-  <!-- font-smoothing is only applied on dark themes -->
-  <body class="font-smoothing">
+  {%- include head.html -%}
 
-    {% include header.html %}
+  <body>
+    <div class="container">
 
-    <div>
+      {%- include header.html -%}
+
+    <main>
       {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
     </div>
-
-    <!-- >{% include footer.html %} -->
-
   </body>
-
 </html>

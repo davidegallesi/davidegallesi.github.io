@@ -1,5 +1,0 @@
-File di prova per test FTP...
-
-Ora modifico nuovamente per provare lo script.
-
-Mi sa che non funziona.

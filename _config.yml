@@ -1,64 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Example Site settings
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-name: Marginalia
-title: Marginalia
-description:
-# baseurl: "/athena" # the subpath of your site, e.g. /blog
-url: "https://www.marginalia.cc" # the base hostname & protocol for your site
-github_repo: davidegallesi.github.io # the GitHub repo name for your project
-github_username: davidegallesi
+#google_analytics: UA-NNNNNNNN-N
 
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: davidegallesi
+header_pages:
+# - index.md
+    - index.md
+    - pages/about.md
+    - pages/archive.html
+    - pages/tsundoku.md
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-# Set theme color here
-# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: light
-
-# Build settings
-markdown: kramdown
-
-excerpt_separator: <!-- more -->
-
-paginate_path: "/blog/page:num/"
-
-paginate: 7
-
-author:
-    twitter: davidegallesi
-
+style: dark # light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  
-  
-
-
-  
-  
-exclude:
-- test.txt
-- deploy.sh
-- todo.txt
-- README.md
-- todo.md
-- build.sh
-- publish.sh
-- test.sh
-
+  - jekyll-seo-tag

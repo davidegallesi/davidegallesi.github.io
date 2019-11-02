@@ -1,1 +1,0 @@
-fswatch -r  _site | while read f ; do echo 'Qualcosa è stato modificato' ; done;
