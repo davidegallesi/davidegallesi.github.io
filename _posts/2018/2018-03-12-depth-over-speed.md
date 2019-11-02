@@ -3,7 +3,7 @@ title: Depth over speed
 date: 2018-3-12 6:44AM
 layout: post
 published: true
-categories: linked
+categories:
 external-url: 
 ---
 
