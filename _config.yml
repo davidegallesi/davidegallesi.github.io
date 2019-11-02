@@ -4,7 +4,7 @@
 
 header_pages:
 # - index.md
-    - index.md
+    - pages/index.md
     - pages/about.md
     - pages/archive.html
     - pages/tsundoku.md

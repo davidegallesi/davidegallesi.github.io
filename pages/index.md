@@ -6,4 +6,4 @@ permalink: /
 
 # Marginalia
 
-Note a caso a margine della mia vita. 
+Note a caso. 
