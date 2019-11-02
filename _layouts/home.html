@@ -10,7 +10,7 @@ layout: default
   <ul>
     {%- for post in site.posts limit:20 -%}
     <li>
-      {%- assign date_format = "%d %B %Y" -%}
+      {%- assign date_format = "%d %b %Y" -%}
        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> · {{ post.date | date: date_format }}
     </li>
     {%- endfor -%}
