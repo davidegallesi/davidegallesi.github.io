@@ -6,4 +6,4 @@ permalink: /
 
 # Marginalia
 
-Note a caso. 
+Note a caso, così, quando arrivano. 
