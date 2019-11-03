@@ -4,7 +4,6 @@ date: 2018-1-23 6:44AM
 layout: post
 published: true
 categories:
-external-url: 
 ---
 
 > ...writing down a thought, you encourage more thoughts to come.
