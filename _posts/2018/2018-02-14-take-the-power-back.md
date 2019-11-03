@@ -3,7 +3,7 @@ title: Take the power back
 date: 2018-02-14 6:44AM
 layout: post
 published: true
-categories: linked
+categories:
 external-url: 
 ---
 
