@@ -5,9 +5,10 @@
 header_pages:
 # - index.md
     - pages/index.md
-    - pages/about.md
+    # - pages/about.md
     - pages/archive.html
     - pages/tsundoku.md
+    - pages/now.md
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 style: dark # light # dark (default) or light
@@ -17,3 +18,4 @@ plugins:
   - jekyll-seo-tag
 
 markdown: kramdown
+highlighter: rouge
