@@ -1,7 +1,7 @@
 ---
+layout: post
 title:  Strumenti
 date:   2018-03-08 06:50AM
-layout: post
 published: true
 ---
 

@@ -1,11 +1,8 @@
 <footer>
   {{ site.footer }}
-  {%- assign date_format = "%d %b %Y" -%}
   
- {% if page.layout == 'post' %}
- 
-  {{ page.title }} · {{ page.date | date: date_format }}
-
-	{%- endif -%}
+  <div class="pn_container">
+{% include previous-next.html %}
+</div>
 	
 </footer>

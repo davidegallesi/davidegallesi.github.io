@@ -134,22 +134,70 @@ pre {
 
 
 /* Mie aggiunte */
+
+.title_border {
+margin-left: 0;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 33%;
+border-top: 4px dotted #666;
+}
+
+/*Pagination*/
+
+
+.post_container{
+margin-top: 0px;
+
+}
+
+.post_title{
+margin-bottom: 0px;
+
+}
+
+
+.post_date{
+margin-top: 0px;
+}
+
+.older{
+ float: left;
+text-align: left;
+}
+
+.newer{float:right;
+text-align: right;
+}
+
+.older a, .newer a, {
+border:none;
+text-decoration:none;
+}
+
+.older a:hover, .newer a:hover, {
+background-color: var(--base-color);
+border:none;
+text-decoration:none;
+}
+
+
 /* Blockquote style */
 
 blockquote {
-	font-style: italic;
-  /*  border-left: 5px solid #ccc;
-  margin: 1.5em 10px;
-  padding-left: 5px; */
+color: #ebebeb;
+margin-left: 0px;
+
+padding-left: 10px;
+font-style: italic;
+  border-left: 0px solid;
+  border-color: #666;
 }
 
 
 
 
-
-
-
-
+/*Header logo*/
 .logo {
      margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;
      float: left;
@@ -164,6 +212,7 @@ blockquote {
 
 
 
+
 a.twitter:hover {
     background-color: #00aced;
    
@@ -175,7 +224,7 @@ a.nexo:hover {
 }
 
 
-
+/* Syntax highlighting style for rouge */
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0;}
 .highlight, .highlight .w {

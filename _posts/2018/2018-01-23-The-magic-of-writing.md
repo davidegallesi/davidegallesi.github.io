@@ -8,5 +8,5 @@ categories:
 
 > ...writing down a thought, you encourage more thoughts to come.
 
-[Thoughts as nest eggs - Austin Kleon.](http://austinkleon.com/2018/01/22/thoughts-as-nest-eggs/)
+[Thoughts as nest eggs](http://austinkleon.com/2018/01/22/thoughts-as-nest-eggs/) - Austin Kleon.
 
