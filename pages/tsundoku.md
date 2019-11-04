@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tsundoku
+title: tsundoku
 date: 2019-1-30 07:47AM
 permalink: /tsundoku/
 published: true
