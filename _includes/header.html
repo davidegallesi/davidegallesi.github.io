@@ -5,7 +5,9 @@
   	
 
     <ul>
-    
+    <div class="logo">
+		Marginalia §
+	</div>
     
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -14,9 +16,7 @@
         {%- endif -%}
       {%- endfor -%}
       
-      <div class="logo">
-		Marginalia §
-	</div>
+      
     </ul>
   </div>
 
