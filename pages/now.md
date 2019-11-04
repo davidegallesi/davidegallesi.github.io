@@ -5,7 +5,7 @@ date: 2019-11-4 12:15AM
 permalink: /now/
 published: true
 ---
-My name is Davide Gallesi and this is what I'm doing now.
+Hello, my name is Davide Gallesi and this is what I'm doing now.
 <br>
 - Living in [Milano](https://en.wikipedia.org/wiki/Milan){:target="_blank"}, Italy. It's autumn now.
 - Loving and living my family.
