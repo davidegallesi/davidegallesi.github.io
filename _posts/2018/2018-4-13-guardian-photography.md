@@ -6,5 +6,5 @@ published: true
 categories: linked
 ---
 
-La sezione [fotografia]( https://www.theguardian.com/artanddesign/photography) del Guardian è davvero qualcosa.
+La sezione [fotografia]( https://www.theguardian.com/artanddesign/photography){:target="_blank"} del Guardian è davvero qualcosa.
  

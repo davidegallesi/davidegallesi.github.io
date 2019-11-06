@@ -14,7 +14,7 @@ Io credo invece, consapevole di avere già molto, che sia importante mi focalizz
 
 Dire no a cose che per me non sono importanti o a relazioni che non portano a nulla significa preservare spazio e tempo preziosi da dedicare a chi amo, a ciò che per me conta veramente.
 
-Si perché il tempo è tra i beni più preziosi che abbiamo ed è lecito [esserne avari](https://www.marginalia.cc/2018/06/08/usare-il-tempo.html).
+Si perché il tempo è tra i beni più preziosi che abbiamo ed è lecito [esserne avari](/2018/06/08/usare-il-tempo).
 
 
 

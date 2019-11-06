@@ -6,6 +6,6 @@ published: true
 external-url:
 ---
 
-<span class="first">Il silenzio è in via di estinzione</span>, in alcuni luoghi e in alcune persone è anzi già estinto da tempo.
+Il silenzio è in via di estinzione, in alcuni luoghi e in alcune persone è anzi già estinto da tempo.
 
 Non che non si debba dire o scrivere solo che il saper tacere, che ha come effetto collaterale il pensare, non vengono più coltivati come si dovrebbe.

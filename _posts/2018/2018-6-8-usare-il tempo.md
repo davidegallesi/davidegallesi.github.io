@@ -12,5 +12,5 @@ Non sono però ossessionato dal tempo che passa, piuttosto del pessimo uso che n
 
 > ...si è oculatissimi nel tenere ben stretto il proprio patrimonio, ma quando si tratta di sprecare il tempo, ossia quella cosa per la quale solo è onorevole essere avari, si è sommamente prodighi.
 
-<small>Seneca - De brevitate vitae<small>
+Seneca - De brevitate vitae
 
