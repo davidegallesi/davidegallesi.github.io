@@ -28,13 +28,13 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Source Code Pro", monospace;
-  font-size: 13.5px;
+  font-size: 14.5px;
   color: var(--text-color);
   text-align: left;
   line-height: 1.7 !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 13.5px;
+  font-size: 14.5px;
   margin: 0px;
   margin-top: 22px;
   font-weight: bold;
@@ -66,7 +66,7 @@ a:hover {
 
 @media only screen and (max-device-width: 500px) {
   * {
-    font-size: 13px !important; } }
+    font-size: 14px !important; } }
 /*h1:before { content: "#";  margin-right: 9px; }
 h2:before { content: "##";  margin-right: 9px; }
 h3:before { content: "###";  margin-right: 9px; }
@@ -78,7 +78,7 @@ h6:before { content: "######";  margin-right: 9px; }*/
  */
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 720px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -190,7 +190,7 @@ input[type=text], select, textarea {
   background-color: var(--background-color);
   color: var(--text-color);
   caret-color: var(--text-color);
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-family: "Source Code Pro", monospace;
   line-height: 1.7; }
 
@@ -208,7 +208,7 @@ input, select, textarea, textarea::-webkit-input-placeholder {
   color: var(--placeholder-color); }
 
 input[type=submit] {
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-family: "Source Code Pro", monospace;
   line-height: 1.7;
   cursor: pointer;
