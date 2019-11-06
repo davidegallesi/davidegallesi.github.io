@@ -265,6 +265,9 @@ pre {
 .post_date {
   margin-top: 0px; }
 
+.pn_container {
+  padding-bottm: 10px; }
+
 .older {
   float: left;
   text-align: left; }
