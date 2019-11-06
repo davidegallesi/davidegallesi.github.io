@@ -14,7 +14,7 @@ Hello, my name is Davide Gallesi and this is what I'm doing now.
 - Walking.
 - Biking.
 - Writing on paper with fountain pens.
-- Fighting daily with my ignorance.
+- Fighting daily against my ignorance.
 - Slowing down.
 - Sharing (rarely) short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi){:target="_blank" class="twitter"}.
 
