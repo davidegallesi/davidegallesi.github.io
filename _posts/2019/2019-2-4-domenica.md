@@ -1,5 +1,5 @@
 ---
-title: "Domenica"
+title: "Una domenica"
 date: 2019-2-4 10:12 PM
 layout: post
 published: true
