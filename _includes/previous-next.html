@@ -9,8 +9,8 @@
 
   <div class="older">
     <a  href="{{ page.previous.url | prepend: full_base_url }}">
-     < older
-      <p>{{ page.previous.title }}</p>
+     <!-- < older -->
+      &#x1f808 {{ page.previous.title }}
       <!-- <p>{{ page.previous.content | strip_html | truncatewords:20 }}</p> -->
     </a>
   </div>
@@ -19,8 +19,8 @@
   {% if page.next.url %}
   <div class="newer">
     <a  href="{{ page.next.url | prepend: full_base_url }}">
-      newer >
-      <p>{{ page.next.title }}</p>
+      <!-- newer > -->
+      {{ page.next.title }} &#x1f80a
       
      <!-- <p>{{ page.next.content | strip_html | truncatewords:20 }}</p> -->
     
