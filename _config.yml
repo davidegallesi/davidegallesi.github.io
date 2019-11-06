@@ -11,12 +11,11 @@ header_pages:
     - pages/now.md
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-paginate_path: "/blog/page:num/"
 
 style: dark # light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
-baseurl:
+url: "https://www.davidegallesi.com"
 
 plugins:
   - jekyll-seo-tag
