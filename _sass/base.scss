@@ -10,7 +10,7 @@
 
 $base-font-family:     'Source Code Pro', monospace !default;
 $base-font-size:       14.5px !default; /* 12.5 originale */
-$mobile-font-size:     14px !default;
+$mobile-font-size:     14 px !default;
 $base-line-height:     1.7 !default;
 $container-width:      90% !default;
 $container-max-width:  720px !default;
@@ -215,7 +215,7 @@ font-style: italic;
 
 /*Header logo*/
 .logo {
-     margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;
+     margin-top: 14px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;
      float: left;
      text-align: left;
      display: inline;
