@@ -6,9 +6,9 @@ published: true
 categories: 
 ---
 
-> Ricordarsi prima di morire<br>
-che le palpebre resteranno<br>
-alzate. La morte non chiude<br>
-gli occhi a chi l'ha vista<br>
-arrivare. Glieli chiudono i vivi<br>
-per non farsi guardare.<br>
+> Ricordarsi prima di morire
+che le palpebre resteranno
+alzate. La morte non chiude
+gli occhi a chi l'ha vista
+arrivare. Glieli chiudono i vivi
+per non farsi guardare.
