@@ -16,7 +16,7 @@ Hello, my name is Davide Gallesi and this is what I'm doing now.
 - Writing on paper with fountain pens.
 - Fighting daily with my ignorance.
 - Slowing down.
-- Sometimes sharing short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi){:target="_blank" class="twitter"}.
+- Sharing (rarely) short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi){:target="_blank" class="twitter"}.
 
 <br>
 

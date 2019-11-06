@@ -13,4 +13,4 @@ Ultimamente mi sto chiedendo sempre più spesso se abbia davvero ancora senso fa
 
 > il problema della Stupidità ha la stessa valenza metafisica del problema del Male, anzi di più…
 
-<small>Umberto Eco</small>
+Umberto Eco
