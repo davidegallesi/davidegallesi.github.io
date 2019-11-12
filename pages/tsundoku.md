@@ -20,37 +20,54 @@ published: true
 - *Stranieri alle porte - Zygmunt Bauman*
 - *Company of one - Paul Jarvis*
 - *La guerra di tutti - Raffaele Alberto Ventura*
-- *La casa del sonno - Jonathan Coe*
 - *Marginalia - Edgar Allan Poe*
 - *Pensieri lenti e veloci - Daniel Kahnemann*
 
-# letti nel 2019
+<br>
 
-- Elogio della lentezza - Lamberto Maffei
-- This is marketing - Seth Godin
-- Il giovane Holden - J.D. Salinger
-- Gli anni - Annie Ernaux
-- Walden - Henry David Thoreau
-- Non è un mondo per vecchi - Michel Serres
+<details>
+  <summary>letti nel 2019</summary>
 
-# letti nel 2018 in ordine sparso
+<ul>
 
-- Meditazioni - Kafka
-- La metamorfosi - Kafka
-- Camminare - Henry David Thoreau
-- You only better - Nicholas Bate
-- Promemoria - Andrea Bajani
-- Quel pollo di Icaro - Seth Godin
-- De brevitate vitae -  Seneca
-- Il silenzio - Erlin Kagge
-- Camminare  - Erlin Kagge
-- Gli anni del nostro incanto - Giuseppe Lupo
-- Martini - Pietro Grossi
-- Le persiane verdi - Georges Simenon
-- L'arte della guerra - Sun Tzu
-- Essentialism - Greg McKeown
-- Il pomeriggio di un piastrellista - Lars Gustaffson
-- Bassa risoluzione - Massimo Mantellini
-- Noi sogniamo il silenzio - Adriano Olivetti
-- Fai spazio nella tua vita - Fumio Sasaki
-- Il piccolo principe - Antoine de Saint-Exupéry
+	<li> La casa del sonno - Jonathan Coe </li>
+	<li>  Elogio della lentezza - Lamberto Maffei </li>
+	<li>  This is marketing - Seth Godin </li>
+	<li>  Il giovane Holden - J.D. Salinger </li>
+	<li>  Gli anni - Annie Ernaux </li>
+	<li>  Walden - Henry David Thoreau </li>
+	<li>  Non è un mondo per vecchi - Michel Serres </li>
+</ul>
+</details>
+
+<br>
+
+<details>
+
+  <summary>letti nel 2018 in ordine sparso</summary>
+
+<ul>
+
+<li>  Meditazioni - Kafka </li>
+<li>  La metamorfosi - Kafka </li>
+<li>  Camminare - Henry David Thoreau </li>
+<li>  You only better - Nicholas Bate </li>
+<li>  Promemoria - Andrea Bajani </li>
+<li>  Quel pollo di Icaro - Seth Godin </li>
+<li>  De brevitate vitae -  Seneca </li>
+<li>  Il silenzio - Erlin Kagge </li>
+<li>  Camminare  - Erlin Kagge </li>
+<li>  Gli anni del nostro incanto - Giuseppe Lupo </li>
+<li>  Martini - Pietro Grossi </li>
+<li>  Le persiane verdi - Georges Simenon </li>
+<li>  L'arte della guerra - Sun Tzu </li>
+<li>  Essentialism - Greg McKeown </li>
+<li>  Il pomeriggio di un piastrellista - Lars Gustaffson </li>
+<li>  Bassa risoluzione - Massimo Mantellini </li>
+<li>  Noi sogniamo il silenzio - Adriano Olivetti </li>
+<li>  Fai spazio nella tua vita - Fumio Sasaki </li>
+<li>  Il piccolo principe - Antoine de Saint-Exupéry </li>
+
+</ul>
+
+</details>
