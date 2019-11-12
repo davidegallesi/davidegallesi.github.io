@@ -26,8 +26,7 @@ published: true
 <br>
 
 <details>
-  <summary>letti nel 2019</summary>
-
+  <summary> <a> letti nel 2019 </a> </summary>
 <ul>
 
 	<li> La casa del sonno - Jonathan Coe </li>
@@ -44,7 +43,7 @@ published: true
 
 <details>
 
-  <summary>letti nel 2018 in ordine sparso</summary>
+  <summary> <a> letti nel 2018 in ordine sparso</a> </summary>
 
 <ul>
 
