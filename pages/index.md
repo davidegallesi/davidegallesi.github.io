@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Marginalia
 layout: home
 permalink: /
 ---
