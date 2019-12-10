@@ -22,6 +22,7 @@ published: true
 - *La guerra di tutti - Raffaele Alberto Ventura*
 - *Marginalia - Edgar Allan Poe*
 - *Pensieri lenti e veloci - Daniel Kahnemann*
+- *Finzioni - Jorge Luis Borges*
 
 <br>
 
