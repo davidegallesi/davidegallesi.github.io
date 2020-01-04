@@ -9,6 +9,7 @@ _drafts/*
 *.exe
 *.o
 *.so
+*.sh
 
 # Packages #
 ############
