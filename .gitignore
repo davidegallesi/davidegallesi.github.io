@@ -1,3 +1,4 @@
+_site/*
 _drafts/*
 
 # Compiled source #
@@ -39,4 +40,4 @@ _drafts/*
 ehthumbs.db
 Thumbs.db
 todo.txt
-/_posts/*
+
