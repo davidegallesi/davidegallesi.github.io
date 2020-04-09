@@ -1,0 +1,31 @@
+---
+layout: default
+title: Archive
+---
+<!-- Original snippet for generating archive page found here:
+https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
+
+
+	<h2>Archive</h2>
+	<ul>
+	  {% for post in site.posts %}
+	<div class="archivio_data">
+	    {% unless post.next %}
+
+		
+	      {{ post.date | date: '%m/%Y' }}
+	    {% else %}
+	      {% capture year %}{{ post.date | date: '%Y-%m' }}{% endcapture %}
+	      {% capture nyear %}{{ post.next.date | date: '%Y-%m' }}{% endcapture %}
+	      {% if year != nyear %}
+	      {{ post.date | date: '%m/%Y' }}
+	      {% endif %}
+	    {% endunless %}
+		</div>
+		
+		<div class="archivo_titolo">
+	    <li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
+		</div>
+	  {% endfor %}
+
+	</ul>
