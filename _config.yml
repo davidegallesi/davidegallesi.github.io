@@ -2,7 +2,7 @@ name: "Marginalia"
 description: ""
 
 url: 'https://davidegallesi.github.io' 
-baseurl: ''
+baseurl: 'https://davidegallesi.github.io'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -22,8 +22,6 @@ paginate_path: /page-:num
 
 #disqus-id: your-disqus-id
 
-source: .
-destination: ./_site
 
 sass:
     style: :compressed
