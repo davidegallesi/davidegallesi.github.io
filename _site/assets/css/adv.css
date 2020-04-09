@@ -222,11 +222,31 @@ code, pre { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 			}
 
 .older {
-		float: left;
-		text-align: left;
+    float: left;
+	text-align: left;
 		}
 
 .newer {
 		float:right;
 		text-align: right;
 }
+
+
+.older a, .newer a {
+border: none;
+}
+
+.older a:hover, .newer a:hover {
+	color: #fffff8;
+    background-color: #111;
+    -webkit-transition: all 0.5s linear;
+  	-moz-transition: all 0.5s linear;
+  	-ms-transition: all 0.5s linear;
+  	-o-transition: all 0.5s linear;
+  	transition: all 0.5s linear;
+
+}
+
+
+
+
