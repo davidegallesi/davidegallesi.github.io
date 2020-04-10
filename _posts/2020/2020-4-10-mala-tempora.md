@@ -1,7 +1,7 @@
 ---
 title: Mala tempora currunt
-layout:default
-date:2020-4-10
+layout: post
+date: 2020-4-10
 published: true
 ---
 
