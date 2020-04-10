@@ -18,7 +18,7 @@ In democrazia per fortuna non è così, si deve tenere conto delle esigenze di t
 
 
 Stante quello che ho letto e ascoltato dagli attuali gestori della nostra democrazia in queste settimane, non mi sembra che queste doti siano emerse.
-Non mi aspetto così, ma sarei più che felice di ricredermi, di vedere una programmazione adeguata del dopo e soprattuto del come. Ci toccherà ascoltare il vaniloquio dentro annunci urbi et orbi, che smentiranno gli annunci della settimana o del giorno precedente.<br>
+Non mi aspetto così, ma sarei più che felice di ricredermi, di vedere una programmazione adeguata del dopo e soprattuto del come. Ci toccherà ascoltare il vaniloquio dentro annunci urbi et orbi, che smentiranno gli annunci della settimana o del giorno precedente.<br><br>
 
 Navigheremo a vista e pioverà e noi, nudi, nel mezzo.<br><br>
 
