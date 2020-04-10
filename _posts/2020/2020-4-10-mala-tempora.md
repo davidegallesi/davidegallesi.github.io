@@ -14,7 +14,7 @@ Serve competenza per dirigere un paese democratico come l'Italia, perché la dem
 Fine di ogni discussione e di qualsivoglia complessità, facile no? No.
 
 
-Ma in democrazia per fortuna non è così, si deve tenere conto delle esigenze di tutti. Si devono conciliare interessi e un sentire talvolta opposti, si devono avere una capacità di ascolto e di sintesi non comuni.
+In democrazia per fortuna non è così, si deve tenere conto delle esigenze di tutti. Si devono conciliare interessi e un sentire talvolta opposti, si devono avere una capacità di ascolto e di sintesi non comuni.
 
 
 Stante quello che ho ascoltato e letto in queste settimane non mi aspetto, ma sarei felice di ricredermi, di vedere una programmazione adeguata del dopo e soprattuto del come. Ci toccherà ascoltare il vaniloquio dentro annunci urbi et orbi, che smentiranno gli annunci della settimana o del giorno precedente.<br>
