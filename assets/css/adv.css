@@ -216,7 +216,7 @@ code, pre { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 			 padding-bottom:35px;
 			 
 			 border-top: 1px solid #ebebeb;
-			 border-bottom: 1px solid #ebebeb;
+			 border-bottom: 0px solid #ebebeb;
 			 display: block;
 			 
 			}
@@ -246,6 +246,25 @@ border: none;
   	transition: all 0.5s linear;
 
 }
+
+
+.share {padding-top:30px;
+		padding-bottom:15px;}
+
+.share a{float: right; border: none;}
+
+.share a:hover{
+	
+	color: #1da1f2;
+    -webkit-transition: all 0.5s linear;
+  	-moz-transition: all 0.5s linear;
+  	-ms-transition: all 0.5s linear;
+  	-o-transition: all 0.5s linear;
+  	transition: all 0.5s linear;
+
+
+}
+
 
 
 

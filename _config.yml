@@ -8,6 +8,8 @@ markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
 
+twitter_username: davidegallesi
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
