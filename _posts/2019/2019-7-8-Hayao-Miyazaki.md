@@ -8,5 +8,5 @@ external-url:
 ---
 
 [Meraviglia](https://www3.nhk.or.jp/nhkworld/en/ondemand/program/video/10yearshayaomiyazaki/?type=tvEpisode&){:target="_blank"}.
-
+<br>
 Via [KOTTKE.ORG](https://kottke.org/19/07/10-years-with-hayao-miyazaki)
