@@ -25,4 +25,6 @@ published: true
 - *Finzioni - Jorge Luis Borges*
 - *Respiro - Ted Chiang*
 
+{% include footer.html %}
+
 

@@ -35,12 +35,14 @@
 body {
   margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
   /*  font-size: 100%; See: http://www.informationarchitects.jp/en/100e2r/ */
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.5; /* Default value, `normal`, depends on the font */
-  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+  /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   width:600px;
   margin:0 auto;
-  background-color: #fffff8;
+  background-color: #ffffff;
+  /* background-color: #fffff8; */
   color: #111;
   
 }
@@ -93,8 +95,9 @@ figure {
 /* LINKS */
 /* Default browser styles (from Firefox, similar in most browsers) */
 a {
+	padding-bottom: 1px;
   text-decoration: none;
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid;
 }
 a:link {color: #111;}
 a:visited {color: #111;}
@@ -102,7 +105,7 @@ a:active {color: #111;}
 
 /* Add your own styles for hover _and_ focus styles */
 a:hover, a:focus {
-  border-bottom: 1px solid;
+  border-bottom: 1px dotted;
   /* ... */
 }
 
@@ -166,7 +169,8 @@ td:first-child, th:first-child {
 code, pre { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
        font-size: 1.0rem;
        line-height: 1.42;
-       padding:1em;
+       padding:0.5em;
+       
        }
 
 
@@ -248,8 +252,8 @@ border: none;
 }
 
 
-.share {padding-top:30px;
-		padding-bottom:15px;}
+.share {padding-top:25px;
+		padding-bottom:10px;}
 
 .share a{float: right; border: none;}
 
@@ -265,6 +269,15 @@ border: none;
 
 }
 
+
+img {
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+}
 
 
 
