@@ -1,6 +1,0 @@
-I"f<p>Non ho davvero idea del perché Apple abbia nel 2016 eliminato lo startup chime dei MacBook Pro, oggi ho scoperto che è possibile riabilitarlo così:</p>
-
-<p><code class="highlighter-rouge">sudo nvram StartupMute=%00</code></p>
-
-<p>Via <a href="https://mrmacintosh.com/how-to-enable-the-mac-startup-chime-on-your-2016-macbook-pro/">Mr. Macintosh</a></p>
-:ET
