@@ -35,10 +35,10 @@
 body {
   margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
   /*  font-size: 100%; See: http://www.informationarchitects.jp/en/100e2r/ */
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5; /* Default value, `normal`, depends on the font */
-  /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
-  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  /* font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; */
   width:600px;
   margin:0 auto;
   background-color: #ffffff;

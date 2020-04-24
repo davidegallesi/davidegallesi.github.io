@@ -1,3 +1,10 @@
+---
+title: Nozionismo
+date: 2020-4-24 7AM
+layout: post
+published: false
+---
+
 Leggendo [qui](http://austinkleon.com/2020/04/21/to-wonder-rather-than-know/) ho inziato a pensare all'approccio moderno alla conoscenza.
 
 Il sapere enciclopedico che abbiamoa disposizione nelle nostre tasche ci ha educati alla risposta e non alla domanda.

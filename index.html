@@ -14,12 +14,12 @@ layout: default
 </div>
   
   <!-- <p>{{ post.excerpt | strip_html | truncate: 250 }}</p> -->
-  <p> {{post.content}} </p>
+  {{post.content}}
 </div>       
 {% endfor %}
 
 <div class="pagination">
-	<p>
+	
 		<div class="older">
 		{% if paginator.previous_page %}
 		<a href='{{ site.url }}{{ paginator.previous_page_path }}'>&larr; previous</a>
@@ -33,7 +33,7 @@ layout: default
 		<a href='{{ site.url }}{{ paginator.next_page_path }}'> next &rarr;</a>
 		{% endif %}
 		</div>
-	</p>	
+		
 </div>
 
 {% include footer.html %}

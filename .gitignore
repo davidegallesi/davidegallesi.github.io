@@ -1,5 +1,6 @@
 _site/*
 _drafts/*
+.jekyll-cache/*
 
 # Compiled source #
 ###################
@@ -40,4 +41,5 @@ _drafts/*
 ehthumbs.db
 Thumbs.db
 todo.txt
+build.sh
 
