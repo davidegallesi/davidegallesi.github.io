@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
   
   <!-- <link rel="icon" type="image/png" href="/img/m.png"> -->
   
@@ -17,6 +17,31 @@
 	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@davidegallesi">
+<meta name="twitter:title" content="archive">
+
+
+  <meta name="twitter:description"
+    content="
+
+
+    {% for post in site.posts  %}
+      {% capture this_year %}{{ post.date | date: &quot;%Y&quot; }}{% endcapture %}
+
+      {% if forloop.first %}
+      {{this_year}}
+      
+      {% else %}
+  ...">
+
+
+
+  <meta name="twitter:image"
+    content="/favicon/favicon.ico">
+
     
     
     
@@ -30,14 +55,26 @@
         
     </title>
 
-    
+    <!-- 
         <link rel='stylesheet' href='http://localhost:4000/assets/css/syntax.css' type='text/css'>
-    
+     -->
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+	<link href="/assets/css/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 	
 	<!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 	<link rel="stylesheet" href="/assets/css/adv.css">
+	<link rel="stylesheet" href="/assets/bigfoot-n/bigfoot-number.css">
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="/assets/bigfoot-n/jquery-1.8.3.min.js"></script> -->
+	<script type="text/javascript" src="/assets/bigfoot-n/bigfoot.js"></script>
+	<script type="text/javascript">
+    $.bigfoot();
+	</script>
+	
 
 </head>
 
@@ -61,6 +98,60 @@
       
       <h2 id="2020-ref">2020</h2>
       <ul class="posts">
+      
+
+        <li>
+          
+      
+          <a href="/2020/04/19/silenzio.html">Silenzio</a> · <span class="post-date">19 Apr 2020</span>
+		 
+                
+        </li>
+
+      
+
+      
+    
+      
+
+      
+          
+      
+
+        <li>
+          
+      
+          <a href="/2020/04/17/segliere.html">Scegliere</a> · <span class="post-date">17 Apr 2020</span>
+		 
+                
+        </li>
+
+      
+
+      
+    
+      
+
+      
+          
+      
+
+        <li>
+          
+      
+          <a href="/2020/04/10/mala-tempora.html">Mala tempora currunt</a> · <span class="post-date">10 Apr 2020</span>
+		 
+                
+        </li>
+
+      
+
+      
+    
+      
+
+      
+          
       
 
         <li>
@@ -845,6 +936,11 @@
 
 </div>
 
+<div class="footer">
+    <p>L'uovo ha una forma perfetta benché sia fatto col culo.</p>
+    
+    <!--  2020 --> 
+</div>
 
 
 </body>

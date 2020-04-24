@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
   
   <!-- <link rel="icon" type="image/png" href="/img/m.png"> -->
   
@@ -17,6 +17,42 @@
 	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@davidegallesi">
+<meta name="twitter:title" content="">
+
+
+  <meta name="twitter:description"
+    content="{% for post in paginator.posts %}
+
+
+ 
+  
+    
+      {{ post.title }}
+    
+  
+
+  
+  
+  {{post.content}}
+       
+{% endfor %}
+
+
+	
+		
+		{% if paginator.previous_page %}
+		&amp;larr; previous
+		{% endi...">
+
+
+
+  <meta name="twitter:image"
+    content="/favicon/favicon.ico">
+
     
     
     
@@ -30,14 +66,26 @@
         
     </title>
 
-    
+    <!-- 
         <link rel='stylesheet' href='http://localhost:4000/assets/css/syntax.css' type='text/css'>
-    
+     -->
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+	<link href="/assets/css/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 	
 	<!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 	<link rel="stylesheet" href="/assets/css/adv.css">
+	<link rel="stylesheet" href="/assets/bigfoot-n/bigfoot-number.css">
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="/assets/bigfoot-n/jquery-1.8.3.min.js"></script> -->
+	<script type="text/javascript" src="/assets/bigfoot-n/bigfoot.js"></script>
+	<script type="text/javascript">
+    $.bigfoot();
+	</script>
+	
 
 </head>
 
@@ -57,6 +105,75 @@
 
 <div class="post_title" > 
   <h2>
+    <a href='http://localhost:4000/2020/04/19/silenzio.html' title='Silenzio'>
+      Silenzio
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>Il silenzio è prezioso.
+</p> -->
+  <p>Il silenzio è prezioso.</p>
+
+<p>Il silenzio è in via di estinzione.</p>
+
+<p>In alcuni luoghi e in alcune persone è anzi già estinto da tempo. Non che non si debba dire o scrivere, solo che il saper tacere e la sua bellezza non vengono coltivati abbastanza.</p>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
+    <a href='http://localhost:4000/2020/04/17/segliere.html' title='Scegliere'>
+      Scegliere
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>
+  Ogni scelta implica, di per sé, l’abbandono di tutte le alternative. Se non fossimo costretti a scegliere, saremmo immortali.
+
+</p> -->
+  <blockquote>
+  <p>Ogni scelta implica, di per sé, l’abbandono di tutte le alternative. Se non fossimo costretti a scegliere, saremmo immortali.</p>
+</blockquote>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
+    <a href='http://localhost:4000/2020/04/10/mala-tempora.html' title='Mala tempora currunt'>
+      Mala tempora currunt
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>Usciremo da questa terribile emergenza sanitaria, questo è certo.
+</p> -->
+  <p>Usciremo da questa terribile emergenza sanitaria, questo è certo.</p>
+
+<p>Mi preoccupa però il dopo, mi preoccupa il come. Si perché questa situazione eccezionale mi pare abbia dimostrato tutti i limiti del dilettantismo salito al potere spinto dall’ondata populista.</p>
+
+<p>Serve competenza per dirigere un paese democratico come l’Italia, perché la democrazia è una cosa meravigliosa ma complessa. Certo un sano autoritarismo o, anche meglio, una dittatura, semplificherebbero le cose. C’è uno che decide per tutti, per esempio che il virus non esiste e che non serve fare alcunché.
+Fine di ogni discussione e di qualsivoglia complessità, bello e facile no? No.</p>
+
+<p>In democrazia per fortuna non è così, si tiene conto delle esigenze di tutti. Si conciliano interessi e sentimenti talvolta opposti, ma serve avere una capacità di ascolto e di sintesi non comuni.</p>
+
+<p>Stante quello che ho letto e ascoltato in queste settimane non mi sembra (ma potrebbe esser un mio problema cognitivo) che queste capacità siano emerse in maniera particolare. Il dopo e il come andrebbero pensati e programmati. Ma non sarà così e temo ci toccherà ascoltare il vaniloquio dentro annunci urbi et orbi, che smentiranno gli annunci della settimana o del giorno precedente, che daranno la colpa ad altri.<br /><br /></p>
+
+<p>E navigheremo a vista e pioverà e noi, nudi, nel mezzo.<br /><br /></p>
+
+<p><em>Mala tempora currunt sed peiora parantur.</em></p>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
     <a href='http://localhost:4000/2020/03/09/nove-marzo-duemilaventi.html' title='nove marzo duemilaventi'>
       nove marzo duemilaventi
     </a>
@@ -70,7 +187,7 @@ Forse ci sono doni.
 Pepite d’oro per noi. Se ci aiutiamo.
 
 </p> -->
-  <p> <blockquote>
+  <blockquote>
   <p>È portentoso quello che succede.<br />
 E c’è dell’oro, credo, in questo tempo strano.<br />
 Forse ci sono doni.<br />
@@ -78,7 +195,7 @@ Pepite d’oro per noi. Se ci aiutiamo.<br /></p>
 </blockquote>
 
 <p>Mariangela Gualtieri su <a href="https://www.doppiozero.com/materiali/nove-marzo-duemilaventi">Doppiozero</a></p>
- </p>
+
 </div>       
 
 <div class="post_index">
@@ -92,7 +209,7 @@ Pepite d’oro per noi. Se ci aiutiamo.<br /></p>
 </div>
   
   <!-- <p>Scorrendo i feed dei blog che leggo con una certa regolarità capito su questo di Nicholas Bate, riporta il link a una pagina che compara la capacità computazionale dell’Apollo 11 Guidance Computer (AGC) e i processori utilizzati negli USB-C charge...</p> -->
-  <p> <p>Scorrendo i feed dei blog che leggo con una certa regolarità capito su <a href="https://blog.strategicedge.co.uk/2020/02/apollo-11-vs-usb-c-charger.html">questo</a> di Nicholas Bate, riporta il link a una pagina che compara la capacità computazionale dell’<a href="https://en.wikipedia.org/wiki/Apollo_Guidance_Computer">Apollo 11 Guidance Computer (AGC)</a> e i processori utilizzati negli USB-C charger. In sintesi si può dire che il processore più veloce (un CORTEX M0 che può costare anche meno di 1 Euro) usato in uno dei charger, il cui compito è caricare un telefono o al più un laptop, è mediamente <strong>563 volte più veloce</strong> della CPU dell’AGC che ha portato tre uomini sulla luna e poi indietro sulla terra <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. Tutti i giorni usiamo oggetti (un banale USB charger o un sofisticato smartphone) che condensano tecnologia e capacità computazionali che potrebbero tranquillamente guidarci sulla luna. A me questa cosa, che ormai diamo per scontata, impressiona sempre un poco.</p>
+  <p>Scorrendo i feed dei blog che leggo con una certa regolarità capito su <a href="https://blog.strategicedge.co.uk/2020/02/apollo-11-vs-usb-c-charger.html">questo</a> di Nicholas Bate, riporta il link a una pagina che compara la capacità computazionale dell’<a href="https://en.wikipedia.org/wiki/Apollo_Guidance_Computer">Apollo 11 Guidance Computer (AGC)</a> e i processori utilizzati negli USB-C charger. In sintesi si può dire che il processore più veloce (un CORTEX M0 che può costare anche meno di 1 Euro) usato in uno dei charger, il cui compito è caricare un telefono o al più un laptop, è mediamente <strong>563 volte più veloce</strong> della CPU dell’AGC che ha portato tre uomini sulla luna e poi indietro sulla terra <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. Tutti i giorni usiamo oggetti (un banale USB charger o un sofisticato smartphone) che condensano tecnologia e capacità computazionali che potrebbero tranquillamente guidarci sulla luna. A me questa cosa, che ormai diamo per scontata, impressiona sempre un poco.</p>
 
 <div class="footnotes">
   <ol>
@@ -101,7 +218,7 @@ Pepite d’oro per noi. Se ci aiutiamo.<br /></p>
     </li>
   </ol>
 </div>
- </p>
+
 </div>       
 
 <div class="post_index">
@@ -116,12 +233,14 @@ Pepite d’oro per noi. Se ci aiutiamo.<br /></p>
   
   <!-- <p>Non ho davvero idea del perché Apple abbia nel 2016 eliminato lo startup chime dei MacBook Pro, oggi ho scoperto che è possibile riabilitarlo così:
 </p> -->
-  <p> <p>Non ho davvero idea del perché Apple abbia nel 2016 eliminato lo startup chime dei MacBook Pro, oggi ho scoperto che è possibile riabilitarlo così:</p>
+  <p>Non ho davvero idea del perché Apple abbia nel 2016 eliminato lo startup chime dei MacBook Pro, oggi ho scoperto che è possibile riabilitarlo così:</p>
 
-<p><code class="highlighter-rouge">sudo nvram StartupMute=%00</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nvram StartupMute=%00
+</code></pre></div></div>
 
 <p>Via <a href="https://mrmacintosh.com/how-to-enable-the-mac-startup-chime-on-your-2016-macbook-pro/">Mr. Macintosh</a></p>
- </p>
+
+
 </div>       
 
 <div class="post_index">
@@ -137,69 +256,16 @@ Pepite d’oro per noi. Se ci aiutiamo.<br /></p>
   <!-- <p>Buoni propositi ne faccio tutti i giorni, non mi pare il caso di farne oggi solo perchè la convenzione di ogni inizio anno ce lo impone.
 Con un’unica eccezione:
 imparare (sempre di più) a dire di no, cosicché i no mi regalino più tempo e più seren...</p> -->
-  <p> <p>Buoni propositi ne faccio tutti i giorni, non mi pare il caso di farne oggi solo perchè la convenzione di ogni inizio anno ce lo impone.
+  <p>Buoni propositi ne faccio tutti i giorni, non mi pare il caso di farne oggi solo perchè la convenzione di ogni inizio anno ce lo impone.
 Con un’unica eccezione:
 imparare (sempre di più) a dire di no, cosicché i <em>no</em> mi regalino più tempo e più serenità.
 Ho già un’idea di ciò che potrei fare con questo tesoretto.</p>
- </p>
-</div>       
 
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/12/17/grattarsi-il-culo.html' title='Grattarsi il culo'>
-      Grattarsi il culo
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>
-  …per farlo non c’è bisogno di conoscere tutto il complesso meccanismo che coordina le almeno tre dozzine di muscoli interessati, né le sette aree neuronali implicate, nel grattarselo.
-
-</p> -->
-  <p> <blockquote>
-  <p>…per farlo non c’è bisogno di conoscere tutto il complesso meccanismo che coordina le almeno tre dozzine di muscoli interessati, né le sette aree neuronali implicate, nel grattarselo.</p>
-</blockquote>
-
-<p><a href="http://malvinodue.blogspot.com/2019/12/blog-post.html" target="_blank">Malvino</a> da leggere.</p>
- </p>
-</div>       
-
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/11/12/la-casa-del-sonno.html' title='La casa del sonno'>
-      La casa del sonno
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>Questa notte ho letto La casa del sonno di Jonathan Coe e la notte pressoché insonne (direi quasi perfettamente in tema) credo testimoni più di mille parole quanto mi sia piaciuto questo libro; i personaggi, la trama nella costruzione e nello svil...</p> -->
-  <p> <p>Questa notte ho letto <a href="https://www.amazon.it/casa-del-sonno-Jonathan-Coe-ebook/dp/B06XPYT384/ref=sr_1_1?__mk_it_IT=ÅMÅŽÕÑ&amp;crid=36SCCS6T4N7VT&amp;keywords=la+casa+del+sonno&amp;qid=1573549204&amp;s=digital-text&amp;sprefix=la+casa+del+sonno%2Caps%2C154&amp;sr=1-1" target="_blank"><em>La casa del sonno</em></a> di Jonathan Coe e la notte pressoché insonne (direi quasi perfettamente in tema) credo testimoni più di mille parole quanto mi sia piaciuto questo libro; i personaggi, la trama nella costruzione e nello sviluppo e anche la scrittura. Bello.</p>
- </p>
-</div>       
-
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/10/07/orwell-1984.html' title='Where Orwell wrote 1984'>
-      Where Orwell wrote 1984
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>Definitely a place I’d like to be.
-</p> -->
-  <p> <p><a href="https://www.theguardian.com/travel/2019/jun/08/tour-george-orwell-jura-scottish-island-wrote-1984" target="_blank">Definitely a place I’d like to be</a>.</p>
- </p>
 </div>       
 
 
 <div class="pagination">
-	<p>
+	
 		<div class="older">
 		
 		</div>
@@ -211,7 +277,7 @@ Ho già un’idea di ciò che potrei fare con questo tesoretto.</p>
 		<a href='http://localhost:4000/page-2'> next &rarr;</a>
 		
 		</div>
-	</p>	
+		
 </div>
 
 <div class="footer">

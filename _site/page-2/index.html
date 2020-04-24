@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
   
   <!-- <link rel="icon" type="image/png" href="/img/m.png"> -->
   
@@ -17,6 +17,42 @@
 	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@davidegallesi">
+<meta name="twitter:title" content="">
+
+
+  <meta name="twitter:description"
+    content="{% for post in paginator.posts %}
+
+
+ 
+  
+    
+      {{ post.title }}
+    
+  
+
+  
+  
+  {{post.content}}
+       
+{% endfor %}
+
+
+	
+		
+		{% if paginator.previous_page %}
+		&amp;larr; previous
+		{% endi...">
+
+
+
+  <meta name="twitter:image"
+    content="/favicon/favicon.ico">
+
     
     
     
@@ -30,14 +66,26 @@
         
     </title>
 
-    
+    <!-- 
         <link rel='stylesheet' href='http://localhost:4000/assets/css/syntax.css' type='text/css'>
-    
+     -->
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+	<link href="/assets/css/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 	
 	<!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 	<link rel="stylesheet" href="/assets/css/adv.css">
+	<link rel="stylesheet" href="/assets/bigfoot-n/bigfoot-number.css">
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="/assets/bigfoot-n/jquery-1.8.3.min.js"></script> -->
+	<script type="text/javascript" src="/assets/bigfoot-n/bigfoot.js"></script>
+	<script type="text/javascript">
+    $.bigfoot();
+	</script>
+	
 
 </head>
 
@@ -57,6 +105,59 @@
 
 <div class="post_title" > 
   <h2>
+    <a href='http://localhost:4000/2019/12/17/grattarsi-il-culo.html' title='Grattarsi il culo'>
+      Grattarsi il culo
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>
+  …per farlo non c’è bisogno di conoscere tutto il complesso meccanismo che coordina le almeno tre dozzine di muscoli interessati, né le sette aree neuronali implicate, nel grattarselo.
+
+</p> -->
+  <blockquote>
+  <p>…per farlo non c’è bisogno di conoscere tutto il complesso meccanismo che coordina le almeno tre dozzine di muscoli interessati, né le sette aree neuronali implicate, nel grattarselo.</p>
+</blockquote>
+
+<p><a href="http://malvinodue.blogspot.com/2019/12/blog-post.html" target="_blank">Malvino</a> da leggere.</p>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
+    <a href='http://localhost:4000/2019/11/12/la-casa-del-sonno.html' title='La casa del sonno'>
+      La casa del sonno
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>Questa notte ho letto La casa del sonno di Jonathan Coe e la notte pressoché insonne (direi quasi perfettamente in tema) credo testimoni più di mille parole quanto mi sia piaciuto questo libro; i personaggi, la trama nella costruzione e nello svil...</p> -->
+  <p>Questa notte ho letto <a href="https://www.amazon.it/casa-del-sonno-Jonathan-Coe-ebook/dp/B06XPYT384/ref=sr_1_1?__mk_it_IT=ÅMÅŽÕÑ&amp;crid=36SCCS6T4N7VT&amp;keywords=la+casa+del+sonno&amp;qid=1573549204&amp;s=digital-text&amp;sprefix=la+casa+del+sonno%2Caps%2C154&amp;sr=1-1" target="_blank"><em>La casa del sonno</em></a> di Jonathan Coe e la notte pressoché insonne (direi quasi perfettamente in tema) credo testimoni più di mille parole quanto mi sia piaciuto questo libro; i personaggi, la trama nella costruzione e nello sviluppo e anche la scrittura. Bello.</p>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
+    <a href='http://localhost:4000/2019/10/07/orwell-1984.html' title='Where Orwell wrote 1984'>
+      Where Orwell wrote 1984
+    </a>
+  </h2>
+</div>
+  
+  <!-- <p>Definitely a place I’d like to be.
+</p> -->
+  <p><a href="https://www.theguardian.com/travel/2019/jun/08/tour-george-orwell-jura-scottish-island-wrote-1984" target="_blank">Definitely a place I’d like to be</a>.</p>
+
+</div>       
+
+<div class="post_index">
+
+<div class="post_title" > 
+  <h2>
     <a href='http://localhost:4000/2019/09/11/we-all-have-pain.html' title='We all have pain'>
       We all have pain
     </a>
@@ -67,14 +168,14 @@
   It isn’t necessarily interesting.
 
 </p> -->
-  <p> <blockquote>
+  <blockquote>
   <p>It isn’t necessarily interesting.</p>
 </blockquote>
 
 <p>Non so se il dolore sia un viatico per la scrittura, ciascuno scrive di ciò che vuole come vuole. Per me è un fatto che scrivere aiuta, un poco, sempre.</p>
 
 <p>Via <a href="https://austinkleon.com/2019/05/20/you-dont-have-to-write-about-the-bad-stuff/" target="_blank">Austin Kleon</a></p>
- </p>
+
 </div>       
 
 <div class="post_index">
@@ -89,7 +190,7 @@
   
   <!-- <p>La tecnologia è elemento fondamentale nella mia professione e utilizzo oggetti digitali quotidianamente.
 </p> -->
-  <p> <p>La tecnologia è elemento fondamentale nella mia professione e utilizzo oggetti digitali quotidianamente.</p>
+  <p>La tecnologia è elemento fondamentale nella mia professione e utilizzo oggetti digitali quotidianamente.</p>
 
 <p>Sono però una persona carta e penna, amo scrivere con le mie stilografiche e ho una sorta di ossessione per la Tomoe River paper.</p>
 
@@ -100,7 +201,7 @@
 <blockquote>
   <p>Google (or Facebook) can’t track it — yet.</p>
 </blockquote>
- </p>
+
 </div>       
 
 <div class="post_index">
@@ -117,10 +218,10 @@
   Apple has truly delivered a great new camera, that happens to be a phone…
 
 </p> -->
-  <p> <blockquote>
+  <blockquote>
   <p><a href="https://om.co/2019/09/11/about-apple-iphone-11-pro-camera/" target="_blank">Apple has truly delivered a great new camera, that happens to be a phone…</a></p>
 </blockquote>
- </p>
+
 </div>       
 
 <div class="post_index">
@@ -134,76 +235,18 @@
 </div>
   
   <!-- <p>Meraviglia.
+
+Via KOTTKE.ORG
 </p> -->
-  <p> <p><a href="https://www3.nhk.or.jp/nhkworld/en/ondemand/program/video/10yearshayaomiyazaki/?type=tvEpisode&amp;" target="_blank">Meraviglia</a>.</p>
+  <p><a href="https://www3.nhk.or.jp/nhkworld/en/ondemand/program/video/10yearshayaomiyazaki/?type=tvEpisode&amp;" target="_blank">Meraviglia</a>.
+<br />
+Via <a href="https://kottke.org/19/07/10-years-with-hayao-miyazaki">KOTTKE.ORG</a></p>
 
-<p>Via <a href="https://kottke.org/19/07/10-years-with-hayao-miyazaki">KOTTKE.ORG</a></p>
- </p>
-</div>       
-
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/06/19/quanto-basta.html' title='Quanto basta'>
-      Quanto basta
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>Annamaria Testa su Nuovo e Utile
-</p> -->
-  <p> <p>Annamaria Testa su <a href="https://nuovoeutile.it/eccesso-e-difetto-il-senso-del-q-b/" target="_blank">Nuovo e Utile</a></p>
-
-<blockquote>
-  <p>Il fatto vero è che il troppo trasforma ogni cosa in qualcos’altro.</p>
-</blockquote>
-
-<p>Musica per le mie orecchie di minimalista.</p>
- </p>
-</div>       
-
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/05/20/just-write.html' title='Just write'>
-      Just write
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>Good advices (as usual) from Nicholas Bate
-</p> -->
-  <p> <p>Good advices (as usual) from <a href="https://blog.strategicedge.co.uk/2019/05/100-words.html" target="_blank">Nicholas Bate</a></p>
- </p>
-</div>       
-
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='http://localhost:4000/2019/03/15/il-peso-dell-ignoranza.html' title='Il peso dell’ignoranza'>
-      Il peso dell’ignoranza
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>Leggo più di quanto scriva anche se non leggo quanto vorrei. Ma scrivo anche tanto, carta e penna, riempio quaderni che una volta finiti vanno in una scatola chiusa in un armadio. Scrivere è per me una forma di meditazione, di catarsi.
-</p> -->
-  <p> <p>Leggo più di quanto scriva anche se non leggo quanto vorrei. Ma scrivo anche tanto, carta e penna, riempio quaderni che una volta finiti vanno in una scatola chiusa in un armadio. Scrivere è per me una forma di meditazione, di catarsi.</p>
-
-<p>Vengono fuori i miei limiti e tutta la mia ignoranza.</p>
-
-<p>Viviamo un’epoca in cui l’ignoranza è ostentata e quasi considerata virtù.</p>
-
-<p>Io della mia ignoranza sento invece tutto il peso che, leggendo e scrivendo, mi illudo di rendere un poco più lieve e sopportabile.</p>
- </p>
 </div>       
 
 
 <div class="pagination">
-	<p>
+	
 		<div class="older">
 		
 		<a href='http://localhost:4000/'>&larr; previous</a>
@@ -217,7 +260,7 @@
 		<a href='http://localhost:4000/page-3'> next &rarr;</a>
 		
 		</div>
-	</p>	
+		
 </div>
 
 <div class="footer">
