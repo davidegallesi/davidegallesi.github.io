@@ -215,7 +215,7 @@
   border-radius: 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: normal;
-  font-size: 0.55em; /* mia aggiunta per ridurre la dimsnone del font del tooltip */
+  font-size: 0.65em; /* mia aggiunta per ridurre la dimsnone del font del tooltip */
 }
 .bigfoot-footnote__content img {
   max-width: 100%;

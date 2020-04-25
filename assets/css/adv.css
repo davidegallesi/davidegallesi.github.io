@@ -35,10 +35,15 @@
 body {
   margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
   /*  font-size: 100%; See: http://www.informationarchitects.jp/en/100e2r/ */
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5; /* Default value, `normal`, depends on the font */
+  
   /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  
+  
+  
+  
   width:600px;
   margin:0 auto;
   background-color: #ffffff;
@@ -97,7 +102,7 @@ figure {
 a {
 	padding-bottom: 1px;
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #afafaf;
 }
 a:link {color: #111;}
 a:visited {color: #111;}
@@ -105,7 +110,7 @@ a:active {color: #111;}
 
 /* Add your own styles for hover _and_ focus styles */
 a:hover, a:focus {
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid #000;
   /* ... */
 }
 
@@ -277,6 +282,47 @@ img {
     margin-left: auto;
     margin-right: auto;
     object-fit: scale-down;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+body {
+  margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
+  /*  font-size: 100%; See: http://www.informationarchitects.jp/en/100e2r/ */
+  font-size: 11px;
+  line-height: 1.2; /* Default value, `normal`, depends on the font */
+  
+  
+
+  
+  
+  
+  width:400px;
+  margin:0 auto;
+    
+}
+
+h1 {font-size: 2.8em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 0.8em;}
+
+ul, ol {
+  margin: 1em 0; /* Default for all browsers except IE */
+  padding-left: 40px; /* IE has a 40px margin-left instead */
+  list-style-type: square;
+}
+
+
+p, ol, ul { font-size: 1em;
+            line-height: 1.2em;
+            margin: 0em 0;
+}
+
+
 }
 
 
