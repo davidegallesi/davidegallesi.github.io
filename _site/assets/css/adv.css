@@ -286,22 +286,13 @@ img {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
 
 body {
-  margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
-  /*  font-size: 100%; See: http://www.informationarchitects.jp/en/100e2r/ */
-  font-size: 14px;
-  line-height: 1.2; /* Default value, `normal`, depends on the font */
-  
-  
-
-  
-  
-  
-  width:400px;
-  margin:0 auto;
+  	
+  	width: 95%;
+	margin: 10px;
     
 }
 
@@ -317,8 +308,8 @@ ul, ol {
 }
 
 
-p, ol, ul { font-size: 1.3em;
-            line-height: 1.2em;
+p, ol, ul { font-size: 1.2em;
+            line-height: 1.5em;
             margin: 0em 0;
 }
 
