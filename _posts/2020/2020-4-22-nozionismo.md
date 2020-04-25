@@ -2,7 +2,7 @@
 title: Nozionismo
 date: 2020-4-24 7AM
 layout: post
-published: true
+published: false
 ---
 
 Leggendo [qui](http://austinkleon.com/2020/04/21/to-wonder-rather-than-know/) ho inziato a pensare all'approccio moderno alla conoscenza.
@@ -13,6 +13,3 @@ quando abbiamo bisogno disapere qualcosa prendiamo il telefono, facciamo una ric
 dovremo vivere di domande non di risposte.
 questo è nozionismo (polimazia) una nunce grigiastra di nozioni non elaborate che non prtano da nessuna parte.
 le nozioni sono la base i building blocks della conoscenz ma è la correlazione tra le nozioni, le domande che l'apprendimento delle nozioni generano a farci profredire e a a generar la consocenza. questo non avviene più. non più approfondimento. quindi supericialità.
-
-## Image test for responsive layout
-![](/assets/Robot_laputa.png)
