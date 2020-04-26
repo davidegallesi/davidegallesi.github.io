@@ -286,13 +286,13 @@ img {
 
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 580px) {
 
 
 body {
   	
-  	width: 92%;
-	margin: 10px;
+  	width: 80%;
+	margin: 15px;
     
 }
 
@@ -300,12 +300,6 @@ h1 {font-size: 2.8em;}
 h2 {font-size: 1.8em;}
 h3 {font-size: 1.2em;}
 h4 {font-size: 0.8em;}
-
-ul, ol {
-  margin: 1em 0; /* Default for all browsers except IE */
-  padding-left: 40px; /* IE has a 40px margin-left instead */
-  list-style-type: square;
-}
 
 
 p, ol, ul { font-size: 1.2em;

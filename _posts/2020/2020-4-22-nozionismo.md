@@ -1,15 +1,18 @@
 ---
-title: Nozionismo
-date: 2020-4-24 7AM
+title: Nozionismo (sul non farsi domande)
+date: 2020-4-26 7AM
 layout: post
-published: false
+published: true
 ---
 
-Leggendo [qui](http://austinkleon.com/2020/04/21/to-wonder-rather-than-know/) ho inziato a pensare all'approccio moderno alla conoscenza.
+Leggo il blog di Austin Kleon con una certa regolarità, [qui una cosa interessante](http://austinkleon.com/2020/04/21/to-wonder-rather-than-know/){:target="_blank"} riguardo l'approccio moderno alla conoscenza.
 
-Il sapere enciclopedico che abbiamoa disposizione nelle nostre tasche ci ha educati alla risposta e non alla domanda.
+> I really, really don’t like it when people look things up on their iPhones…. I mean, sometimes, of course, I’m no idiot. The encyclopedic nature of the information that’s available is fantastic, but I would still rather wonder than know.
 
-quando abbiamo bisogno disapere qualcosa prendiamo il telefono, facciamo una ricerca e t4oviamo la risposta. nonfacciamo piu domande, non ci fermiamo a riflettere. la risposta è il punto di arrivo e non il punto di partenza.
-dovremo vivere di domande non di risposte.
-questo è nozionismo (polimazia) una nunce grigiastra di nozioni non elaborate che non prtano da nessuna parte.
-le nozioni sono la base i building blocks della conoscenz ma è la correlazione tra le nozioni, le domande che l'apprendimento delle nozioni generano a farci profredire e a a generar la consocenza. questo non avviene più. non più approfondimento. quindi supericialità.
+La possibilità di accedere subito e con facilità a una quantità mostruosa di informazioni ci ha educati forse più alla risposta che alla domanda. Quando abbiamo bisogno una risposta prendiamo lo strumento e trovato ciò che cercavamo andiamo velocemente oltre; ma è l'informazione generata dalla risposta il nostro punto di arrivo?
+
+Le informazioni in sé non generano alcuna conoscenza, anzi un sovraccarico di informazioni genera solo rumore che porta all'esatto opposto. Banale nozionismo (o polimazia come dicevano gli antichi), una nuance grigiastra di nozioni non elaborate che non portano da nessuna parte se non alla superficialità.
+
+
+
+Non dobbiamo accontentarci, l'informazione generata dalla risposta dovrebbe servire per fermarsi quanto serve per pensare alla domanda successiva.
