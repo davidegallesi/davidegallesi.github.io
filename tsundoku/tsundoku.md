@@ -18,12 +18,12 @@ published: true
 - *Il Castello  - Kafka* (rilettura)
 - *The death of truth - Michiko Kakutani*
 - *Stranieri alle porte - Zygmunt Bauman*
-- *Company of one - Paul Jarvis*
 - *La guerra di tutti - Raffaele Alberto Ventura*
 - *Marginalia - Edgar Allan Poe*
 - *Pensieri lenti e veloci - Daniel Kahnemann*
 - *Finzioni - Jorge Luis Borges*
-- *Respiro - Ted Chiang*
+- *Storie della tua vita - Ted Chiang*
+- *Il cigno nero - Nassim Nicholas Taleb*
 
 {% include footer.html %}
 
