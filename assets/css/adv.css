@@ -83,15 +83,18 @@ p, ol, ul { font-size: 1.4em;
 }
 
 
-blockquote{
-margin-left: 1em;
-}
-
-blockquote p{
-  margin-left: 0px; /* Same for all browsers - Customize or remove */
-  font-style: italic;
+blockquote {
+border-left: 1px solid #afafaf;
+  margin: 1.5em 0px;
+  padding: 0.0em 15px;
+font-style: italic;
   line-height: 1.5em;
 }
+
+blockquote p {
+  display: inline;
+}
+
 
 figure {
   margin: 1em 0; /* Default in HTML5 spec: `1em 40px` */
