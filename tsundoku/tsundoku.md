@@ -24,7 +24,8 @@ published: true
 - *Finzioni - Jorge Luis Borges*
 - *Storie della tua vita - Ted Chiang*
 - *Il cigno nero - Nassim Nicholas Taleb*
-
+- *Dieci splendidi oggetti morti - Massimo Mantellini*
+- *Di nessuna chiesa - Giulio Giorello*
 {% include footer.html %}
 
 

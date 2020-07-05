@@ -8,7 +8,7 @@ published: true
 
 ## /now
 
-Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan){:target="_blank"}, Italy. It's spring now and were all still in lockdown due to the COVID-19 pandemic. This is what I'm doing now.
+Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan){:target="_blank"}, Italy. It's summer now and this is what I'm doing now.
 <br>
 · Loving and living my family.
 
@@ -32,5 +32,5 @@ Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wik
 
 <small>The **/now** page movement has been inspired by [Derek Sievers](https://sivers.org/nowff){:target="_blank"}.
 <br>
-Last update: April 2020</small>
+Last update: June 2020</small>
 

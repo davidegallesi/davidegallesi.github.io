@@ -21,17 +21,17 @@ layout: default
 <div class="pagination">
 	
 		<div class="older">
-		{% if paginator.previous_page %}
-		<a href='{{ site.url }}{{ paginator.previous_page_path }}'>&larr; previous</a>
-		{% endif %}
+			{% if paginator.previous_page %}
+			<a href='{{ site.url }}{{ paginator.previous_page_path }}'>&larr; previous</a>
+			{% endif %}
 		</div>
 		
 		<!-- &mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash; --!>
-	
+			
 		<div class="newer">
-		{% if paginator.next_page %}
-		<a href='{{ site.url }}{{ paginator.next_page_path }}'> next &rarr;</a>
-		{% endif %}
+			{% if paginator.next_page %}
+			<a href='{{ site.url }}{{ paginator.next_page_path }}'> next &rarr;</a>
+			{% endif %}
 		</div>
 		
 </div>
