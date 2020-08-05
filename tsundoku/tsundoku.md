@@ -26,6 +26,9 @@ published: true
 - *Il cigno nero - Nassim Nicholas Taleb*
 - *Dieci splendidi oggetti morti - Massimo Mantellini*
 - *Di nessuna chiesa - Giulio Giorello*
+- *Come ordinare una biblioteca - Roberto Calasso*
+- *Intimations - Zadie Smith*
+
 {% include footer.html %}
 
 
