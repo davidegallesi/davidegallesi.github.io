@@ -28,6 +28,8 @@ published: true
 - *Di nessuna chiesa - Giulio Giorello*
 - *Come ordinare una biblioteca - Roberto Calasso*
 - *Intimations - Zadie Smith*
+- *Almarina - Valeria Parrella*
+- *Il passeggiatore solitario - W. G. Sebald*
 
 {% include footer.html %}
 
