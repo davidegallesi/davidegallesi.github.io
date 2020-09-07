@@ -1,6 +1,9 @@
 _site/*
 _drafts/*
 .jekyll-cache/*
+assets/css/et-book/*
+assets/css/fontawesome/*
+
 
 # Compiled source #
 ###################
