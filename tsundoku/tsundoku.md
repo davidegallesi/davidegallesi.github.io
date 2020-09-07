@@ -32,5 +32,3 @@ published: true
 - *Il passeggiatore solitario - W. G. Sebald*
 
 {% include footer.html %}
-
-
