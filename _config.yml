@@ -1,7 +1,7 @@
 name: "Marginalia"
 description: "cose scritte abbastanza a caso"
 
-url: 'https://davidegallesi.com' 
+url: 'https://www.davidegallesi.com' 
 baseurl: ''
 
 markdown: kramdown
