@@ -33,6 +33,6 @@ Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wik
 
 <small>The **/now** page movement has been inspired by [Derek Sievers](https://sivers.org/nowff){:target="_blank"}.
 <br>
-<small>Last update: June 2020</small>
+<small>Last update: October 2020</small>
 
 	
