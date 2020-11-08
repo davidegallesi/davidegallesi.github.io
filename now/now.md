@@ -8,7 +8,7 @@ published: true
 
 ## /now
 
-Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan){:target="_blank"}, Italy. It's autumn and this is what I'm doing now.
+Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan){:target="_blank"}, Italy. It's autumn, we're in lockdown (again) due to the COVID-19 pandemic  and this is what I'm doing now.
 <br>
 · Wearing a mask.
 
