@@ -39,8 +39,8 @@ body {
   line-height: 1.5; /* Default value, `normal`, depends on the font */
   
   /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
-  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  
+  /* font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; */
+font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;  
   
   
   
