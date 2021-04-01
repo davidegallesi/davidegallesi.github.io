@@ -1,39 +1,241 @@
----
-layout: default
----
-
-{% for post in paginator.posts %}
-<div class="post_index">
-
-<div class="post_title" > 
-  <h2>
-    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      {{ post.title }}
-    </a>
-  </h2>
-</div>
-  
-  <!-- <p>{{ post.excerpt | strip_html | truncate: 250 }}</p> -->
-  {{post.content}}
-</div>       
-{% endfor %}
-
-<div class="pagination">
-	
-		<div class="older">
-			{% if paginator.previous_page %}
-			<a href='{{ site.url }}{{ paginator.previous_page_path }}'>&larr; previous</a>
-			{% endif %}
-		</div>
-		
-		<!-- &mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash; --!>
-			
-		<div class="newer">
-			{% if paginator.next_page %}
-			<a href='{{ site.url }}{{ paginator.next_page_path }}'> next &rarr;</a>
-			{% endif %}
-		</div>
-		
-</div>
-
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>marginalia</title>
+  <meta name="description" content="A digital garden">
+  <link rel="icon" href="data:image/png;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PGNpcmNsZSBjeD0iMjQ1LjgxNSIgY3k9IjMyMC4xNjYiIGZpbGw9IiMwZjdhNGYiIHI9IjY3LjE0OCIvPjxwYXRoIGQ9Im0zMTIuOTY0IDMyMC4xNjljMCAzNy4wOC0zMC4wNjggNjcuMTQ4LTY3LjE0OCA2Ny4xNDgtMTUuODIzIDAtMzAuMzY4LTUuNDc0LTQxLjg0NS0xNC42MzUgNi4wMjQgMS43NzggMTIuMzk3IDIuNzI3IDE5IDIuNzI3IDM3LjA4IDAgNjcuMTM4LTMwLjA2OCA2Ny4xMzgtNjcuMTQ4IDAtMjEuMjU4LTkuODc5LTQwLjIxNy0yNS4yOTMtNTIuNTE0IDI3LjgzIDguMTkyIDQ4LjE0OCAzMy45MzUgNDguMTQ4IDY0LjQyMnoiIGZpbGw9IiMwYzY4NDIiLz48L2c+PGc+PGNpcmNsZSBjeD0iMzQ5LjM5MSIgY3k9IjE1OS43MzgiIGZpbGw9IiMxNThmNWUiIHI9IjY3LjE0OCIvPjxwYXRoIGQ9Im00MTYuNTQ0IDE1OS43NGMwIDM3LjA4MS0zMC4wNjggNjcuMTQ4LTY3LjE0OCA2Ny4xNDgtNS4zNjQgMC0xMC41NzktLjYyOS0xNS41NzMtMS44MTggMjkuNTY4LTcuMDMyIDUxLjU2NS0zMy42MTQgNTEuNTY1LTY1LjMzIDAtMzEuNzI2LTIxLjk5Ny01OC4zMDgtNTEuNTY1LTY1LjMzIDQuOTk1LTEuMTg5IDEwLjIwOS0xLjgxOCAxNS41NzMtMS44MTggMzcuMDggMCA2Ny4xNDggMzAuMDU4IDY3LjE0OCA2Ny4xNDh6IiBmaWxsPSIjMGY3YTRmIi8+PC9nPjxnPjxjaXJjbGUgY3g9IjQzNy4zNTIiIGN5PSIyNTEuMTk4IiBmaWxsPSIjMTU4ZjVlIiByPSI2Ny4xNDgiLz48cGF0aCBkPSJtNTA0LjUgMjUxLjIwM2MwIDM3LjA4MS0zMC4wNjggNjcuMTQ4LTY3LjE0OCA2Ny4xNDgtNi4xMDQgMC0xMi4wMTctLjgxOS0xNy42NDEtMi4zNDcgMzIuOTA1LTQuMzM1IDU4LjI5OC0zMi40ODUgNTguMjk4LTY2LjU2OSAwLTMwLjk3Ny0yMC45NzgtNTcuMDU5LTQ5LjUwNy02NC44MDEgMi44OTctLjM3OSA1Ljg1NC0uNTc5IDguODUxLS41NzkgMzcuMDc5LS4wMDEgNjcuMTQ3IDMwLjA1NyA2Ny4xNDcgNjcuMTQ4eiIgZmlsbD0iIzBmN2E0ZiIvPjwvZz48Zz48cGF0aCBkPSJtMzk0LjI1MSAzNzAuNDkyYy0yOC45NDkgMC01Mi40MTctMjMuNDY4LTUyLjQxNy01Mi40MTd2LTExNC42NGMwLTI4Ljk0OSAyMy40NjgtNTIuNDE3IDUyLjQxNy01Mi40MTcgMjguOTQ5IDAgNTIuNDE3IDIzLjQ2OCA1Mi40MTcgNTIuNDE3djExNC42NGMwIDI4Ljk0OS0yMy40NjggNTIuNDE3LTUyLjQxNyA1Mi40MTd6IiBmaWxsPSIjZDJmMGEyIi8+PHBhdGggZD0ibTQ0Ni42NzIgMjAzLjQzNHYxMTQuNjM4YzAgMjguOTQ5LTIzLjQ3NSA1Mi40MjQtNTIuNDI0IDUyLjQyNC00LjQ0NSAwLTguNzYxLS41NDktMTIuODc2LTEuNTk4IDIyLjcyNi01LjczNCAzOS41NDgtMjYuMzIyIDM5LjU0OC01MC44MjZ2LTExNC42MzhjMC0xNC40NzUtNS44NjQtMjcuNTgxLTE1LjM1NC0zNy4wNi02LjU3My02LjU3My0xNC44ODQtMTEuNDA4LTI0LjE5NC0xMy43NTUgNC4xMTYtMS4wNDkgOC40MzEtMS41OTggMTIuODc2LTEuNTk4IDE0LjQ3NSAwIDI3LjU4MSA1Ljg2NCAzNy4wNyAxNS4zNTQgOS40OSA5LjQ3OCAxNS4zNTQgMjIuNTg0IDE1LjM1NCAzNy4wNTl6IiBmaWxsPSIjYmNlYTczIi8+PC9nPjxnPjxwYXRoIGQ9Im0xMjcuMjYyIDIzOS4zMzRjLTI4Ljk0OSAwLTUyLjQxNy0yMy40NjgtNTIuNDE3LTUyLjQxN3YtNzMuMzc3YzAtMjguOTQ5IDIzLjQ2OC01Mi40MTcgNTIuNDE3LTUyLjQxNyAyOC45NDkgMCA1Mi40MTcgMjMuNDY4IDUyLjQxNyA1Mi40MTd2NzMuMzc3YzAgMjguOTQ5LTIzLjQ2OCA1Mi40MTctNTIuNDE3IDUyLjQxN3oiIGZpbGw9IiNkMmYwYTIiLz48cGF0aCBkPSJtMTc5LjY3NyAxMTMuNTM5djczLjM4MmMwIDI4Ljk0OS0yMy40NjUgNTIuNDE0LTUyLjQxNCA1Mi40MTQtNC45NTUgMC05Ljc2LS42ODktMTQuMzA1LTEuOTc4IDIxLjk5Ny02LjIyMyAzOC4xMDktMjYuNDQyIDM4LjEwOS01MC40MzZ2LTczLjM4MmMwLTE0LjQ3NS01Ljg2NC0yNy41OC0xNS4zNTQtMzcuMDYxLTYuMjMzLTYuMjQzLTE0LjAzNS0xMC45MDgtMjIuNzU2LTEzLjM3NiA0LjU0NS0xLjI4OSA5LjM1LTEuOTc4IDE0LjMwNS0xLjk3OCAxNC40NzUgMCAyNy41ODEgNS44NjQgMzcuMDYgMTUuMzUzIDkuNDkxIDkuNDgyIDE1LjM1NSAyMi41ODggMTUuMzU1IDM3LjA2MnoiIGZpbGw9IiNiY2VhNzMiLz48L2c+PGc+PGNpcmNsZSBjeD0iMjAwLjc0MiIgY3k9IjI1Ni4yODIiIGZpbGw9IiMxY2E1NmYiIHI9Ijc5LjU4NCIvPjxwYXRoIGQ9Im0yODAuMzI5IDI1Ni4yNzdjMCA0My45NTMtMzUuNjMyIDc5LjU4NS03OS41ODUgNzkuNTg1LTEyLjYxNyAwLTI0LjU0NC0yLjkzNy0zNS4xNDItOC4xNzEgMzcuMDEtNi44MzMgNjUuMDUxLTM5LjI2OCA2NS4wNTEtNzguMjU2IDAtMzEuMzM3LTE4LjExMS01OC40MzgtNDQuNDMzLTcxLjQxNCA0LjcwNS0uODY5IDkuNTYtMS4zMTkgMTQuNTI0LTEuMzE5IDQzLjk1MyAwIDc5LjU4NSAzNS42MzIgNzkuNTg1IDc5LjU3NXoiIGZpbGw9IiMxNThmNWUiLz48L2c+PGc+PHBhdGggZD0ibTM0OS4zOTEgMjczLjI5NmMwIDkyLjIzMi0yMy42NjQgOTAuNTg3LTUyLjg1NCA5MC41ODdzLTUyLjg1NCAxLjY0NS01Mi44NTQtOTAuNTg3IDI5LjgyNi0xOTYuMjkxIDUyLjg1NC0xOTYuMjkxIDUyLjg1NCAxMDQuMDU5IDUyLjg1NCAxOTYuMjkxeiIgZmlsbD0iI2EzZTQ0MCIvPjxwYXRoIGQ9Im0zNDkuMzkxIDI3My4yOTZjMCA5Mi4yMzItMjMuNjY0IDkwLjU4Ny01Mi44NTQgOTAuNTg3cy01Mi44NTQgMS42NDUtNTIuODU0LTkwLjU4NyAyOS44MjYtMTk2LjI5MSA1Mi44NTQtMTk2LjI5MSA1Mi44NTQgMTA0LjA1OSA1Mi44NTQgMTk2LjI5MXoiIGZpbGw9IiNhM2U0NDAiLz48cGF0aCBkPSJtMzQ5LjM4NiAyNzMuMjk0YzAgOTIuMjM3LTIzLjY1OCA5MC41ODctNTIuODQ5IDkwLjU4Ny00Ljc1NSAwLTkuMzcxLjA0Ni0xMy43NTktLjI4NiAyMi41MTItMS42NzMgMzkuMDktMTMuMTE4IDM5LjA5LTkwLjMwMSAwLTc0LjUxMy0xOS40NzYtMTU2LjczNy0zOS4wOS0xODUuNTg1IDQuNjYzLTYuODYzIDkuMzM3LTEwLjcwMSAxMy43NTktMTAuNzAxIDIzLjAyOC4wMDEgNTIuODQ5IDEwNC4wNjEgNTIuODQ5IDE5Ni4yODZ6IiBmaWxsPSIjOTlkNTNiIi8+PC9nPjxnPjxwYXRoIGQ9Im04LjAzIDM0MC41OThjMCA3MS4wNCAzMi4wMjEgNjkuNzczIDcxLjUyIDY5Ljc3M3M3MS41MiAxLjI2NyA3MS41Mi02OS43NzMtNDAuMzU5LTE1MS4xOS03MS41Mi0xNTEuMTktNzEuNTIgODAuMTUtNzEuNTIgMTUxLjE5eiIgZmlsbD0iI2EzZTQ0MCIvPjxwYXRoIGQ9Im04LjAzIDM0MC41OThjMCA3MS4wNCAzMi4wMjEgNjkuNzczIDcxLjUyIDY5Ljc3M3M3MS41MiAxLjI2NyA3MS41Mi02OS43NzMtNDAuMzU5LTE1MS4xOS03MS41Mi0xNTEuMTktNzEuNTIgODAuMTUtNzEuNTIgMTUxLjE5eiIgZmlsbD0iIzk5ZDUzYiIvPjxwYXRoIGQ9Im0xNTEuMDY3IDM0MC41OTdjMCA3MS4wNDQtMzIuMDE2IDY5Ljc3NS03MS41MTQgNjkuNzc1LTUuMTM0IDAtMTAuMTI5LjAyLTE0Ljk1NC0uMSAzMi4zMTUtLjc4OSA1Ni41Ni03Ljg2MSA1Ni41Ni02OS42NzYgMC02MC4wMzYtMjguODE5LTEyNi41NzUtNTYuNTYtMTQ1Ljc0NSA1LjA4NS0zLjUyNiAxMC4xMjktNS40NDQgMTQuOTU0LTUuNDQ0IDMxLjE1Ny4wMDEgNzEuNTE0IDgwLjE0NiA3MS41MTQgMTUxLjE5eiIgZmlsbD0iIzhkYzYzNyIvPjwvZz48Zz48cGF0aCBkPSJtMjE5LjI2OSAzNDMuMjY4YzAgNTIuNDk5LTIzLjY2NCA1MS41NjMtNTIuODU0IDUxLjU2M3MtNTIuODU0LjkzNy01Mi44NTQtNTEuNTYzIDI5LjgyNi0xMTEuNzMxIDUyLjg1NC0xMTEuNzMxIDUyLjg1NCA1OS4yMzIgNTIuODU0IDExMS43MzF6IiBmaWxsPSIjYTNlNDQwIi8+PHBhdGggZD0ibTIxOS4yNjkgMzQzLjI2OGMwIDUyLjQ5OS0yMy42NjQgNTEuNTYzLTUyLjg1NCA1MS41NjNzLTUyLjg1NC45MzctNTIuODU0LTUxLjU2MyAyOS44MjYtMTExLjczMSA1Mi44NTQtMTExLjczMSA1Mi44NTQgNTkuMjMyIDUyLjg1NCAxMTEuNzMxeiIgZmlsbD0iI2EzZTQ0MCIvPjxwYXRoIGQ9Im0yMTkuMjY0IDM0My4yNjRjMCA1Mi41MDQtMjMuNjU1IDUxLjU2NS01Mi44NTQgNTEuNTY1LTUuNDQ0IDAtMTAuNjg5LjAzLTE1LjYzMy0uMjYgMjEuNTU3LTEuMjQ5IDM3LjIyLTguNTkxIDM3LjIyLTUxLjMwNSAwLTQxLjA2Ni0xOC4yNS04Ni4yNDgtMzcuMjItMTAzLjk4OSA1LjI3NC00LjkzNSAxMC42MTktNy43NDIgMTUuNjMzLTcuNzQyIDIzLjAzNi4wMDEgNTIuODU0IDU5LjIzNyA1Mi44NTQgMTExLjczMXoiIGZpbGw9IiM5OWQ1M2IiLz48L2c+PGc+PHBhdGggZD0ibTUwMC45NzEgMzY4Ljg0M2MwIDM3LjgzNy0xNy4wNTUgMzcuMTYyLTM4LjA5MyAzNy4xNjJzLTM4LjA5My42NzUtMzguMDkzLTM3LjE2MiAyMS40OTYtODAuNTI2IDM4LjA5My04MC41MjYgMzguMDkzIDQyLjY4OSAzOC4wOTMgODAuNTI2eiIgZmlsbD0iI2EzZTQ0MCIvPjxwYXRoIGQ9Im01MDAuOTcxIDM2OC44NDNjMCAzNy44MzctMTcuMDU1IDM3LjE2Mi0zOC4wOTMgMzcuMTYycy0zOC4wOTMuNjc1LTM4LjA5My0zNy4xNjIgMjEuNDk2LTgwLjUyNiAzOC4wOTMtODAuNTI2IDM4LjA5MyA0Mi42ODkgMzguMDkzIDgwLjUyNnoiIGZpbGw9IiNhM2U0NDAiLz48cGF0aCBkPSJtNTAwLjk3NCAzNjguODQ3YzAgMzcuODMtMTcuMDYyIDM3LjE2LTM4LjA5OSAzNy4xNi00LjQ3NSAwLTguNzcxLjAzLTEyLjc1Ni0uMjkgMTQuNzY0LTEuMTY5IDI1LjMyMy03LjA5MiAyNS4zMjMtMzYuODcxIDAtMjguNTItMTIuMjA3LTU5Ljc4Ni0yNS4zMjMtNzMuNDcyIDQuMjc1LTQuNDc1IDguNjYxLTcuMDYzIDEyLjc1Ni03LjA2MyAxNi42MDIuMDAyIDM4LjA5OSA0Mi42OTYgMzguMDk5IDgwLjUzNnoiIGZpbGw9IiM5OWQ1M2IiLz48L2c+PHBhdGggZD0ibTUwMy45NzEgNDQwLjI0NWgtMzMuNTkydi0yNi43ODJjOC44NDYtLjE3NSAxNy4xMTQtMS4wOTkgMjQuMDctNS45MzIgOS41NjYtNi42NDYgMTQuMDIyLTE4Ljk0IDE0LjAyMi0zOC42ODggMC0yMS45NTMtNy4yMTQtNDcuNTQtMTcuNzc2LTY1LjQ1MiAxMy43NS0xNC4wMjMgMjEuMzA1LTMyLjQ0MyAyMS4zMDUtNTIuMTkzIDAtMzYuODk5LTI3LjQwNC02OC41NTktNjMuODIyLTczLjg1OC01LjM1Ni0xMS4wMjMtMTMuOTk4LTIwLjE1OC0yNC42MzktMjYuMTQ3LTQuMjk5LTM3Ljc0OC0zNi4wMDMtNjYuMTAzLTc0LjE0Ny02Ni4xMDMtOS44OTIgMC0xOS40NTMgMS45MDctMjguNDc4IDUuNjQzLTcuNzUtMTQuMjM0LTE1LjgwNy0yMS4yMjktMjQuMzc2LTIxLjIyOS04LjY4OCAwLTE2LjcyOCA3LjA3OS0yNC41NzYgMjEuNjQyLTYuMjM1IDExLjU2OC0xMi4zNjEgMjcuOTY5LTE3LjcxOCA0Ny40MjYtMy42ODMgMTMuMzgxLTYuODczIDI3Ljc1NS05LjUxNCA0Mi41NC0xMy4yOTEtNy44MTUtMjguMzE0LTExLjkxNC00My45ODctMTEuOTE0LTQuNTk0IDAtOS4xMjUuMzYzLTEzLjU2MyAxLjA2MnYtNTYuNzJjMC0yNS4xMjUtMTUuODY0LTQ3Ljc2NC0zOS40NzctNTYuMzMzLTMuODkzLTEuNDEzLTguMTk1LjU5OC05LjYwOSA0LjQ5MS0xLjQxMyAzLjg5NC41OTggOC4xOTUgNC40OTIgOS42MDggMTcuNzAxIDYuNDI1IDI5LjU5NCAyMy4zOTYgMjkuNTk0IDQyLjIzM3Y2MC40ODdjLTE0LjUwMiA1LjAzOC0yNy40MTggMTMuODIzLTM3LjQxNyAyNS40MTN2LTEyLjI0OWwxNC40MTMtMTQuNDEzYzIuOTI5LTIuOTMgMi45MjktNy42NzggMC0xMC42MDctMi45MjktMi45MjgtNy42NzgtMi45MjgtMTAuNjA2IDBsLTMuODA3IDMuODA3di00NS43MWMwLTQuMTQzLTMuMzU4LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXYxMS4yMTVsLTcuNTY0LTcuNTY0Yy0yLjkyOS0yLjkyOC03LjY3OC0yLjkyOC0xMC42MDYgMC0yLjkyOSAyLjkzLTIuOTI5IDcuNjc4IDAgMTAuNjA3bDE4LjE3MSAxOC4xNzF2NTguMTYxYy0xMC45MzgtMTUuNzY1LTIzLjgwMS0yNy4zNy0zNy40MTctMjguNzg5di02OC41MjhjMC0xOC43NzIgMTEuODM2LTM1LjcyNiAyOS40NTQtNDIuMTg1IDMuODg5LTEuNDI2IDUuODg1LTUuNzM0IDQuNDU5LTkuNjI0LTEuNDI2LTMuODg5LTUuNzMzLTUuODgxLTkuNjI0LTQuNDYtMjMuNSA4LjYxNy0zOS4yOSAzMS4yMjktMzkuMjkgNTYuMjY5djcxLjE2OGMtMTQuNDY5IDYuNDkzLTI5LjI2MyAyNC4wNjktNDEuOTkyIDUwLjM5LTE1LjU0NSAzMi4xMzktMjQuODI0IDcxLjU3OS0yNC44MjQgMTA1LjUgMCAzNC43MjkgNy40NjggNTYuMDk0IDIzLjUwMSA2Ny4yMzMgMTMuMTYgOS4xNDQgMzAuMDAzIDkuOTY5IDQ4LjAxOSAxMC4wMzV2MjIuMzc5aC02NC41NWMtNC4xNDIgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1OCA3LjUgNy41IDcuNWg0OTYuNDcxYzQuMTQzIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU4LTcuNS03LjUtNy41em0tMzYxLjQ3OS0zOC45NzljNS4yMjUuNzg3IDEwLjc0Ljk5NSAxNi40MjIgMS4wNDd2MzcuOTMzaC0yNC4xNTN2LTMyLjE3OGMyLjc1Ni0xLjg4MyA1LjM0MS00LjEyOCA3LjczMS02LjgwMnptMzEuNDIzIDEuMDQ4YzYuNzQ3LS4wNTkgMTMuMjU5LS4zMzYgMTkuMzI3LTEuNTV2MzkuNDgxaC0xOS4zMjd6bTc4Ljk1NC00NC45NzFjNy4xIDguNjY3IDE1LjczNyAxMS45NzkgMjQuODQzIDEzLjI0OS05LjQzOCA2LjAwMy0yMC4zODkgOS4yMjMtMzEuODk3IDkuMjIzLTguMTM5IDAtMTUuOTY1LTEuNjAyLTIzLjMyNS00Ljc0MiAyLjg4NC04LjM3MSA0LjI3OS0xOC44NzQgNC4yNzktMzEuODA0IDAtMS4yNzItLjAyOS0yLjU1OC0uMDYyLTMuODQ0IDUuMTkzLTEuNjE5IDEwLjE5OC0zLjczMSAxNC45ODgtNi4yOSAyLjY3NyAxMC40MTkgNi4zNyAxOC4zNDMgMTEuMTc0IDI0LjIwOHptLTQ0LjMwOCAzNy4yMTljMi41MjgtMS43NTYgNC43NzYtMy44MzYgNi43NjItNi4yNDggOC45MjQgNC4wMDkgMTguNDA1IDYuMTg0IDI4LjI2NCA2LjQ2OHY0NS40NjNoLTM1LjM0NHptNTAuMDI1LS44NDVjMTEuMDE4LTEuODgxIDIxLjM2OS02LjE4OSAzMC40NTEtMTIuNjc3djU5LjIwNWgtMzAuNDUxem00NS40NTEtMjIuMzYxYzUuODQ4LS4wOSAxMS42ODMtLjQ1OSAxNy4yNC0xLjkyM3Y3MC44MTJoLTE3LjI0em00OC42MDktOS42NjF2NzguNTVoLTE2LjM2OHYtNzguNzc3YzEuMzUzLTEuMjIxIDIuNjY2LTIuNTg1IDMuOTI4LTQuMTI1IDEuNDktMS44MTkgMi44NzItMy44NCA0LjE1Mi02LjA2NyAyLjQxNiAzLjYzNSA1LjE4MyA3LjQyOSA4LjI4OCAxMC40MTl6bTE1IDEwLjA3N2M1LjkyMiAyLjkzMiAxMi4zNjUgNC45MDMgMTkuMTA1IDUuNzQ3djYyLjcyNmgtMTkuMTA1em0zNC4xMDUgNS43NDNjNS4zODUtLjY3NiAxMC42MzktMi4wNzcgMTUuNjI3LTQuMTY0LjY1IDE3LjEyMyA1LjExNiAyOC4wNTcgMTMuOTMgMzQuMTggNi45NTYgNC44MzMgMTUuMjI5IDUuNzg1IDI0LjA3IDUuOTQ4djI2Ljc2NWgtNTMuNjI4di02Mi43Mjl6bTg0LjE0IDE3LjY5OGMtMy42MDggMi41MDYtOS4wNjQgMy4xMjMtMTUuNTEyIDMuMjZ2LTEzLjU5MmMuMTM5LS4xMi4yNzktLjIzOS40MTEtLjM3MWwxMS45MDktMTEuOTA5YzIuOTI5LTIuOTMgMi45MjktNy42NzggMC0xMC42MDctMi45My0yLjkyOC03LjY3OC0yLjkyOC0xMC42MDcgMGwtMS43MTMgMS43MTN2LTIxLjQwNGMwLTQuMTQzLTMuMzU3LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXY1Ni4xNzJjLTYuNDU2LS4xMzctMTEuOTAzLS43NTMtMTUuNTEyLTMuMjYxLTUuMTAyLTMuNTQ1LTcuNTgyLTEyLjE3LTcuNTgyLTI2LjM3IDAtMTYuNDE4IDQuNTE0LTM1LjU1MyAxMi4wNzQtNTEuMTg3IDcuNjk1LTE1LjkxIDE1LjQ0My0yMS44MzkgMTguNTItMjEuODM5czEwLjgyNCA1LjkyOSAxOC41MTkgMjEuODM5YzcuNTYxIDE1LjYzNCAxMi4wNzQgMzQuNzY5IDEyLjA3NCA1MS4xODcgMCAxNC4xOTktMi40OCAyMi44MjQtNy41ODEgMjYuMzY5em0xMS4xMDktMTQ0LjAxNWMwIDE0LjkyMS01LjQwMiAyOC44OTEtMTUuMjc2IDM5Ljg0Mi01Ljg3Ny02LjM3Ni0xMi4zMDgtMTAuMjIzLTE4Ljg0NS0xMC4yMjMtMi45MzkgMC01Ljg1Ni43NzctOC43MTEgMi4yMTF2LTc5LjU5M2MwLTMuMzA0LS4yOC02LjU0Mi0uNzk3LTkuNzAyIDI1LjM0OSA3LjA3NCA0My42MjkgMzAuNTIxIDQzLjYyOSA1Ny40NjV6bS0xNDYuNjY4LTU4LjIzN2M1LjM2Ni0xOS4zNjYgMjMuNzk2LTM0LjQ0MyA0My45MTktMzQuNDQzIDI0Ljc2OCAwIDQ0LjkxNyAyMC4xNDkgNDQuOTE3IDQ0LjkxN3Y5My42MjFjLTEwLjYzMiAxNC44MzItMTguNzQyIDM3LjY1Ni0yMS4xNDggNTkuMTQ2LS4wMzYuMDIxLS4wNzMuMDM4LS4xMDguMDYtNC45NTIgMy4wNzYtMTAuNDQzIDUuMTEzLTE2LjE2MSA2LjA3N3YtNDMuOTlsMTQuNDEzLTE0LjQxM2MyLjkyOS0yLjkzIDIuOTI5LTcuNjc4IDAtMTAuNjA3LTIuOTMtMi45MjgtNy42NzgtMi45MjgtMTAuNjA3IDBsLTMuODA2IDMuODA2di00NS43MDljMC00LjE0My0zLjM1Ny03LjUtNy41LTcuNXMtNy41IDMuMzU3LTcuNSA3LjV2MTEuMjE1bC03LjU2My03LjU2NGMtMi45MjktMi45MjktNy42NzgtMi45My0xMC42MDYtLjAwMS0yLjkzIDIuOTI5LTIuOTMgNy42NzgtLjAwMSAxMC42MDZsMTguMTcxIDE4LjE3MnY3OC41MDdjLTE2LjE1Ni0yLjcxOS0yOS43NjktMTQuMDkzLTM1LjEwMi0zMC4wMDYtLjAxMy0uMDM5LS4wMzEtLjA3NC0uMDQ0LS4xMTMgMy42LTE0LjUxIDUuMjg2LTMzLjc2MSA1LjI4Ni01OC45NDcgMC0yNS40LTIuMzI2LTUzLjI1My02LjU2LTgwLjMzNHptLTUzLjc5NS0xMDguNDU2YzEuNzUgMCAxMC40OTYgNi4yOSAyMS4zMTMgMzcuMDY0IDEuMzczIDMuOTA3IDUuNjUgNS45NjMgOS41NjMgNC41ODggMy45MDctMS4zNzMgNS45NjItNS42NTQgNC41ODgtOS41NjMtMS41NTItNC40MTQtMy4xMTMtOC41MDEtNC42ODQtMTIuMjg2IDcuMDA1LTIuNzk4IDE0LjQxNC00LjIxOCAyMi4wNzUtNC4yMTggMjcuNzM2IDAgNTEuMjE0IDE4Ljc1NSA1Ny44MDUgNDQuODUyLTQuMTcyLS45MjMtOC41LTEuNDI0LTEyLjk0Ni0xLjQyNC0xOS40ODIgMC0zNy4zMjcgOS41MTMtNDguMzg5IDI0LjYwNy0xLjEzMi01LjUyMi0yLjMzNC0xMC45NzMtMy42MjEtMTYuMzA4LS45NzItNC4wMjYtNS4wMjItNi41MDUtOS4wNS01LjUzMi00LjAyNi45NzItNi41MDMgNS4wMjMtNS41MzIgOS4wNSA5LjA0NSAzNy40OTggMTQuMjMyIDgwLjQ5MyAxNC4yMzIgMTE3Ljk2IDAgMzkuMjQzLTQuMzQ3IDYzLjYyNS0xMy4yOSA3NC41NDEtNS43NTMgNy4wMjMtMTMuMDgyIDguMjk3LTI0LjU2NCA4LjUwOHYtMzguMzkzbDI0LjMzMS0yNC4zMzFjMi45MjktMi45MyAyLjkyOS03LjY3OCAwLTEwLjYwNy0yLjkzLTIuOTI4LTcuNjc4LTIuOTI4LTEwLjYwNyAwbC0xMy43MjQgMTMuNzI0di02Mi41MDZjMC00LjE0My0zLjM1Ny03LjUtNy41LTcuNXMtNy41IDMuMzU3LTcuNSA3LjV2MTUuNjc5bC0xMC42NjctMTAuNjY3Yy0yLjkzLTIuOTI4LTcuNjc4LTIuOTI4LTEwLjYwNyAwLTIuOTI5IDIuOTMtMi45MjkgNy42NzggMCAxMC42MDdsMjEuMjUxIDIxLjI1MWMuMDA4LjAwOC4wMTYuMDE0LjAyMy4wMjF2ODUuMjIyYy0xMS40ODItLjIxMS0xOC44MTItMS40ODYtMjQuNTY0LTguNTA4LTguOTQzLTEwLjkxNi0xMy4yOS0zNS4yOTgtMTMuMjktNzQuNTQxIDAtNDIuMDA5IDYuNTUxLTkwLjg4NSAxNy41MjItMTMwLjc0MiAxMy4xMzYtNDcuNzE5IDI1LjQ4MS01OC4wNDggMjcuODMyLTU4LjA0OHptLTk1Ljc5NSA5OS42OTNjMTQuOTU4IDAgMjkuMiA0LjUwNiA0MS4zNDcgMTMuMDQtMy44MDggMjUuNjY2LTUuOTA2IDUxLjk1OS01LjkwNiA3Ni4wNTggMCAxNy40ODcuODE1IDMyLjEwNyAyLjUxNiA0NC4yNzQtNC4xNTkgMi41ODQtOC41NDggNC43Mi0xMy4xMjIgNi4zOTctMi40MTctMjAuMjA0LTguNDQtNDEuMDkxLTE3LjMzNS01OS40OTF2LTE4LjE4NGwxNS44MDYtMTUuODA2YzIuOTI5LTIuOTI5IDIuOTI5LTcuNjc3IDAtMTAuNjA2LTIuOTI5LTIuOTI4LTcuNjc4LTIuOTI5LTEwLjYwNi4wMDFsLTUuMTk5IDUuMTk5di04LjY1OGMwLTQuMTQzLTMuMzU4LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXYyMy45MThjLTguNzMyLTEwLjU2Mi0xNy45OTItMTYuMzAzLTI2LjgyNy0xNi4zMDMtMTAuNjE3IDAtMjAuNTI0IDcuNzgzLTI5LjAxMiAxOS4wMzgtMS41MTctMy40NjctMy4xMjgtNi45MTUtNC44MjItMTAuMzExIDEwLjAxOS0yOS4wNSAzNy40MDctNDguNTY2IDY4LjE2LTQ4LjU2NnptLTE2OC4xNTIgMjExLjMxNWMtNy4zMjQtNS4wODktMTcuMDYtMTYuMzE3LTE3LjA2LTU0LjkxNSAwLTMxLjc3IDguNzItNjguNzY4IDIzLjMyNy05OC45NyAxMy4xMzgtMjcuMTY2IDI5LjExMS00NC43MiA0MC42OTQtNDQuNzIgMTIuMTA5IDAgMzIuNDcyIDIxLjIwNSA0OC4wMzIgNjEuNzMtNC43MDMgOC43ODgtOC42NyAxOC4zMDItMTEuNjkzIDI3LjMzOC0xLjMxNCAzLjkyOC44MDUgOC4xNzggNC43MzMgOS40OTEgMy45MjggMS4zMTggOC4xNzgtLjgwNSA5LjQ5Mi00LjczMyAxMC42ODItMzEuOTMyIDI3LjE1OS01MS42OTcgMzYuMjk5LTUxLjY5NyA2LjE5NSAwIDE3LjY5NyA5Ljk5NiAyOC4zMTEgMzEuOTQzIDEwLjY3MiAyMi4wNjcgMTcuMDQzIDQ5LjA5MSAxNy4wNDMgNzIuMjg4IDAgMjAuNzI1LTMuODQ5IDMzLjQ3NC0xMS43NjcgMzguOTc1LTYuMjEzIDQuMzE2LTE1LjM3OSA0Ljk2LTI2LjA4NyA1LjA2NXYtMjIuOTM1bDI0LjMzMS0yNC4zMzFjMi45MjktMi45MyAyLjkyOS03LjY3OCAwLTEwLjYwNy0yLjkyOS0yLjkyOC03LjY3OC0yLjkyOC0xMC42MDYgMGwtMTMuNzI1IDEzLjcyNXYtMzYuNzE4YzAtNC4xNDMtMy4zNTgtNy41LTcuNS03LjVzLTcuNSAzLjM1Ny03LjUgNy41djgwLjg3MmMtMTAuNzEtLjA5OC0xOS44NzQtLjc1My0yNi4wODctNS4wNy03LjkxOC01LjUwMS0xMS43NjctMTguMjUtMTEuNzY3LTM4Ljk3NSAwLTYuMDYzLjQyNC0xMi40MTcgMS4yNjEtMTguODg2LjUzMS00LjEwNy0yLjM2OC03Ljg2OC02LjQ3Ni04LjQtNC4xMDktLjUyNS03Ljg2OSAyLjM2OC04LjQgNi40NzctLjkxOSA3LjEwNC0xLjM4NSAxNC4xMDUtMS4zODUgMjAuODEgMCAyNi4zNjQgNS43ODYgNDIuNjYzIDE4LjIwOCA1MS4yOTQuNjA5LjQyMyAxLjIzMS44MTMgMS44NTggMS4xOTEtOS41NDkgNi40MTItMjIuOTQ4IDcuMDQyLTM5LjA3NiA3LjEwOHYtNzguMzEzbDExLjUxNi0xMS41MTZjMi45MjktMi45MyAyLjkyOS03LjY3OCAwLTEwLjYwNy0yLjkyOS0yLjkyOC03LjY3OC0yLjkyOC0xMC42MDYgMGwtLjkxLjkxdi0yMC42NDdjMC00LjE0My0zLjM1OC03LjUtNy41LTcuNXMtNy41IDMuMzU3LTcuNSA3LjV2NjQuMTU3bC05LjQ0My05LjQ0M2MtMi45MjktMi45MjgtNy42NzgtMi45MjgtMTAuNjA2IDAtMi45MjkgMi45My0yLjkyOSA3LjY3OCAwIDEwLjYwN2wxOC45OSAxOC45OWMuMzMxLjMzMS42ODguNjE5IDEuMDYuODc1djM0Ljk4OWMtMTYuMDc1LS4wNjQtMjkuOTA4LS43MTctMzkuNDYxLTcuMzUyem01NC40NiAyMi4zNDljMTEuNTc3LS4wNDggMjIuNzM2LS40MTEgMzIuNzExLTMuMDk3djI1LjQ4aC0zMi43MTF6Ii8+PC9nPjwvc3ZnPg==">
+  <!-- og tags -->
+  <meta property="og:title" content="marginalia">
+  <meta property="og:description" content="A digital garden">
+  <!-- other -->
+  <meta name="twitter:card" content="summary">
+  <style>* {margin:0;padding:0;box-sizing:border-box;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-kerning:auto;--textdark:#264653;--textlight: #686868;--bgcolor: #FEFEFF;--highlight:#44A1A0;}@media only screen and (prefers-color-scheme:dark) {* {--textdark:#dadada;--textlight: #888;--bgcolor: #181818;--highlight: orange;}pre {background:rgba(255,255,255,.03);}}body {color:var(--textdark);background:var(--bgcolor);font:16px / 1.44 'Helvetica neue', system-ui, sans-serif; position:relative;max-width:50em; margin:0 auto;}section, section:target ~ section:last-of-type {height:0;overflow:hidden;padding:0;}section:target, section:last-of-type {height:auto;overflow:visible;padding:calc(5vw + 2.6em) 4vw 1.6em;}section:focus {outline:0;}section {overflow-wrap:break-word;width:100%;}section * + * {margin-top:.7em;}header {padding:5vw 4vw 0 4vw;position:absolute;width:100%;z-index:1;}footer {color:var(--textlight);display:flex;flex-wrap:wrap;justify-content:space-between;padding:1em 4vw 5vw 4vw;}footer .footer-links {display:block;width:100%;}footer .footer-links a {display:inline-block;}footer .footer-links span.divider {display:inline-block;margin:0 5px;}footer .footer-links span.divider:last-of-type {display:none;}footer .footer-links a.home-content, footer .footer-links a.home-content + span.divider {display:none;}footer * + * {margin-top:0;}ul.toc {overflow:hidden;}ul.toc * + * {margin:0;}ul.toc li {line-height:1.5;position:relative;display:flex;align-items:flex-end;margin:0;}ul.toc li a {flex:1;}ul.toc li a span {background:var(--bgcolor);padding-right:.3em;}ul.toc li time {background:var(--bgcolor);color:var(--textlight);font-variant-numeric:tabular-nums;padding-left:.3em;z-index:1;}ul.toc li a:after {width:100%;font-size:.55em;position:absolute;bottom:.4em;color:var(--textlight);white-space:nowrap;content:' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .';}a {color:var(--highlight);text-decoration:none;overflow-wrap:break-word;}@media (hover:hover) and (pointer:fine) {a:hover {text-decoration:underline;}}a[href*="//"]:after {font-size:.65em;content:"\2197";display:inline-block;color:var(--textlight);}a[href*="//"]:hover:after {color:inherit;}header h1 {margin-bottom:1em;}header h1 a {font-weight:normal;display:block;}section h1 {font-size:1.4em;line-height:1.5;padding-top:1em;}header h1, h2, h3, h4, strong, b, dt {font-size:1em;}* + h2, * + h3, * + h4 {margin-top:1.4em;}h2.cute, h3 {text-transform:uppercase;letter-spacing:.06em;font-size:.9em;font-weight:400;}li, dd {margin-left:1.5em;}li + li, li ol, li ul {margin-top:.1em;}.footnotes li {color:var(--textlight);margin-top:.5em;max-width:95%;}img {display:block;max-width:100%;min-height:6em;height:auto;position:relative;}img:after { content:attr(alt);display:grid;align-content:center;position:absolute;z-index:2;top:0;left:0;width:100%;height:100%;font-size:.8em;text-align:center;color:var(--textlight);border:1px dashed var(--textlight);background-color:var(--bgcolor);}figure {padding:1em;}figcaption, small, .footnotes {font-size:.865em;}blockquote {padding:0 1em;}cite {font-style:normal;}abbr[title] {text-decoration:none;cursor:help;}a abbr[title] {cursor:pointer;color:inherit;}hr {border:0;height:0;border-bottom:1px solid;opacity:.1;margin:1.4em 0;}sup {line-height:1;font-size:.75em;margin-left:.05em;}code, kbd {font-family:ui-monospace, SF Mono, SFMono-Regular, Menlo, Andale Mono, monospace;color:var(--textlight);font-size:.9em;overflow-wrap:break-word;}kbd {box-shadow:0 .5px 1px;border-radius:2px;padding:.05em .325em;font-size:.85em;margin:0 .1em;}pre {line-height:1.55;overflow:auto;background:rgba(0,0,0,.03);padding:.5em .85em .6em .85em;border-radius:4px;}pre code {font-size:.9em;position:relative;display:block;overflow-wrap:normal;}pre code:after {content:attr(class);position:absolute;right:-.6em;top:-.3em;text-transform:uppercase;font-size:.7em;opacity:.45;}input, select, textarea, button {font:inherit;font-size:.85em;line-height:inherit;border:0;box-shadow:0 0 .05em;padding:.2em .4em;width:100%;}table {border-collapse:collapse;min-width:100%;margin:1em 0;}thead {text-align:left;border-bottom:1px solid var(--textlight);}tr + tr {border-top:1px solid var(--textlight);}th, td {padding:.4em .3em .2em;}sup a {color:currentColor;pointer-events:none;}a.footnote-backref {display:none;}@media print {* {--bgcolor:#fff;}header {position:relative;}section {height:auto;overflow:visible;page-break-after:always;page-break-inside:avoid;break-inside:avoid;display:block;padding:2em 4vw;}section * {page-break-inside:avoid;break-inside:avoid;}}@media only screen and (max-width:500px) {footer .footer-links a { display:block; margin:0.2em 0; }footer .footer-links span.divider { display:none; }blockquote, figure { padding-left:4vw; padding-right:4vw; }ul.toc li {align-items:flex-start;flex-direction:column-reverse;}ul.toc li a { padding-bottom:1em; }ul.toc li time { font-size:.8em; padding-left:0; }ul.toc li a:after {height:0;overflow:hidden;position:absolute;}}footer a.about {display:none;}footer a.garden {display:none;}</style>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="#home">marginalia</a>
+    </h1>
+  </header>
+  <main>
+    <section tabindex="0" role="document" aria-label=" Fatica
+" id="2021-04-01-fatica"><h1>Fatica</h1>
+<p>Si comincia a sentire, dopo pi&ugrave; di un anno si comincia a sentire.</p>
+<p>Non so dire se avr&agrave; conseguenze a lungo termine, se mai la smaltiremo, se la nostra capacit&agrave; di adattamento alla fine prevarr&agrave;. Ma ora si sente.</p>
+<h2>Il vuoto</h2>
+<p>Pi&ugrave; che il vuoto il nulla, una ripetizione infinita di banalit&agrave;. Questa cosa mi distrugge. Trovo rifugio nella lettura ma la <em>fatica</em> mi trascina spesso verso il basso, in mezzo a tutta questa banalit&agrave; che non fa altro che logorarmi.</p>
+<p>Non mi pare ora di avere la forza per uscirne.</p>
+<p>Ho bisogno di pace, di tranquillit&agrave; di bellezza.</p></section><section tabindex="0" role="document" aria-label=" Hello, World!
+" id="2021-01-11-hello-world"><h1>Hello, World!</h1>
+<p>A&nbsp;<strong>"Hello, World!" program</strong>&nbsp;generally is a&nbsp;<a href="https://en.wikipedia.org/wiki/Computer_program" title="Computer program">computer program</a>&nbsp;that outputs or displays the message "Hello, World!". Such a program is very simple in most&nbsp;<a href="https://en.wikipedia.org/wiki/Programming_language" title="Programming language">programming languages</a>, and is often used to illustrate the basic&nbsp;<a href="https://en.wikipedia.org/wiki/Syntax" title="Syntax">syntax</a>&nbsp;of a programming language. It is often the first program written by people learning to code.<sup><a href="#" class="footnote-ref">1</a></sup> &nbsp;It can also be used as a&nbsp;<a href="https://en.wikipedia.org/wiki/Sanity_test" title="Sanity test">sanity test</a>&nbsp;to make sure that a computer language is correctly installed, and that the operator understands how to use it.</p>
+<div class="footnotes">
+<hr>
+<ol>
+<li>
+<p>James A Langbridge (3 December 2013).&nbsp;<a href="https://books.google.com/books?id=y51NAgAAQBAJ&amp;pg=PA74"><em>Professional Embedded ARM Development</em></a>.&nbsp;<a href="https://en.wikipedia.org/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a>&nbsp;<a href="https://en.wikipedia.org/wiki/Special:BookSources/9781118887820" title="Special:BookSources/9781118887820">9781118887820</a>.&nbsp;<a href="#" class="footnote-backref">&#8617;</a></p>
+</li>
+</ol>
+</div></section><section tabindex="0" role="document" aria-label=" How to generate this blog
+" id="2021-01-10-how-to-generate-this-blog"><h1>How to generate this blog</h1>
+<p>Get <a href="https://github.com/bradleytaunt/phpetite" title="PHPetite at Github">PHPetite</a> to convert Markdown&nbsp;files into a single <abbr title="Hyper Text Markup Language">HTML</abbr> file with inline, compressed <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+<ol>
+<li>Write posts in <code>/content</code></li>
+<li>(Optional) include any images under the <code>/content/img/</code> directory</li>
+<li>From the command-line run:</li>
+</ol>
+<pre><code class="bash">bash build.sh</code></pre>
+<p>This will generate both the single file <abbr title="Hyper Text Markup Language">HTML</abbr> page, along with an <code>atom.xml</code> file for the use of an optional RSS feed.</p>
+<p>These two files are output into the <code>_site</code> directory.</p>
+<h2>Advanced options</h2>
+<p>Looking for more advanced configurations, such as creating custom pages, editing homepage content and styling? Take a look at the <a href="https://github.com/bradleytaunt/phpetite" title="PHPetite at Github">Github repo</a> or the official website <a href="https://phpetite.org" title="PHPetite">phpetite.org</a>.</p>
+<p>Thank you, have a nice day.</p></section><section tabindex="0" role="document" aria-label=" Markdown examples
+" id="2021-01-09-markdown-examples"><h1><abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> examples</h1>
+<p>On top of plain <abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr>, <a href="https://michelf.ca/projects/php-markdown/extra"><abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> Extra</a> adds support for footnotes, abbreviations, definition lists, tables, <code>class</code> and <code>id</code> attributes, fenced code blocks, and <abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> inside <abbr title="Hypertext Markup Language">HTML</abbr> blocks.</p>
+<p>Additionally, images are properly enclosed in figure elements (with optional figcaption), and the <code>loading="lazy"</code> attribute is added.</p>
+<hr>
+<p>This is <strong>bold</strong>, <em>italic</em>,  this is an <a href="#2021-01-11-hello-world">internal link</a>, this is <del>not</del>  <code>code</code>, press <kbd>alt</kbd>.</p>
+<figure><img src="data:image/png;base64,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" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy"><figcaption>This is the image caption (line begins with a space)</figcaption>
+</figure>
+<figure><img src="data:image/png;base64,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" alt="This is the alt text of a missing image" title="This is the missing image title." width="1280" height="800" loading="lazy"></figure>
+<blockquote>
+<p>This text is in a blockquote.</p>
+</blockquote>
+<h2>This is a level 2 heading</h2>
+<h3>This is a level 3 heading</h3>
+<ul>
+<li>This</li>
+<li>is</li>
+<li>a list</li>
+</ul>
+<ol start="0">
+<li>This</li>
+<li>is</li>
+<li>an</li>
+<li>ordered list</li>
+</ol>
+<pre><code class="txt">This is
+    preformatted
+  text.</code></pre>
+<table>
+<thead>
+<tr>
+<th>this is a table</th>
+<th>header</th>
+<th style="text-align: right;">this column is right-aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>these</td>
+<td>content</td>
+<td style="text-align: right;">1234</td>
+</tr>
+<tr>
+<td>are</td>
+<td>cells</td>
+<td style="text-align: right;">56789</td>
+</tr>
+</tbody>
+</table>
+<p>This sentence has a footnote.<sup><a href="#" class="footnote-ref">1</a></sup></p>
+<div class="footnotes">
+<hr>
+<ol>
+<li>
+<p>This is a footnote&nbsp;<a href="#" class="footnote-backref">&#8617;</a></p>
+</li>
+</ol>
+</div></section>
+    <section tabindex="0" role="document" aria-label="Test page
+" id="test"><h1>Test page</h1>
+<p>Va bene, riprovo lo script BBedit. Funziona accidenti!</p>
+<p>Riflessione, il mio ecosistema &egrave; essenzialmente Apple based, questo &egrave; ci&ograve; che uso nel quotidiano. perch&eacute; devo complicarmi la vita nel quotidiano.</p>
+<p>Sto provando a integrare la classe <em>Tufte</em> nel frontmatter ma non ci sto riuscendo granch&eacute;, temo dovr&ograve; utilizzare un template \LaTeX.</p>
+<p>Non so se SyncTex funzioni, per&ograve; dovrebbe aggiornare automaticamente il PDF quando viene rigenerato.</p>
+<h2>Header 2 la tipografia</h2>
+<p><strong>Bold</strong></p>
+<p><em>Italic</em></p>
+<p><del>Strikethrough</del></p>
+<p>Devo capire come abilitare la preview.</p>
+<h2>Liste</h2>
+<p>Va bene iniziamo con una lista non ordinata, ovvero senza numeri.</p>
+<ul>
+<li>uno</li>
+<li>due</li>
+<li>tre</li>
+<li>quattro</li>
+</ul>
+<p>Ora invece una lista ordinata, ovvero numerata.</p>
+<ol>
+<li>uno</li>
+<li>due</li>
+<li>tre</li>
+<li>quattro</li>
+</ol>
+<h2>Pandoc</h2>
+<p>Ma che bello posso fare pa preview del file compilato con Pandoc, adesso devo capire come impostare il front matter per formattare il documento. Proviamo.<br>
+Il comando dovrebbe essere <code>Pandoc! pdf</code>.</p>
+<p>Va bene,adesso come al solito perder&ograve; un sacco di tempo a cercare lo schema colori che mi piace di pi&ugrave;.</p>
+<p>Intanto vediamo se Synctex funziona con Skim. Provo a compilare. </p>
+<h2>Tabelle</h2>
+<p>Questa dovrebbe essere una tabella.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">uno</th>
+<th style="text-align: left;">due</th>
+<th style="text-align: right;">tre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">centrato</td>
+<td style="text-align: left;">sinistra</td>
+<td style="text-align: right;">destra</td>
+</tr>
+</tbody>
+</table>
+<p>Vediamo se viene generata correttamente.</p>
+<p><strong>Perfetta!</strong></p>
+<p>Veloce davvero. Ora ho modificato il visualizzatore di PDF, vediamo se quando compilo questa volta mi apre <em>Skim</em>.</p>
+<p>Alla prima non ha funzionato, riprovo. Sto cercando di capire come funzionano i template. Ci riprovo. nada, genera HTML.</p>
+<p>Magari mi funziona l'evidenziato, che in <em>Pandoc</em> dovrebbe essere cos&igrave;: ::evidenziato::.</p>
+<p>No, direi che non funziona.</p>
+<p>Ora ho aperto con Macvim direttamente dal finder.</p>
+<p>Vediamo se riesco anche a generare il PDF.</p>
+<p>Non velocissimo direi. Riproviamo, sto provando da console anzich&eacute; da MacVim.</p>
+<p>Sempre lento, forse meglio in questo caso compilare direttamente dalla shell. Intanto devo installare sia Pandoc che MacTex sul server.</p>
+<p>Era gi&agrave; tutto installato, ora devo solo compilare e poi siamo a posto.</p>
+<p>Funziona tutto egregiamente, ho tutto quello che mi serve. Questo &egrave; il mio workflow, tutto il resto &egrave; lavoro occasionale che posso fare tranquillamente con l'iMac dell'ufficio.</p>
+<p>Pertanto ora non ho pi&ugrave; scuse, devo FARE.</p>
+<p>La cosa notevole di utilizzare Vim &egrave; la consistenza tra le varie piattaforme. Al netto della possibilit&agrave; del terminale di visualizzare pi&ugrave; di 256 colori (per esempio Blink su Ipad non lo consente) che non consente l'utilizzo di schemi colore pensati per pi&ugrave; di 256 colori, tutto il resto &egrave; uguale. L'esperienza d'uso &egrave; identica e consistente.</p>
+<p>Ovviamente anche la UX &egrave; consistente, tutto da tastiera.</p>
+<p>Bene, dovrei avere sistemato i Plugin anche sul server, proviamo a compilare.</p>
+<p>Non ho idea di quanto serva per compilare il PDF con Pandoc, provo a faccio partire un cronometro.</p>
+<p>Intanto non blocca Vim e posso continuare a lavorare, per&ograve; questa cosa ad anello aperto non mi piace per nulla.</p>
+<p>Allora, se compilo dal riga di comando &egrave; tutto pi&ugrave; veloce, devo quindi fare una macro che compili il buffer attuale con <code>pandoc % -o %:r.pdf --pdf-engine=xelatex</code> cos&igrave; dovrebbe funzionare tutto.</p>
+<p>Ho modificato la macro, ora provo.</p>
+<p>Mi sa che &egrave; diventato un tantinello lento, ma si perde la configurazione della tastiera?</p>
+<p>Non mi pare in effetti che sia grossa differenza tra l'editing con Vim direttamente sul server e qui si TextTastic.</p>
+<p>Va bene devo modificare il front matter per ottenere la carta intestata di nexo.</p>
+<p>Non riesco a trovare uno schema colori che mi soddisfi quando scrivo in Markdown, forse dovrei scegliere uno schema semplice, monocromatico, che si abiliti automaticamente quando apro un file con estensione <code>md</code>.</p>
+<p>Lo cerco e lo provo.</p>
+<p>Ve bene, domani mi devo ricordare di sistemare il front matter in maniera definitiva.</p>
+<h2>TODO</h2>
+<ul>
+<li>[x] Front matter di formattazione documento</li>
+<li>[ ] Schema colori per terminale 256</li>
+<li>[ ] Workflow Pandoc definitivo per documento semplici</li>
+</ul>
+<p>Provando e riprovando forse sono riuscito a trovare la quadra.</p>
+<p>Un deciso no a Gdrive che terr&ograve; solo per la condivisione delle cose di lavoro e come backup.</p>
+<p>Tutto si iCloud con un symlink alla cartella file, metter&ograve; tutto qui e sar&agrave; il mio file system cloud.</p>
+<p>Se la sincronizzazione funziona come dovrebbe avr&ograve; tutto sui miei device senza peraltro installare applicazioni di tersi, poi su iPadOS il workflow sar&agrave; ancora pi&ugrave; semplice perch&eacute; iCloud &egrave; supportato (ovvio) nativamente. Non ci saranno quindi problemi con nessuna app. Questo per&ograve; mi lega all'ecosistema Apple. Pazienza, me ne far&ograve; una ragione.</p>
+<p>Visto? Gi&agrave; sincronizzato sul mio iMac. Si cos&igrave; funziona, facilita anche il backup. Di fatto ne avr&ograve; uno su ogni macchina sincronizzata con il mio account di iCloud.</p>
+<p>Posso anche scrivere con qualsiasi altra app, per esempio ora sto utilizzando iAWriter che, tra l&rsquo;altro, generer&agrave; un&rsquo;anteprima ignorando il front matter.<br>
+Questo mi consente di non attivare la VPN, quanto meno per l&rsquo;editing del testo. Servir&agrave; poi per la generazione del PDF con Pandoc // LaTeX.</p>
+<p>In effetti ho svariate soluzioni. La compilazione in PDF rimane un poco macchinosa ma &egrave; l&rsquo;ultimo dei problemi.</p>
+<p>Mi piace.</p>
+<p>Ora non resta che produrre, produrre e poi ancora produrre.</p>
+<p>Devo dire che anche se sono collegato in locale la velocit&agrave; non &egrave; poi cos&igrave; differente rispetto alla VPN.</p>
+<p>Molto bene benissimo.</p></section><section tabindex="0" role="document" aria-label="/now
+" id="now"><h1>/now</h1>
+<p>This is the <code>/now</code> page, let's see ho it renders.</p>
+<p>This is an <a href="#about">internal link to the <strong>About</strong> page</a>.</p>
+<p>Following a link to the <a href="#garden">Digital garden</a> page.</p>
+<p>[[#about]]</p>
+<p>Let's see if it renders correctly.</p>
+<h2>Some HTML</h2>
+<p>This is a text</p>
+<blockquote>This is a blockquote</blockquote>
+<p>It renders <code>HTML</code> natively, so I can add a search page for example.</p></section><section tabindex="0" role="document" aria-label="Digital garden
+" id="garden"><h1>Digital garden</h1>
+<p>This is the <em>Digital garden</em> page, following an internal link to the <a href="#now">now</a> page</p></section><section tabindex="0" role="document" aria-label="About
+" id="about"><h1>About</h1>
+<p>This blog is a single file, statically rendered <abbr title="Hyper Text Markup Language">HTML</abbr> page. The <abbr title="Hyper Text Markup Language">HTML</abbr> &amp; CSS were generated with <a href="https://github.com/bradleytaunt/phpetite">PHPetite</a>. Please raise any issues you come across in the official Github repo or help by contributing!</p>
+<p>Cheers!</p></section>
+    <section tabindex="0" role="document" aria-label="Home" id="home">
+      <div class="site-info"><h1>A Single File Blog</h1>
+<p>PHPetite (/p/h/p&#601;&#712;t&#275;t/) is a single file, static blog generated from PHP. Based off the very minimal and awesome <a target="_blank" href="https://github.com/cadars/portable-php">portable-php</a></p>
+<p>You can edit this homepage content in <code>content/_pages/home-content.md</code> (or remove it entirely). The choice is yours.</p></div><hr>
+      <nav>
+        <ul class="toc">
+          <li><a href="#2021-04-01-fatica"><span> Fatica
+</span></a> <time datetime="2021-04-01">2021-04-01</time></li><li><a href="#2021-01-11-hello-world"><span> Hello, World!
+</span></a> <time datetime="2021-01-11">2021-01-11</time></li><li><a href="#2021-01-10-how-to-generate-this-blog"><span> How to generate this blog
+</span></a> <time datetime="2021-01-10">2021-01-10</time></li><li><a href="#2021-01-09-markdown-examples"><span> Markdown examples
+</span></a> <time datetime="2021-01-09">2021-01-09</time></li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+  <footer>
+    <small>Last updated on April 1, 2021</small>
+    <div class="footer-links">
+        <small><a class="test" href="#test">Test page</a><span class="divider">/</span><a class="now" href="#now">/now</a><span class="divider">/</span><a class="home-content" href="#home-content">A Single File Blog</a><span class="divider">/</span><a class="garden" href="#garden">Digital garden</a><span class="divider">/</span><a class="about" href="#about">About</a><span class="divider">/</span></small>
+    </div>
+  </footer>
+</body>
+</html>
