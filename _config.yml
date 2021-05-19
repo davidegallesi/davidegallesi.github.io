@@ -2,8 +2,8 @@ title: marginalia
 name: Davide
 user_description: Programmer (Interested in Philosophy and Math)
 notes_url: "https://davidegallesi.github.io"
-profile_pic: /assets/img/zencat.jpg
-favicon: /assets/img/zencat.jpg
+profile_pic: /assets/img/zencat.png
+favicon: /assets/img/zencat.png
 copyright_name: John Doe
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://davidegallesi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
