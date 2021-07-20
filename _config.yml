@@ -1,55 +1,38 @@
-site: Marginalia
-title: Marginalia
-description: >-
-  just a minimalist, personal blog
-googlewebfonts: Fira+Code:wght@400;500;700
-lang: en-US
-timezone: Rome
-repo: https://github.com/davidegallesi/davidegallesi.github.io # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
-
+site: Sidey
+url: #yoururl
+title: Sidey
+description: Simple and minimalistic jekyll blogging theme.
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: #yoururl
+permalink: pretty
 
-# URL settings
-url: "https://davidegallesi.github.io" #
-baseurl: " " # leave blank if not wishd
-permalink: "https://davidegallesi.github.io/"
-permalink: pretty 
+baseurl: ""
 
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
+highlighter: none
 
 exclude:
   - .jekyll-cache
-  - .obsidian
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - CONTRIBUTING.md
   
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:          _sass
+  style:            :compressed
 
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap  
 
 collections:
   pages:
@@ -77,9 +60,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-relative_links:
-  enabled:     true
-  collections: false
-
-
