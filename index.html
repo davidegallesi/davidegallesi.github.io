@@ -1,12 +1,355 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>marginalia</title>
+  <meta name="description" content="A digital garden">
+  
+<link rel="icon" type="image/png" href="favicon.png"/>
+<!-- <link rel="icon" href="data:image/png;base64,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y9Cl61t9jLR6oqfzXdYzhKqye8x6hJbL986yHiFYITy/kupsF22wnmG6Lhi4/t2Wx8+34RgsuaM4c8+E9QjhcgGc/OL5ZSeE51dysXOmiWcpAAABIgAAAAgQAQAAQIAIAAAAAkQAAAAQIAIAAIAAEQAAAASIAAAAIEAEAAAAASIAAAAIEAEAAECACAAAAAJEAAAAECACAACAABEAAAAEiAAAACBABAAAAAEiAAAACBABAABAgAgAAAACRAAAABAgAgAAgAARAAAABIgAAAAgQAQAAAABIgAAAAgQAQAAQIAIAAAAAkQAAAAQIAIAAIAAEQAAAASIAAAAIEAEAAAAASIAAAAIEAEAAECACAAAAAJEAAAAECACAACAABEAAAAEiAAAACBABAAAAAEiAAAACBABAABAgAgAAAACRAAAABAgAgAAgAARAAAABIgAAAAgQAQAAAABIgAAAAgQAQAAQIAIAAAAAkQAAAAQIAIAAIAAEQAAAASIAAAAIEAEAAAAASIAAAAIEAEAAECACAAAAAJEAAAAECACAACAABEAAAAEiAAAACBABAAAAAEiAAAACBABAABAgAgAAAACRAAAABAgAgAAgAARAAAABIgAAAAgQAQAAAABIgAAAAgQAQAAQIAIAAAAAkQAAAAQIAIAAIAAEQAAAASIAAAAIEAEAAAAASIAAAAIEAEAAECACAAAAAJEAAAAECACAACAABEAAAAEiAAAACBABAAAAAEiAAAACBABAABAgAgAAAACRAAAABAgAgAAgAARAAAABIgAAAAgQAQAAAABIgAAAAgQAQAAQIAIAAAAAkQAAAAQIAIAAIAAEQAAAASIAAAAIEAEAAAAASIAAAAIEAEAAECACAAAAAJEAAAAECACAACAABEAAAAEiAAAACBABAAAAAEiAAAACFC+9Ydwv9X6Y9g5sH+i+yfb962X9x3WswBAJjg3ecbinvd0dxcPWI+SZc56gCwYuvii7zmvS6znAICM+N6KNSPLrYfIOi4BNIGTvms9AwBkhfOO19Q2IACaYHyObvPy+6znAIAM2J8vTNxuPUQICIAmKH17ZCKSW2c9BwCknndrrxx+cNx6jBAQAE0SO05ZAcBMuRyXVNuFAGiS3gX77pK003oOAEgvv2ssWnCP9RShIACa5C+/9ciUnF9tPQcApJWTGy4ND5et5wgFAdBcnLoC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"> -->
+  
+  <!-- og tags -->
+  <meta property="og:title" content="marginalia">
+  <meta property="og:description" content="A digital garden">
+  <!-- other -->
+  <meta name="twitter:card" content="summary">
+  <style>* {margin:0;padding:0;box-sizing:border-box;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-kerning:auto;--textdark:#011936;--textlight: #3A506B;--bgcolor: #FEFEFF;--highlight:#1494B8;}@media only screen and (prefers-color-scheme:dark) {* {--textdark:#dadada;--textlight: #888;--bgcolor: #181818;--highlight:#5ACDED;}.dark-mode {--textdark:#dadada;--textlight: #888;--bgcolor: #181818;--highlight:#5ACDED;}pre {background:rgba(255,255,255,.03);}}body {color:var(--textdark);background:var(--bgcolor);font:17px / 1.64 'Helvetica neue', system-ui, sans-serif; position:relative;max-width:50em; margin:0 auto;}section, section:target ~ section:last-of-type {height:0;overflow:hidden;padding:0;}section:target, section:last-of-type {height:auto;overflow:visible;padding:calc(5vw + 2.6em) 4vw 1.6em;}section:focus {outline:0;}section {overflow-wrap:break-word;width:100%;}section * + * {margin-top:.7em;}header {padding:5vw 4vw 0 4vw;position:absolute;width:100%;z-index:1;}footer {color:var(--textlight);display:flex;flex-wrap:wrap;justify-content:space-between;padding:1em 4vw 5vw 4vw;}footer .footer-links {display:block;width:100%;}footer .footer-links a {display:inline-block;}footer .footer-links span.divider {display:inline-block;margin:0 5px;}footer .footer-links span.divider:last-of-type {display:none;}footer .footer-links a.home-content, footer .footer-links a.home-content + span.divider {display:none;}footer * + * {margin-top:0;}ul.toc {overflow:hidden;}ul.toc * + * {margin:0;}ul.toc li {line-height:1.5;position:relative;display:flex;align-items:flex-end;margin:0;}ul.toc li a {flex:1;}ul.toc li a span {background:var(--bgcolor);padding-right:.3em;}ul.toc li time {background:var(--bgcolor);color:var(--textlight);font-variant-numeric:tabular-nums;padding-left:.3em;z-index:1;}ul.toc li a:after {width:100%;font-size:.55em;position:absolute;bottom:.4em;color:var(--textlight);white-space:nowrap;content:' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .'' . . . . . . . . . . . . . . . . . . . . . .';}a {color:var(--highlight);text-decoration:none;overflow-wrap:break-word;}a:hover { text-decoration:underline;}@media (hover:hover) and (pointer:fine) {a:hover {text-decoration:underline;}}a[href*="//"]:after {font-size:.65em;content:"\2197";display:inline-block;color:var(--textlight);}a[href*="//"]:hover:after {color:inherit;}header h1 {margin-bottom:1em;}header h1 a {font-weight:normal;display:block;}section h1 {font-size:1.4em;line-height:1.5;padding-top:1em;}header h1, h2, h3, h4, strong, b, dt {font-size:1em;}* + h2, * + h3, * + h4 {margin-top:1.4em;}h2.cute, h3 {text-transform:uppercase;letter-spacing:.06em;font-size:.9em;font-weight:400;}li, dd {margin-left:1.5em;}li + li, li ol, li ul {margin-top:.1em;}.footnotes li {color:var(--textlight);margin-top:.5em;max-width:95%;}img {display:block;max-width:100%;min-height:6em;height:auto;position:relative;}img:after { content:attr(alt);display:grid;align-content:center;position:absolute;z-index:2;top:0;left:0;width:100%;height:100%;font-size:.8em;text-align:center;color:var(--textlight);border:1px dashed var(--textlight);background-color:var(--bgcolor);}figure {padding:1em;}figcaption, small, .footnotes {font-size:.865em;}blockquote {padding:0 1em;color:var(--textlight);font-style:italic;border-left:3px solid var(--highlight);}cite {font-style:normal;}abbr[title] {text-decoration:none;cursor:help;}a abbr[title] {cursor:pointer;color:inherit;}hr {border:0;height:0;border-bottom:1px solid;opacity:.1;margin:1.4em 0;}sup {line-height:1;font-size:.75em;margin-left:.05em;}code, kbd {font-family:ui-monospace, SF Mono, SFMono-Regular, Menlo, Andale Mono, monospace;color:var(--textlight);font-size:.9em;overflow-wrap:break-word;}kbd {box-shadow:0 .5px 1px;border-radius:2px;padding:.05em .325em;font-size:.85em;margin:0 .1em;}pre {line-height:1.55;overflow:auto;background:rgba(0,0,0,.03);padding:.5em .85em .6em .85em;border-radius:4px;}pre code {font-size:.9em;position:relative;display:block;overflow-wrap:normal;}pre code:after {content:attr(class);position:absolute;right:-.6em;top:-.3em;text-transform:uppercase;font-size:.7em;opacity:.45;}input, select, textarea, button {font:inherit;font-size:.85em;line-height:inherit;border:0;box-shadow:0 0 .05em;padding:.2em .4em;width:100%;}table {border-collapse:collapse;min-width:100%;margin:1em 0;}thead {text-align:left;border-bottom:1px solid var(--textlight);}tr + tr {border-top:1px solid var(--textlight);}th, td {padding:.4em .3em .2em;}sup a {color:currentColor;pointer-events:none;}a.footnote-backref {display:none;}@media print {* {--bgcolor:#fff;}header {position:relative;}section {height:auto;overflow:visible;page-break-after:always;page-break-inside:avoid;break-inside:avoid;display:block;padding:2em 4vw;}section * {page-break-inside:avoid;break-inside:avoid;}}@media only screen and (max-width:500px) {footer .footer-links a { display:block; margin:0.2em 0; }footer .footer-links span.divider { display:none; }blockquote, figure { padding-left:4vw; padding-right:4vw; }ul.toc li {align-items:flex-start;flex-direction:column-reverse;}ul.toc li a { padding-bottom:1em; }ul.toc li time { font-size:.8em; padding-left:0; }ul.toc li a:after {height:0;overflow:hidden;position:absolute;}}footer a.about {display:none;}footer a.garden {display:none;}details {}details > summary {cursor:pointer;color:var(--highlight);outline:none;list-style:none;}details > summary:after { color:var(--textdark);font-family:ui-monospace, SF Mono, SFMono-Regular, Menlo, Andale Mono, monospace;font-size:0.9em;font-weight:bold;content:" [+]";}details[open] > summary:after { content:" [-]";}details > summary::-webkit-details-marker {display:none;}details > p {color:var(--textdark);font-size:0.9em;color:var(--textlight);padding:7px;border-radius:2px;}</style>
+</head>
+<body>
 
-<section class="posts">
+
+    <!-- <img src="content/img/favicon.png" width="64"> -->
+  <header>
+    <h1>
+      <a href="#home">marginalia</a>
+    </h1>
+    
+    
+    
+  
+  </header>
+  
+  <main>
+    <section tabindex="0" role="document" aria-label=" Vim snippets
+" id="2021-04-02-create-a-new-file-with-nerdtree-vim-snippets"><h1>Vim snippets</h1>
+<p>Questa è la sezione dove mi appunto gli <em>snippets</em> per Vim, così se non mi ricordo qualcosa posso venire qui.</p>
+<h2>Comandi personalizzati</h2>
+<p>Generare un PDF con Pandoc. <kbd>control</kbd> + <kbd>g</kbd>.</p>
+<h2>Creare un nuovo file in Vim con nerdtree</h2>
+<p>È molto semplice, una volta aperto <code>nerdtree</code> digitare <kbd>m</kbd> per aprire il menu di gestione dei file.<br />
+Quindi digitare <kbd>a</kbd> per aggiungere un nodo, ovvero un file. Tutto qui.</p></section><section tabindex="0" role="document" aria-label=" This is a new file
+" id="2021-04-02-a-this-is-a-new-file"><h1>This is a new file</h1>
+<p>Dove ma lo metterà?</p>
+<p>Ottimo, credo di aver trovate il mio workflow ideale per la realizzazione del mio sito. Dovrei provare con l'inserimento di una immagine.</p>
+<p>Una notazione, dovrei razionalizzare un poco ed evitare di essere schiavo della mia ambizione di avere un workflow totalmente frictionless, un po' di lavoro serve farlo. Non devo essere pigro.</p>
+<p>Volevo anche provare con un po' di <code>HTML</code>che dovrebbe consentire un po' di libertà andando oltre le costrizioni del <code>CSS</code>.</p>
+<p style="color:#4CB963;">Lorem ipsum dolor sit amet...</p>
+<p>Il testo qui dovrebbe essere colorato in <em>Purple Plum</em>, vediamo.</p>
+<p>Vedi? Continuo a saltare da un editor all’altro, mi sto dando troppe possibilità Le restrizioni alla fine aiutano la concentrazione. La cosa positiva è che essendo un workflow basato su file di testo qualsiasi editor utilizzi la modalità di scrittura e pubblicazione non cambia</p>
+<p>In effetti questo è un sistema agnostico rispetto a strumenti e sistema operativo.</p>
+<details>
+<summary>Questo è un esempo di details</summary>
+<p>
+Vediamo se dopo il tag viene supportato il *markdown* oppure devo continuare a utilizzare `HTML`.
+
+Direi che il <em>markdown</em> non funziona devo utilizzare <code>HTML</code>, me ne farò una ragione. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed mi odio. Quisque placerat semper gravida. Aliquam nec commodo neque. Phasellus tortor enim, lobortis vitae libero a, aliquet viverra arcu. Mauris elementum augue eros, ac elementum purus condimentum non. Sed tincidunt facilisis est, ut sagittis ligula vehicula ac. In libero nibh, bibendum quis ipsum ac, facilisis tincidunt dui. In hac habitasse platea dictumst. Integer at mi sed metus vehicula vestibulum. Sed sed ipsum purus.
+
+</p>
+</details>
+<p>Devo regolamentare l'uso del <code>&lt;details&gt;</code> che non deve diventare troppo invasivo.</p></section><section tabindex="0" role="document" aria-label=" Ritagli
+" id="2021-04-01-ritagli"><h1>Ritagli</h1>
+<p><small><emph>1 aprile 2021</emph></small></p>
+<blockquote>
+<p>Non prendo mai sul serio le mie, peraltro scarse, conoscenze.</p>
+</blockquote>
+<h2>Thinking</h2>
+<p>I've had a lot of to-do lists over the years. They helped me achieve quite a bit of things, but not always the right things, and certainly not always in the most effective manner.</p>
+<p>Looking back, there was one chore that I should have put on every list and saved time for every day.</p>
+<p>That missing item was "Thinking."</p>
+<p>I mean serious, not off-the-cuff, thinking where time is dedicated, assumptions are examined, unknown subjects are identified, plans are challenged, and conclusions are at least tentatively reached. This need not be done on a mountaintop, but it should be done.</p>
+<p>And I can attest to one thing: it does not occur automatically. You have to approach it with care and attention.</p>
+<p><em>Michale Wade</em></p>
+<p>Like so many things, the order is not optional.</p>
+<p>And yet, we often do the least-scary or easiest parts first, regardless of what the order of operations tells us. <em>Seth Godin</em></p>
+<p>so. “Reality exists in the human mind, and nowhere else,” George Orwell noted in <em>1984</em>.</p>
+<h1><a href="https://seths.blog/2021/02/careful-what-you-wish-for/">Careful what you wish for</a></h1>
+<p>21 Feb 2021 at 10:09</p>
+<p>Because wishes don’t always come true, but wishing takes a lot of time and energy and focus.</p>
+<p>What you wish for determines how you’re spending a juicy part of your day. If you wish for something you can’t control, that might fill you with frustration or distract you from wishing that could lead to productive work.</p>
+<p>Better to wish for something where the wishing itself is a useful act, one that shifts your attitude and focus.</p>
+<p>Per quanto sia radicata nelle nostre abitudini e nella saggezza popolare, la conferma può essere un errore pericoloso.</p>
+<p>La conoscenza, anche quando è esatta, non porta sempre ad azioni adeguate perché se non facciamo attenzione tendiamo a dimenticare ciò che conosciamo oppure scordiamo come elaborarlo in modo corretto, anche se siamo degli esperti.</p>
+<p><a href="https://malvinodue.blogspot.com/2021/03/il-bugiardino-dellaspirina-e-altre.html">Malvino: Il bugiardino dell’Aspirina e altre carabattole</a></p>
+<blockquote>
+<p><strong>L</strong>’<strong>unico scampo è offerto solo dall</strong>’<strong>entrare in clandestinità: chiudere tutti gli account, ritirarsi nella vita vera.</strong></p>
+</blockquote>
+<p><a href="https://twitter.com/schnitzlerrr/status/1373611147069419526">Stepanovich on Twitter</a></p>
+<blockquote>
+<p>Il medium è il messaggio (o il massaggio)</p>
+</blockquote>
+<p>Forse è questa la vera fiducia in se stessi: la capacità di osservare il mondo senza necessariamente trovare qualcosa che lusinghi il proprio Io.</p>
+<p>Questo vuol dire che siamo più bravi a spiegare che a capire? Vediamo.</p>
+<p><a href="https://www.immobiliare.it/annunci/85389788/">Quadrilocale via Hope 36, Sanremo | 4 locali | 150 m²</a></p>
+<p><a href="https://nota.md/">Nota – Pro notes app designed for local Markdown files.</a></p>
+<h2>Reading list</h2>
 <ul>
-{% for post in site.posts %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
-{% endfor %}
+<li>Russel Banks - Il dolce domani</li>
+<li>MacLuhan - Il medium è il massaggio</li>
+</ul></section><section tabindex="0" role="document" aria-label=" Hello, World!
+" id="2021-01-11-hello-world"><h1>Hello, World!</h1>
+<p>A <strong>"Hello, World!" program</strong> generally is a <a href="https://en.wikipedia.org/wiki/Computer_program" title="Computer program">computer program</a> that outputs or displays the message "Hello, World!". Such a program is very simple in most <a href="https://en.wikipedia.org/wiki/Programming_language" title="Programming language">programming languages</a>, and is often used to illustrate the basic <a href="https://en.wikipedia.org/wiki/Syntax" title="Syntax">syntax</a> of a programming language. It is often the first program written by people learning to code.<sup><a href="#" class="footnote-ref">1</a></sup>  It can also be used as a <a href="https://en.wikipedia.org/wiki/Sanity_test" title="Sanity test">sanity test</a> to make sure that a computer language is correctly installed, and that the operator understands how to use it.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li>
+<p>James A Langbridge (3 December 2013). <a href="https://books.google.com/books?id=y51NAgAAQBAJ&amp;pg=PA74"><em>Professional Embedded ARM Development</em></a>. <a href="https://en.wikipedia.org/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="https://en.wikipedia.org/wiki/Special:BookSources/9781118887820" title="Special:BookSources/9781118887820">9781118887820</a>.&#160;<a href="#" class="footnote-backref">&#8617;</a></p>
+</li>
+</ol>
+</div></section><section tabindex="0" role="document" aria-label=" How to generate this blog
+" id="2021-01-10-how-to-generate-this-blog"><h1>How to generate this blog</h1>
+<p>Get <a href="https://github.com/bradleytaunt/phpetite" title="PHPetite at Github">PHPetite</a> to convert Markdown&nbsp;files into a single <abbr title="Hyper Text Markup Language">HTML</abbr> file with inline, compressed <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+<ol>
+<li>Write posts in <code>/content</code></li>
+<li>(Optional) include any images under the <code>/content/img/</code> directory</li>
+<li>From the command-line run:</li>
+</ol>
+<pre><code class="bash">bash build.sh</code></pre>
+<p>This will generate both the single file <abbr title="Hyper Text Markup Language">HTML</abbr> page, along with an <code>atom.xml</code> file for the use of an optional RSS feed.</p>
+<p>These two files are output into the <code>_site</code> directory.</p>
+<h2>Advanced options</h2>
+<p>Looking for more advanced configurations, such as creating custom pages, editing homepage content and styling? Take a look at the <a href="https://github.com/bradleytaunt/phpetite" title="PHPetite at Github">Github repo</a> or the official website <a href="https://phpetite.org" title="PHPetite">phpetite.org</a>.</p>
+<p>Thank you, have a nice day.</p></section><section tabindex="0" role="document" aria-label=" Markdown examples
+" id="2021-01-09-markdown-examples"><h1><abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> examples</h1>
+<p>On top of plain <abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr>, <a href="https://michelf.ca/projects/php-markdown/extra"><abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> Extra</a> adds support for footnotes, abbreviations, definition lists, tables, <code>class</code> and <code>id</code> attributes, fenced code blocks, and <abbr title="Markdown is a lightweight markup language for creating formatted text using a plain-text editor">Markdown</abbr> inside <abbr title="Hypertext Markup Language">HTML</abbr> blocks.</p>
+<p>Additionally, images are properly enclosed in figure elements (with optional figcaption), and the <code>loading="lazy"</code> attribute is added.</p>
+<hr />
+<p>This is <strong>bold</strong>, <em>italic</em>,  this is an <a href="#2021-01-11-hello-world">internal link</a>, this is <del>not</del>  <code>code</code>, press <kbd>alt</kbd>.</p>
+<figure><img src="content/img/image.png" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /><figcaption>This is the image caption (line begins with a space)</figcaption>
+</figure>
+<figure><img src="content/img/image-missing.png" alt="This is the alt text of a missing image" title="This is the missing image title." width="1280" height="800" loading="lazy" /></figure>
+<blockquote>
+<p>This text is in a blockquote.</p>
+</blockquote>
+<h2>This is a level 2 heading</h2>
+<figure><img src="content/img/image-missing.png" alt="This is the alt text of a missing image" title="This is the missing image title." loading="lazy" /></figure>
+<h3>This is a level 3 heading</h3>
+<ul>
+<li>This</li>
+<li>is</li>
+<li>a list</li>
 </ul>
-</section>
-
+<ol start="0">
+<li>This</li>
+<li>is</li>
+<li>an</li>
+<li>ordered list</li>
+</ol>
+<pre><code class="txt">This is
+    preformatted
+  text.</code></pre>
+<table>
+<thead>
+<tr>
+<th>this is a table</th>
+<th>header</th>
+<th style="text-align: right;">this column is right-aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>these</td>
+<td>content</td>
+<td style="text-align: right;">1234</td>
+</tr>
+<tr>
+<td>are</td>
+<td>cells</td>
+<td style="text-align: right;">56789</td>
+</tr>
+</tbody>
+</table>
+<p>This sentence has a footnote.<sup><a href="#" class="footnote-ref">1</a></sup></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li>
+<p>This is a footnote&#160;<a href="#" class="footnote-backref">&#8617;</a></p>
+</li>
+</ol>
+</div></section>
+    <section tabindex="0" role="document" aria-label="Test page
+" id="test"><h1>Test page</h1>
+<p>Riflessione, il mio ecosistema è essenzialmente Apple based, questo è ciò che uso nel quotidiano. Perché mai devo complicarmi la vita nel quotidiano.</p>
+<h3>Citazione erudita</h3>
+<blockquote>
+<p>L'acqua che tocchi de' fiumi è l'ultima di quella che andò e la prima di quella che viene. Così il tempo presente.</p>
+</blockquote>
+<p>No lo sapevo ma con il tag <code>&lt;kbd&gt;</code> è possibile evidenziare un tasto della tastiera, per esempio <kbd>CTRL</kbd>.</p>
+<h2>Header 2 la tipografia</h2>
+<p><strong>Bold</strong></p>
+<p><em>Italic</em></p>
+<p><del>Strikethrough</del></p>
+<p>Devo capire come abilitare la preview.</p>
+<h2>Liste</h2>
+<p>Va bene iniziamo con una lista non ordinata, ovvero senza numeri.</p>
+<ul>
+<li>uno</li>
+<li>due</li>
+<li>tre</li>
+<li>quattro</li>
+</ul>
+<p>Ora invece una lista ordinata, ovvero numerata.</p>
+<ol>
+<li>uno</li>
+<li>due</li>
+<li>tre</li>
+<li>quattro</li>
+</ol>
+<h2>Pandoc</h2>
+<p>Ma che bello posso fare pa preview del file compilato con Pandoc, adesso devo capire come impostare il front matter per formattare il documento. Proviamo.<br />
+Il comando dovrebbe essere <code>Pandoc! pdf</code>.</p>
+<p>Va bene,adesso come al solito perderò un sacco di tempo a cercare lo schema colori che mi piace di più.</p>
+<p>Intanto vediamo se Synctex funziona con Skim. Provo a compilare. </p>
+<h2>Un blocco di codice</h2>
+<pre><code class="bash">php _phpetite/phpetite.php &gt; _site/index.html
+php _phpetite/rss.php &gt; _site/atom.xml
+sleep 1
+cp _site/*.* /var/www/html</code></pre>
+<h2>Tabelle</h2>
+<p>Questa dovrebbe essere una tabella.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">uno</th>
+<th style="text-align: left;">due</th>
+<th style="text-align: right;">tre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">centrato</td>
+<td style="text-align: left;">sinistra</td>
+<td style="text-align: right;">destra</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>grassetto</strong></td>
+<td style="text-align: left;"><em>corsivo</em></td>
+<td style="text-align: right;">normale</td>
+</tr>
+</tbody>
+</table>
+<p>Vediamo se viene generata correttamente.</p>
+<p><strong>Perfetta!</strong></p>
+<p>Veloce davvero. Ora ho modificato il visualizzatore di PDF, vediamo se quando compilo questa volta mi apre <em>Skim</em>.</p>
+<p>Alla prima non ha funzionato, riprovo. Sto cercando di capire come funzionano i template. Ci riprovo. nada, genera HTML.</p>
+<p>Magari mi funziona l'evidenziato, che in <em>Pandoc</em> dovrebbe essere così: ::evidenziato::.</p>
+<p>No, direi che non funziona.</p>
+<p>Ora ho aperto con Macvim direttamente dal finder.</p>
+<p>Vediamo se riesco anche a generare il PDF.</p>
+<p>Non velocissimo direi. Riproviamo, sto provando da console anziché da MacVim.</p>
+<p>Sempre lento, forse meglio in questo caso compilare direttamente dalla shell. Intanto devo installare sia Pandoc che MacTex sul server.</p>
+<p>Era già tutto installato, ora devo solo compilare e poi siamo a posto.</p>
+<p>Funziona tutto egregiamente, ho tutto quello che mi serve. Questo è il mio workflow, tutto il resto è lavoro occasionale che posso fare tranquillamente con l'iMac dell'ufficio.</p>
+<p>Pertanto ora non ho più scuse, devo FARE.</p>
+<p>La cosa notevole di utilizzare Vim è la consistenza tra le varie piattaforme. Al netto della possibilità del terminale di visualizzare più di 256 colori (per esempio Blink su Ipad non lo consente) che non consente l'utilizzo di schemi colore pensati per più di 256 colori, tutto il resto è uguale. L'esperienza d'uso è identica e consistente.</p>
+<p>Ovviamente anche la UX è consistente, tutto da tastiera.</p>
+<p>Bene, dovrei avere sistemato i Plugin anche sul server, proviamo a compilare.</p>
+<p>Non ho idea di quanto serva per compilare il PDF con Pandoc, provo a faccio partire un cronometro.</p>
+<p>Intanto non blocca Vim e posso continuare a lavorare, però questa cosa ad anello aperto non mi piace per nulla.</p>
+<p>Allora, se compilo dal riga di comando è tutto più veloce, devo quindi fare una macro che compili il buffer attuale con <code>pandoc % -o %:r.pdf --pdf-engine=xelatex</code> così dovrebbe funzionare tutto.</p>
+<p>Ho modificato la macro, ora provo.</p>
+<p>Mi sa che è diventato un tantinello lento, ma si perde la configurazione della tastiera?</p>
+<p>Non mi pare in effetti che sia grossa differenza tra l'editing con Vim direttamente sul server e qui si TextTastic.</p>
+<p>Va bene devo modificare il front matter per ottenere la carta intestata di nexo.</p>
+<p>Non riesco a trovare uno schema colori che mi soddisfi quando scrivo in Markdown, forse dovrei scegliere uno schema semplice, monocromatico, che si abiliti automaticamente quando apro un file con estensione <code>md</code>.</p>
+<p>Lo cerco e lo provo.</p>
+<p>Ve bene, domani mi devo ricordare di sistemare il front matter in maniera definitiva.</p>
+<h2>TODO</h2>
+<ul>
+<li>[x] Front matter di formattazione documento</li>
+<li>[ ] Schema colori per terminale 256</li>
+<li>[ ] Workflow Pandoc definitivo per documento semplici</li>
+</ul>
+<p>Provando e riprovando forse sono riuscito a trovare la quadra.</p>
+<p>Un deciso no a Gdrive che terrò solo per la condivisione delle cose di lavoro e come backup.</p>
+<p>Tutto si iCloud con un symlink alla cartella file, metterò tutto qui e sarà il mio file system cloud.</p>
+<p>Se la sincronizzazione funziona come dovrebbe avrò tutto sui miei device senza peraltro installare applicazioni di tersi, poi su iPadOS il workflow sarà ancora più semplice perché iCloud è supportato (ovvio) nativamente. Non ci saranno quindi problemi con nessuna app. Questo però mi lega all'ecosistema Apple. Pazienza, me ne farò una ragione.</p>
+<p>Visto? Già sincronizzato sul mio iMac. Si così funziona, facilita anche il backup. Di fatto ne avrò uno su ogni macchina sincronizzata con il mio account di iCloud.</p>
+<p>Posso anche scrivere con qualsiasi altra app, per esempio ora sto utilizzando iAWriter che, tra l’altro, genererà un’anteprima ignorando il front matter.<br />
+Questo mi consente di non attivare la VPN, quanto meno per l’editing del testo. Servirà poi per la generazione del PDF con Pandoc // LaTeX.</p>
+<p>In effetti ho svariate soluzioni. La compilazione in PDF rimane un poco macchinosa ma è l’ultimo dei problemi.</p>
+<p>Mi piace.</p>
+<p>Ora non resta che produrre, produrre e poi ancora produrre.</p>
+<p>Devo dire che anche se sono collegato in locale la velocità non è poi così differente rispetto alla VPN.</p>
+<p>Molto bene benissimo.</p></section><section tabindex="0" role="document" aria-label="/now
+" id="now"><h1>/now</h1>
+<p>This is the <code>/now</code> page, let's see ho it renders.</p>
+<p>This is an <a href="#about">internal link to the <strong>About</strong> page</a>.</p>
+<p>Following a link to the <a href="#garden">Digital garden</a> page.</p>
+<p>[[#about]]</p>
+<p>Let's see if it renders correctly.</p>
+<h2>Some HTML</h2>
+<p>This is a text</p>
+<blockquote>This is a blockquote</blockquote>
+<p>It renders <code>HTML</code> natively, so I can add a search page for example.</p>
+<p>I modified the <strong>favicon</strong> let's see if it works.</p></section><section tabindex="0" role="document" aria-label="Digital garden
+" id="garden"><h1>Digital garden</h1>
+<p>This is the <em>Digital garden</em> page, following an internal link to the <a href="#now">now</a> page.</p>
+<p>Questo è un link all’articolo <a href="#agnosticismo-scomodo"><strong>l’agnosticismo scomodo</strong></a> di Luciano Floridi.</p>
+<p>Devo capire come strutturare le pagine, intanto devo eliminare i link dal footer. Ci dovrà comunque essere un punto di “atterraggio” da cui partire per accedere alle sezioni principali. Dopo mi faccio una mappa mentale.</p>
+<p>Ma parliamo anche del workflow di pubblicazione.</p>
+<p>Posso scrivere con <em>iAWriter</em> (cosa che sto facendo ora) che usa Files app sincronizzata con SecureShellFish, oppure con <em>Vim</em> dentro una finestra di terminale usando Blink.<br />
+Posso scrivere con TexTastic, anche lui utilizza Files sincronizzata con SecureShelleFish.<br />
+Non ho problemi a trovare qualcosa con cui scrivere.<br />
+Ho problemi a scrivere.</p>
+<p>Per esempio adesso sto scrivendo con TexTastic. Ora vediamo se riesco a generare ilmfile <code>HTML</code>.</p>
+<p>Bene, ho creato un comando rapido che dovrebbe consentirmi di eseguire lo script di deploy. Proviamolo.</p>
+<p>Non funzionava, però ora sembra di si. Se così fosse potrei tranquillamente fare tutto da qui senza mai accedere al terminale.</p>
+<p>Riprovo.</p>
+<p><strong>Yes!</strong>.</p>
+<p>Non era un problema dello <code>script</code> che funziona benissimo, è la sincronizzazione con <em>ShellFish</em> che probabilmente ha qualche problema.</p>
+<p>Ora riprovo.</p>
+<p>Ora per esempio sto scrivendo con TexTastic e provo a genarare il sito utilizzando il comando rapido. Forse dovrei fare prima una generazione parziale con anteprima del file <code>HTML</code>, poi quando tutto è a posto faccio la copia sulla root del sito.</p></section><section tabindex="0" role="document" aria-label="L’agnosticismo scomodo e la sua speranza
+" id="agnosticismo-scomodo"><h1>L’agnosticismo scomodo e la sua speranza</h1>
+<p>04 gennaio 2021</p>
+<p>Passiamo la vita adulta a schivare le domande più difficili, quelle che nascono come curiosità da bambini, e ci assalgono come dubbi quando siamo anziani. Tra queste risalta la domanda sull’esistenza di Dio. È la più importante non solo a causa dell’argomento, ma anche perché la risposta è la prima tessera del domino rappresentato dalla nostra vita. A seconda di come cade la “tessera di Dio” seguono ricadute diverse su scelte e speranze, certezze e paure, gioie e dolori, significati e comportamenti. Tutto ciò è vero anche per gli inconsapevoli. Ogni vita umana si può interpretare come una risposta nei fatti alla domanda su Dio (una testimonianza, si direbbe in termini meno laici). Gli atei danno una risposta negativa, anche se solo implicita. Alcuni di loro, quelli militanti, hanno tanta fede nell’inesistenza di Dio quanta i credenti ne hanno nella sua esistenza. Per loro l’impossibilità di Dio è una religione dell’assenza, alla quale, incoerentemente, non applicano le stesse obiezioni che muovono contro una religione della presenza. Ci sono poi atei anche tra i praticanti, i religiosi, gli ottemperanti, che non negano Dio a parole ma si comportano di fatto come se Dio non esistesse. Sono i farisei che “dicono e non fanno” ( <em>Matteo</em> 23, 3). Agli atei si antepongono i teisti. Non si tratta solo di coloro che credono nell’esistenza di Dio, perché anche in questo caso conta la prassi: molte persone che affermano di essere non credenti poi di fatto si comportano come se Dio esistesse. Le chiamiamo spirituali, coscienziose, buone, pie. Infine, ci sono gli agnostici. Siamo un grande popolo di incerti, spesso ignorati dal dibattito tra atei e teisti.</p>
+<p>Alcuni sono <em>agnostici pigri</em>, ai quali manca la volontà di decidere da che parte stare. È l’ <em>agnosticismo comodo</em>, per adattare un’espressione usata negativamente da Papa Francesco, che caratterizza la vita distratta, superficiale, disimpegnata, irriflessa. Gli agnostici comodi, nel dubbio, si astengono o rimandano, senza capire che questo è già decidere: Dante li mette all’Inferno come ignavi.</p>
+<p>Invece, l’ <em>agnosticismo scomodo</em> è quello che cerca risposte e soffre per la loro assenza. Un agnostico scomodo è come un assetato nel deserto: se non si disseta è per impossibilità, non per pigrizia. Rifiuta di essere catalogato come mero non credente insieme agli atei, perché non crede nell’inesistenza di Dio, anche se non è in grado di credere nella sua esistenza — <em>non più</em>, per uno come me “agnostico di ritorno”, o <em>non ancora</em>, per chi la fede non l’ha mai avuta ed è “agnostico di partenza”. Non ha, o ha perso, la fede nella presenza di Dio senza aver acquisito la fede nella sua assenza. Ha sete, ma non sa se c’è fine all’aridità del deserto.</p>
+<p>L’agnostico concorda con credenti e non credenti su un punto di partenza. Se Dio esiste, esiste necessariamente, come un triangolo che necessariamente ha tre lati, non come un triangolo che è accidentalmente blu. Al contempo, se Dio non esiste, non esiste necessariamente, come non esiste un triangolo quadrato, non come una scultura triangolare mai realizzata ma che sarebbe potuta esistere. Si tratta del punto di partenza del famoso argomento ontologico a favore dell’esistenza di Dio. Purtroppo, nel corso dei ragionamenti che seguono da questo punto, i disaccordi crescono, l’incertezza aumenta, e l’agnostico torna a dubitare scomodamente, incerto tra chi ritiene l’argomento ontologico una dimostrazione inconfutabile, come Cartesio, Leibniz, Hegel, o Gödel, e chi lo rigetta come una fallacia logica, come Kant o Russell.</p>
+<p>Ciò non toglie che anche l’agnostico può essere pio. È così che Papa Francesco ha definito Carlo Petrini, il fondatore di Slow Food, per la sua “pietà per la Natura”. L’agnostico pio si comporta meglio di certi farisei. Su questo l’enciclica <em>Fratelli Tutti</em> ha parole molto gentili. E se è un agnostico non solo scomodo ma anche “di ritorno”, sa che la perdita della fede è la più grave di tutte, perché rende tutte le altre perdite definitive. Senza Dio, ogni morte è perenne; il dolore è irriscattabile; l’ingiustizia è irrimediabile; l’assenza di significato è incolmabile. L’assenza di Dio è l’eternità del male non come qualcosa, ma come evento irreversibile. Solo la presenza di Dio può annullare il male e ripristinare (non meramente restaurare) il bene come intatto. Sono costi tragici, che il credente non è disposto a pagare; che l’ateo deve avere il coraggio titanico di affrontare; e che l’agnostico pena a far quadrare.</p>
+<p>L’agnostico sa anche che senza Dio viene meno l’opportunità di essere grati per tutto quel bene che accade senza alcuna ragione apparente. Senza Dio il male è tragicamente permanente, e il bene naturale — quello che non è dovuto alla volontà umana — è solo casuale, come l’incontro fortuito con la persona che si ama, e tutte le altre cose belle per le quali non si può ringraziare nessuno. Anche i romani ringraziavano la dea Fortuna, e i greci potevano essere grati a Agathe Tyche, la “Buona Sorte” (tyche in greco significa “accadere per caso”). Invece l’ateo può solo congratularsi con se stesso per essere stato fortunato, mentre all’agnostico resta il dubbio se si tratti di casualità o causalità, accidente o disegno. L’impossibilità di essere grati per il bene naturale ricevuto è una perdita profonda perché la solitudine della gioia ne diminuisce il valore. Come nel caso dell’assenza della fede, anche il bene naturale ha un valore doppio: di base, in quanto bene, e aggiunto, come bene che è parte di un contesto condiviso più ampio anch’esso buono. Così la gratitudine per il bene ne esalta il valore, come una bottiglia di vino, che è più buona se condivisa con altri.</p>
+<p>L’agnostico “di ritorno” rimpiange la fede senza essere in grado di riottenerla. Ha tuttavia una consolazione. Nel famoso passo della Prima Lettera ai Corinzi, San Paolo elenca le virtù teologali: «Queste dunque le tre cose che rimangono: la fede, la speranza e la carità; ma di tutte più grande è la carità!» ( <em>1 Corinzi</em> 13, 13). Il credente può praticarle tutte; all’agnostico ne manca una, la fede, perciò si avvicina al credente per due terzi. Entrambi condividono con l’ateo la carità che quindi, anche in versione secolare e non paolina, resta la virtù più importante, perché accomuna tutti: credenti, non credenti, e agnostici. Ma è sulla speranza che l’agnostico può focalizzarsi. Per chi dubita dell’esistenza di Dio sul serio, come chi dubita di aver vinto o meno alla lotteria, la fede si scontra con la ragione e con i fatti, ma la speranza resta un’opzione ragionevole. È irragionevole <em>credere</em> di aver vinto alla lotteria, ma è ragionevole <em>sperarlo</em>. Per l’agnostico credere nell’esistenza o nell’inesistenza di Dio è impossibile, ma sperare che Dio esista e quindi comportarsi di conseguenza resta un’opzione del tutto plausibile, anzi diventa una virtù della ragione conoscitrice <em>(epistemica</em>, diremmo noi filosofi). Perché se la scelta è tra sperare che Dio esista e sperare che Dio non esista, la risposta è semplice. Il Salmo 14, dal quale parte la prova ontologica per l’esistenza di Dio, dice che: «Lo stolto ha detto nel suo cuore “non c’è Dio”». Tradotto in una teologia della speranza si può allora dire che solo lo stolto spera che Dio non esista, che il bene sia transeunte, e che il male sia perenne. Perciò all’agnostico scomodo, che non riesce a scommettere ragionevolmente come Pascal sulla fede, rimane la virtù epistemica di investire nella speranza, restando incerto senza essere stolto.</p>
+<p>di Luciano Floridi</p>
+<p><a href="https://www.osservatoreromano.va/it/news/2021-01/quo-002/l-agnosticismo-scomodo-e-la-sua-speranza.html">L’agnosticismo scomodo e la sua speranza</a></p></section><section tabindex="0" role="document" aria-label="About
+" id="about"><h1>About</h1>
+<p>This blog is a single file, statically rendered <abbr title="Hyper Text Markup Language">HTML</abbr> page. The <abbr title="Hyper Text Markup Language">HTML</abbr> &amp; CSS were generated with <a href="https://github.com/bradleytaunt/phpetite">PHPetite</a>. Please raise any issues you come across in the official Github repo or help by contributing!</p>
+<p>Cheers!</p></section>
+    <section tabindex="0" role="document" aria-label="Home" id="home">
+      <div class="site-info"><h1>A Single File Blog</h1>
+<p>PHPetite (/p/h/pəˈtēt/) is a single file, static blog generated from PHP. Based off the very minimal and awesome <a target="_blank" href="https://github.com/cadars/portable-php">portable-php</a></p>
+<p>You can edit this homepage content in <code>content/_pages/home-content.md</code> (or remove it entirely). The choice is yours.</p>
+<p>Ho modificato <code>HTML</code> per avere la favicon, chissà se funziona.</p></div><hr>
+      <nav>
+        <ul class="toc">
+          <li><a href="#2021-04-02-create-a-new-file-with-nerdtree-vim-snippets"><span> Vim snippets
+</span></a> <time datetime="2021-04-02">2021-04-02</time></li><li><a href="#2021-04-02-a-this-is-a-new-file"><span> This is a new file
+</span></a> <time datetime="2021-04-02">2021-04-02</time></li><li><a href="#2021-04-01-ritagli"><span> Ritagli
+</span></a> <time datetime="2021-04-01">2021-04-01</time></li><li><a href="#2021-01-11-hello-world"><span> Hello, World!
+</span></a> <time datetime="2021-01-11">2021-01-11</time></li><li><a href="#2021-01-10-how-to-generate-this-blog"><span> How to generate this blog
+</span></a> <time datetime="2021-01-10">2021-01-10</time></li><li><a href="#2021-01-09-markdown-examples"><span> Markdown examples
+</span></a> <time datetime="2021-01-09">2021-01-09</time></li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+  <footer>
+    <small>Last updated on April 8, 2021</small>
+    <div class="footer-links">
+        <small><a class="test" href="#test">Test page</a><span class="divider">/</span><a class="now" href="#now">/now</a><span class="divider">/</span><a class="home-content" href="#home-content">A Single File Blog</a><span class="divider">/</span><a class="garden" href="#garden">Digital garden</a><span class="divider">/</span><a class="agnosticismo-scomodo" href="#agnosticismo-scomodo">L’agnosticismo scomodo e la sua speranza</a><span class="divider">/</span><a class="about" href="#about">About</a><span class="divider">/</span></small>
+    </div>
+  </footer>
+</body>
+</html>
