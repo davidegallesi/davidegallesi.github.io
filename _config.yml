@@ -1,51 +1,85 @@
-title: marginalia
-name: Davide
-user_description:
-notes_url: "https://davidegallesi.github.io"
-profile_pic: /assets/img/profile.png
-favicon: /assets/img/favicon.png
-copyright_name: Davide Gallesi
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://davidegallesi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-encoding: utf-8
+site: Gesko
+title: Gesko
+description: >-
+  just a minimalist, personal blog
+googlewebfonts: Fira+Code:wght@400;500;700
+lang: en-US
+timezone: Rome
+repo: https://github.com/p0wex/Gesko # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
 
-# Build settings
-theme: null
-plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
+author:
+  name: p0wex
+  bio: just a minimalist, personal blog
+  username: p0wex # general username
+  github: p0wex # github username
+  twitter: P0Wex # twitter username
+  email: your-email@email.com # email adress
+
+# URL settings
+url: "https://powex.ml" #
+baseurl: "/Gesko" # leave blank if not wishd
+permalink: "https://powex.ml/Gesko/"
+permalink: pretty 
+
 
 markdown: kramdown
-
 kramdown:
   input: GFM
-  hard_wrap: false
-  math_engine: mathjax
-  smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
 
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
 sass:
+  sass_dir: _sass
   style: compressed
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+
 collections:
-    notes:
-      output: true
-      permalink: /notes/:title
-
-disqus:
-  shortname: 
-
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      type: posts
     values:
-      layout: post
-      permalink: /posts/:title
-      content-type: post
-  - scope:
+      layout: "default"
+  -
+    scope:
       path: ""
-      type: notes
+      type: "pages"
     values:
-      layout: post
-      content-type: notes
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+

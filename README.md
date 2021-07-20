@@ -1,26 +1,71 @@
-# Simply Jekyll - A simple jekyll theme
+# Gesko
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/42c75d17-5f01-4aea-9da3-4538ba92122e/deploy-status)](https://app.netlify.com/sites/simply-jekyll/deploys)
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+Simple and minimal Jekyll blog. 
+Forked from [Asko](https://github.com/manuelmazzuola/asko).
+Inspired from [Klisé](https://github.com/piharpi/jekyll-klise)
 
-![simply_jekyll](https://user-images.githubusercontent.com/24671386/112729246-3a68c600-8f51-11eb-98d5-8184f402b783.png)
+Both had some issues with Github Pages, so I decided to make it work by losing as few features as possible.
+Now easly deployable on Github Pages, with:
+
+### Features
+
+- [x] Responsive Design
+- [x] Dark/Ligh theme 🌗
+- [x] Inline CSS
+- [x] Anchor headings
+- [x] Tags & Tag pages 
+- [x] 404 page 
+- [x] Robots.txt 🤖
+- [x] Atom & Json feeds 📡
+- [x] Sass 
+- [x] About page, with Timeline! 🗣️
+- [x] PageSpeed and w3Validator tests PASSED ✔️
+- [x] Search bar 🔎
+- [x] Next & Previous Post ⏮️ ⏭️
+
+## Backlogs
+
+- [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
 
 
-Simply Jekyll is a simple yet highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal and distraction free theme that strives to provide maximum value all without holding back on any essential features that a user would benefit from or would desire for. This is an evolving project and is garanteed to be maintained at least for quite some time as I myself am a beneficiary of this theme and the project.
 
-Preview the template here: https://simply-jekyll.netlify.app/
+## Screenshot
 
-I wrote a tutorial explaining how to set it up: https://simply-jekyll.netlify.app/posts/how-to-setup-simply-jekyll
+![light-theme](https://github.com/P0WEX/Gesko/blob/master/light-theme.jpg)
+![dark-theme](https://github.com/P0WEX/Gesko/blob/master/dark-theme.jpg)
 
-- Based on Jekyll, a static website generator
-- Creates backlinks to other notes automatically
-- Context menu on feed to instantly see related posts and backlinks
-- Supports Roam-style double bracket link syntax to other notes
-- On hover page previews
-- Features a simple and responsive design
-- Supports Markdown or HTML notes
+## Installation
+
+Run local server:
+
+```bash
+$ git clone https://github.com/P0WEX/Gesko.git
+$ cd Gesko
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
+```
+
+Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
+If you want to upload it to Github Pages, remember to update the `_congif.yml` and if you are going to upload in a repo called yournickname.github.io, remember to update the `{{ site.baseurl }}` to `{{ site.url }}` .
+Note that there is also a gtag in the [`_layouts/default.html`](https://github.com/P0WEX/Gesko/blob/6776e4afc384dc3d50ce2001715929c8e70a914c/_layouts/default.html#L9), you should remove it.
+
+To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
+```
+---
+layout: tag
+tag: yourNewTag
+---
+```
+Then build again and you're ready!!
+
+## Contributing
+
+Yeaaa feel free to open a pull request.
 
 
-<img src="https://www.dropbox.com/s/46yfu5fwvfugfvc/end_result.JPG?raw=1" style="box-shadow: 2px 2px 20px 0 #ddd;"/>
+If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE.md).
