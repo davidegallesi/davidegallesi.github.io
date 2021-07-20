@@ -19,7 +19,7 @@ author:
 # URL settings
 url: "https://davidegallesi.github.io" #
 baseurl: " " # leave blank if not wishd
-permalink: "https://davidegallesi.github.io"
+permalink: "https://davidegallesi.github.io/"
 permalink: pretty 
 
 
