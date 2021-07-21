@@ -3,7 +3,7 @@
     <title>marginalia</title>
     <link href="https://yourdomain.com/atom.xml" rel="self"/>
     <link href="https://yourdomain.com"/>
-    <updated>2021-04-08T16:15:54+00:00</updated>
+    <updated>2021-07-21T06:32:36+00:00</updated>
     <id>https://yourdomain.com/</id>
     <author>
       <name>Davide</name>
@@ -48,7 +48,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed mi odio. Quis
 
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;p&gt;Devo regolamentare l'uso del &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; che non deve diventare troppo invasivo.&lt;/p&gt;</content>
+&lt;p&gt;Devo regolamentare l'uso del &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; che non deve diventare troppo invasivo.&lt;/p&gt;
+&lt;p&gt;Sto provando a costruire il workflow.&lt;/p&gt;</content>
   </entry>
   
   <entry>
