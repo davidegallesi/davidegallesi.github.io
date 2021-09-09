@@ -3,21 +3,7 @@
   <head>
     <meta charset="utf-8">
      <title>
-      {% if page.tag or page.title %}
-        {% if page.tag %}
-          {{ page.tag | escape }}
-        {% else %}
-          {{ page.title | escape }}
-        {% endif %}
-        -
-      {% endif %}
-      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-        Page {{ paginator.page }} of {{ paginator.total_pages }} -
-      {% endif %}
-      {{ site.title | escape }}
-      {% unless page.tag or page.title %}
-        - {{ site.description | escape }}
-      {% endunless %}
+      <a href="{{ site.titel.url }}">{{ site.title }}</a>
     </title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
