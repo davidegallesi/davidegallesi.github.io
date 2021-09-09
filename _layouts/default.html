@@ -4,7 +4,14 @@
   <!-- ... -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="style="style.css" rel="stylesheet">
+  
+   <style>
+    {% capture include_to_scssify %}
+      {% include inline.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  
 </head>
 
 <html lang="en" >
