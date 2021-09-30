@@ -19,7 +19,7 @@ baseurl: ""
 
 
 
-highlighter: none
+highlighter: rouge
 
 exclude:
   - .jekyll-cache
