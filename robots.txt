@@ -1,2 +1,5 @@
+---
+layout: none
+---
 User-agent: *
-Sitemap: http://159.203.176.167:4000/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml

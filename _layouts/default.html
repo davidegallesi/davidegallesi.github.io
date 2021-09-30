@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+	<html lang="en" >
+<body>
+
+
+  	{% include head.html %}
+	
+	<main role="main">
+	  
+	<picture>
+		<source srcset="/img/logo_dark.png" media="(prefers-color-scheme: dark)">
+		<img class="brand-image" src="/img/logo.png"/>      
+	</picture>
+		{% include navigation.html %}
+	    
+		{{ content }}
+        	    
+	</main>
+            
+  </body>
+
+</html>
