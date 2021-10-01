@@ -18,8 +18,8 @@ baseurl: ""
 
 
 
-
-# highlighter: rouge
+markdown: kramdown
+highlighter: rouge
 
 exclude:
   - .jekyll-cache

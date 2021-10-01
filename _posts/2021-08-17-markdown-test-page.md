@@ -105,7 +105,7 @@ Va bene,adesso come al solito perderò un sacco di tempo a cercare lo schema col
 Intanto vediamo se Synctex funziona con Skim. Provo a compilare. 
 ## Un blocco di codice
 
-```php
+```html
 php _phpetite/phpetite.php > _site/index.html
 php _phpetite/rss.php > _site/atom.xml
 sleep 1
