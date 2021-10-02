@@ -28,18 +28,18 @@
   * {
 
     --textdark:   #dadada;
-    --textlight:  #9e9e9e;
-    --bgcolor:    #353535; /*#181818;*/
-    --highlight: #3DA5D9 /*#5ACDED;*/
+    --textlight:  #efefef;/*#9e9e9e;*/
+    --bgcolor:    #10202C;/*#353535; /*#181818;*/
+    --highlight: #BF783A;/*#3DA5D9 /*#5ACDED;*/
 
   }
   
   .dark-mode {
   	
   	--textdark:   #dadada;
-	--textlight:  #9e9e9e;
-	--bgcolor:    #353535; /*#292929;*/
-	--highlight: #3DA5D9 /*#FA824C;*/
+	--textlight:  #efefef;/*#9e9e9e;*/
+	--bgcolor:    #10202C;/*#353535; #292929;*/
+	--highlight: #BF783A;/*#3DA5D9 #FA824C;*/
 
 }  
   
