@@ -12,6 +12,7 @@ tags: [css, markdown]
 Scrivo dal mio iPad Pro ma in in realtà sto scrivendo sul MacMini che ho a casa.
 Ora provo a generare `HTML`.
 
+`` `<#text#>` ``
 
 ![Laputa Robot](/img/Robot_laputa.png)
 
@@ -105,12 +106,12 @@ Va bene,adesso come al solito perderò un sacco di tempo a cercare lo schema col
 Intanto vediamo se Synctex funziona con Skim. Provo a compilare. 
 ## Un blocco di codice
 
-```html
+~~~PHP
 php _phpetite/phpetite.php > _site/index.html
 php _phpetite/rss.php > _site/atom.xml
 sleep 1
 cp _site/*.* /var/www/html
-```
+~~~
 
 ## Tabelle
 
