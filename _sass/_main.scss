@@ -19,6 +19,7 @@
 --gradient0: linear-gradient(0deg, var(--bgcolor), var(--highlight), var(--bgcolor)) 1;  
 }
 
+
 @media only screen and (prefers-color-scheme: dark) {
   * {
 
@@ -28,8 +29,8 @@
     --highlight: #BF783A;/*#3DA5D9 /*#5ACDED;*/
 
   }
-  
-  .dark-mode {
+    
+.dark-mode {
   	
   --textdark:   #dadada;
 	--textlight:  #efefef;/*#9e9e9e;*/
@@ -54,6 +55,7 @@
 }
 
 }
+
 
 
 
