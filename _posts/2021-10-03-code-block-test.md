@@ -19,5 +19,13 @@ Vediamo se riesco a risolvere questa cosa del blocco di codice.
 </html>
 ~~~
 
-Ora vediamo se modificando il CSS riesco ad abilitare anche la sintassi colorata.
+Deciso approccio più minimale.
+
+Bene, vediamo se riesco a consolidare il workflow. Il problema potrebbe essere le modalità in cui *iAWriter* salva il file, se ne salva più versioni mi troverò **n** file corrispondenti a tutte le versioni salvate.
+
+Per ora sembra funzionare. Anche se potrebbe non essere necessario tenere attivo un aggiornamento live del sito, posso tranquillamente utilizzare l’anteprima e pubblicare una volta che ho finito di scrivere ed editare.
+Comunque così sembra funzionare.
+
+È un po’ frustrante questa toolbar che continua a spuntare qui sotto.
+
 
