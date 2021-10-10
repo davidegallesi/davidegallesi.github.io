@@ -7,12 +7,14 @@ summary: This is a test page to see if the CSS stylesheet works properly.
 tags: [css, markdown]
 ---
 
+[[2021-10-03-code-block-test]]
+
+Ho finalmente creato un sistema di archiviazione e publishing quasi ideale. Ora non ho più scuse devo scrivere. O forse solo trovare il coraggio di pubblicare quello che ho scritto negli ultimi 5/10 anni. 
+
 ## Prove
 
 Scrivo dal mio iPad Pro ma in in realtà sto scrivendo sul MacMini che ho a casa.
 Ora provo a generare `HTML`.
-
-`` `<#text#>` ``
 
 ![Laputa Robot](/img/Robot_laputa.png)
 

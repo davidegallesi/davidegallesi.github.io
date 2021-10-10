@@ -8,6 +8,10 @@ tags: [jekyll, css]
 
 Vediamo se riesco a risolvere questa cosa del blocco di codice.
 
+WikiLinks! O backlinks che dir si voglia.
+
+[[2021-08-17-markdown-test-page]]
+
 
 ~~~HTML
 <!DOCTYPE html>
