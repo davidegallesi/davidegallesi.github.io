@@ -9,7 +9,9 @@ tags: [css, markdown]
 
 [[2021-10-03-code-block-test]]
 
-Ho finalmente creato un sistema di archiviazione e publishing quasi ideale. Ora non ho più scuse devo scrivere. O forse solo trovare il coraggio di pubblicare quello che ho scritto negli ultimi 5/10 anni. 
+
+
+Ho finalmente creato un sistema di gestione della conoscenza, archiviazione e publishing quasi ideale. Ora non ho più scuse devo scrivere. O forse solo trovare il coraggio di pubblicare quello che ho scritto negli ultimi 5/10 anni. 
 
 ## Prove
 
@@ -26,7 +28,7 @@ Ho sempre la possibilità di modificare lo schema colori, non mi viene in mente 
 
 ***
 
-Per esempio questo è un linh ai post con tag [CSS](https://www.davidegallesi.com/tag/css/) 
+Per esempio questo è un link ai post con tag [CSS](https://www.davidegallesi.com/tag/css/) 
 
 
 Quindi, se modifico anche con Textastic il sito dovrebbe rigenerarsi in automatico.
@@ -188,9 +190,9 @@ Ve bene, domani mi devo ricordare di sistemare il front matter in maniera defini
 
 ## TODO
 
-- [x]  Front matter di formattazione documento
-- [ ]  Schema colori per terminale 256
-- [ ]  Workflow Pandoc definitivo per documento semplici
+- [x]   Front matter di formattazione documento
+- [ ]   Schema colori per terminale 256
+- [ ]   Workflow Pandoc definitivo per documento semplici
 
 
 Provando e riprovando forse sono riuscito a trovare la quadra.
