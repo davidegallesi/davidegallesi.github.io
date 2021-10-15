@@ -126,12 +126,9 @@ a {
 }
 
 .wiki-link {
-	font-family: ui-monospace, SF Mono, SFMono-Regular, Menlo, Andale Mono, monospace;
-	position: relative;
-  	display:block;
-  	overflow-wrap: normal;
-  	line-height: 1.55;
-  	overflow: auto;
+	&::after {
+      content: "\a";
+      white-space: pre;
   }
 	
 } 
