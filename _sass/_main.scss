@@ -125,8 +125,12 @@ a {
 	padding-right: 1px;
 }
 
-.wiki-link p{
-	white-space: pre;
+.wiki-link {
+	font-size: 0.8em;
+	&::before {
+      content: "\A";
+      white-space: pre;
+  }
 	
 } 
 
