@@ -6,10 +6,7 @@ published: true
 tags: [jekyll, css]
 ---
 
-Related
-
 [[2021-08-17-markdown-test-page]]
-
 [[2014-05-12-css-hacks-you-may-not-know]]
 
 Sto scrivendo con Working Copy
