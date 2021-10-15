@@ -8,7 +8,7 @@ tags: [css, markdown]
 ---
 
 [[2021-10-03-code-block-test]]
-
+[[2014-05-12-css-hacks-you-may-not-know]]
 
 
 Ho finalmente creato un sistema di gestione della conoscenza, archiviazione e publishing quasi ideale. Ora non ho più scuse devo scrivere. O forse solo trovare il coraggio di pubblicare quello che ho scritto negli ultimi 5/10 anni. 
