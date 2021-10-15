@@ -126,7 +126,10 @@ a {
 }
 
 .wiki-link {
-	word-spacing: 100vw;
+	font-size: 0.8em;
+	&::after {
+      content: "\A";
+      white-space: pre;
   }
 	
 } 
