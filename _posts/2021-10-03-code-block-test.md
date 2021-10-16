@@ -6,10 +6,12 @@ published: true
 tags: [jekyll, css]
 ---
 
+I link interni consentono di costruire la relazione tra le varie note.
 
-Related
+Questo sono alcuni esempi di link intern i a note che sono poi diventati post del blog.
 
-*[[2021-08-17-markdown-test-page]]*
+
+[[2021-08-17-markdown-test-page]]*
 [[2014-05-12-css-hacks-you-may-not-know]]
 
 Sto scrivendo con Working Copy
