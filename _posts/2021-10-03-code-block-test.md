@@ -10,8 +10,21 @@ I link interni consentono di costruire la relazione tra le varie note.
 
 Questi sono alcuni esempi di link interni a note che sono poi diventati post del blog.
 
+È interessante come sia riuscitoo a costruire un workflow che sincronizza tutto, gli strumenti finalmente ci sono. Devo solo a questo punto utilizzarli.
 
-[[2021-08-17-markdown-test-page]]*
+Ho il solo dubbio se tenere il sito su netlify oppure sul server linux su cui sviluppo. Forse sul server ha senso la sola versione di prova.
+
+Si meglio tenere le cose separata, peraltro se utilizzo:
+
+`bundle exec jekyll serve --host=indirizzo ip pubblico`
+
+posso avere un server di test senza installare apache o ngnix.
+
+Vediamo se utilizzando TexTastic si verifica ancora il problema dei file duplicati, succedeva con iCloud probabilmente sul server Linux no.
+
+Vediamo.
+
+[[2021-08-17-markdown-test-page]]
 [[2014-05-12-css-hacks-you-may-not-know]]
 
 Sto scrivendo con Working Copy
