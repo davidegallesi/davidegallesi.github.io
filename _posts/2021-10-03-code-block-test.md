@@ -8,9 +8,13 @@ tags: [jekyll, css]
 
 I link interni consentono di costruire la relazione tra le varie note.
 
+Non ho mai pensato di utilizzare Tmux, davvero molto utile, "mangia" un po' di schermo ma rende tutto molto più semplice.
+
+Devo cambiare il colore del cursore con questo tema di Vim. Vediamo come fare.
+
 Questi sono alcuni esempi di link interni a note che sono poi diventati post del blog.
 
-È interessante come sia riuscitoo a costruire un workflow che sincronizza tutto, gli strumenti finalmente ci sono. Devo solo a questo punto utilizzarli.
+È interessante come sia riuscito a costruire un workflow che sincronizza tutto, gli strumenti finalmente ci sono. Devo solo a questo punto utilizzarli.
 
 Ho il solo dubbio se tenere il sito su netlify oppure sul server linux su cui sviluppo. Forse sul server ha senso la sola versione di prova.
 

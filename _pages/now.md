@@ -11,7 +11,7 @@ Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wik
 - Reading.
 - Walking.
 - Biking.
-- Writing on paper with pencils fountain pens.
+- Writing on paper with pencils and fountain pens.
 - Fighting daily against my ignorance.
 - Slowing down.
 - Sharing (rarely) short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi).
