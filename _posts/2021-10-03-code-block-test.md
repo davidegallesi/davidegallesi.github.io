@@ -6,6 +6,8 @@ published: true
 tags: [jekyll, css]
 ---
 
+Utilizzo l’indirizzo IP pubblico, meglio. Ora provo a pubblicare.
+
 I link interni consentono di costruire la relazione tra le varie note.
 
 Non ho mai pensato di utilizzare Tmux, davvero molto utile, "mangia" un po' di schermo ma rende tutto molto più semplice.
