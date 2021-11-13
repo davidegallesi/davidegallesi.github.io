@@ -10,7 +10,12 @@ Utilizzo l’indirizzo IP pubblico, meglio. Ora provo a pubblicare.
 
 [[2021-10-09-workflow]]
 
+Perché il link interno non funziona? Ha forse cessato di funzionare il plugin di jekyll? 
+
 Utilizzo il terminale e Tmux che mi consente di avere due `panes` uno di editing dove utilizzo Vim e uno minimale, essenzialmente una riga, dove posso utilizzare la riga di comando epr fare ciò che serve per sincronizzare e pubblicare.
+
+*memo to self*
+Devo tenere a mente chge l'unico modo per cambiare il colore del cursore quando uso Vim da terminale è di cambiare lo schema colori del terminale, non di Vim. Cambiare lo schema colori di Vim non ha alcun effetto sul cursore.
 
 Non ho mai pensato di utilizzare Tmux, davvero molto utile, "mangia" un po' di schermo ma rende tutto molto più semplice.
 
