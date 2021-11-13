@@ -8,7 +8,9 @@ tags: [jekyll, css]
 
 Utilizzo l’indirizzo IP pubblico, meglio. Ora provo a pubblicare.
 
-I link interni consentono di costruire la relazione tra le varie note.
+[[2021-10-09-workflow]]
+
+Utilizzo il terminale e Tmux che mi consente di avere due `panes` uno di editing dove utilizzo Vim e uno minimale, essenzialmente una riga, dove posso utilizzare la riga di comando epr fare ciò che serve per sincronizzare e pubblicare.
 
 Non ho mai pensato di utilizzare Tmux, davvero molto utile, "mangia" un po' di schermo ma rende tutto molto più semplice.
 
