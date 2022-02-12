@@ -16,7 +16,6 @@ Questo consente di creare una raccolta di annotazioni collegate tra loro per (è
 
 Allora, l’integrazione di Files app in Blink non mi pare che funzioni granché bene. Non salva il file.
 
-Utilizzando ShellFish tutto sembra funzionare correttamente.
-
+Utilizzando ShellFish tutto sembra funzionare correttamente. Mi interessa utilizzare i link interni utilizzando la sintassi WiKi? Direi di no.
 
 
