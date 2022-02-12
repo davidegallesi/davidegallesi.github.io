@@ -14,3 +14,9 @@ Questo consente di creare una raccolta di annotazioni collegate tra loro per (è
 
 [WikiLinks Jekyll plugin](https://github.com/manunamz/jekyll-wikilinks)
 
+Allora, l’integrazione di Files app in Blink non mi pare che funzioni granché bene. Non salva il file.
+
+Utilizzando ShellFish tutto sembra funzionare correttamente.
+
+
+
