@@ -1,7 +1,5 @@
 ---
 layout: post
-title: Markdown test page
-date: 2021-08-19
 description: This is a test page to see if the CSS works properly
 summary: This is a test page to see if the CSS stylesheet works properly.
 tags: [css, markdown]
