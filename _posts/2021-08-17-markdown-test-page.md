@@ -7,7 +7,7 @@ summary: This is a test page to see if the CSS stylesheet works properly.
 tags: [css, markdown]
 ---
 
-[Una prova per vedere se funzionano i link interni](_posts/2021-10-03-code-block-test.md)
+{% post_url 2021-10-03-code-block-test %}
 
 [[2014-05-12-css-hacks-you-may-not-know]]
 
