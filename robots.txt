@@ -1,5 +1,2 @@
----
-layout: none
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: http://www.davidegallesi.com/sitemap.xml
