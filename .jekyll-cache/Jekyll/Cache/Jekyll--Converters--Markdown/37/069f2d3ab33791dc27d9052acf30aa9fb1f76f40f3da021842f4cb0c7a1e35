@@ -1,0 +1,82 @@
+I"_<p>This is a searchable archive of all writings.</p>
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Search..." />
+<ol id="results-container"></ol>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="/search.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script type="text/javascript">
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+  noResultsText: 'No results found',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['Welcome']
+})
+</script>
+
+<section class="posts">
+<ul>
+
+<li><a href="/2022/02/12/pianura/">Pianura</a><time datetime="2022-02-12T00:00:00+00:00">2022-02-12</time></li>
+
+<li><a href="/2021/10/12/too-much/">Too much</a><time datetime="2021-10-12T00:00:00+00:00">2021-10-12</time></li>
+
+<li><a href="/2021/10/03/code-block-test/">Code block formatting with CSS</a><time datetime="2021-10-03T00:00:00+00:00">2021-10-03</time></li>
+
+<li><a href="/2021/09/16/la-foglia/">La foglia</a><time datetime="2021-09-16T00:00:00+00:00">2021-09-16</time></li>
+
+<li><a href="/2021/08/17/markdown-test-page/">Markdown Test Page</a><time datetime="2021-08-17T00:00:00+00:00">2021-08-17</time></li>
+
+<li><a href="/2019/08/31/difference-between-font-formats/">Difference between font formats</a><time datetime="2019-08-31T00:00:00+00:00">2019-08-31</time></li>
+
+<li><a href="/2019/07/23/staticman-comments-on-a-jekyll-site/">Staticman comments on a Jekyll site</a><time datetime="2019-07-23T00:00:00+00:00">2019-07-23</time></li>
+
+<li><a href="/2019/05/23/adding-http-response-headers-to-a-netlify-static-website/">Adding HTTP response headers to a Netlify static website</a><time datetime="2019-05-23T00:00:00+00:00">2019-05-23</time></li>
+
+<li><a href="/2018/12/23/syntax-highlight-with-rouge-in-jekyll/">Syntax highlight with Rouge in Jekyll</a><time datetime="2018-12-23T00:00:00+00:00">2018-12-23</time></li>
+
+<li><a href="/2018/11/12/page-specific-assets-in-jekyll/">Page specific assets in Jekyll</a><time datetime="2018-11-12T00:00:00+00:00">2018-11-12</time></li>
+
+<li><a href="/2018/09/20/jekyll-reading-time-without-plugins/">Jekyll reading time without plugins</a><time datetime="2018-09-20T00:00:00+00:00">2018-09-20</time></li>
+
+<li><a href="/2018/09/11/how-to-add-an-rss-feed-to-a-jekyll-blog/">How to add an RSS feed to a Jekyll blog</a><time datetime="2018-09-11T00:00:00+00:00">2018-09-11</time></li>
+
+<li><a href="/2018/08/18/top-plugins-for-wordpress-websites/">Top plugins for Wordpress websites</a><time datetime="2018-08-18T00:00:00+00:00">2018-08-18</time></li>
+
+<li><a href="/2018/06/14/install-jekyll-on-mac-os/">Install Jekyll on Mac OS</a><time datetime="2018-06-14T00:00:00+00:00">2018-06-14</time></li>
+
+<li><a href="/2018/06/07/applying-the-active-class-for-the-current-page-in-jekyll/">Applying the active class for the current page in Jekyll</a><time datetime="2018-06-07T00:00:00+00:00">2018-06-07</time></li>
+
+<li><a href="/2018/05/13/displaying-github-gists-in-jekyll-sites/">Displaying GitHub Gists in Jekyll sites</a><time datetime="2018-05-13T00:00:00+00:00">2018-05-13</time></li>
+
+<li><a href="/2018/02/05/disable-jekylls-default-syntax-highlighter-rouge/">Disable Jekyll's default syntax highlighter Rouge</a><time datetime="2018-02-05T00:00:00+00:00">2018-02-05</time></li>
+
+<li><a href="/2018/02/03/image-captions-in-jekyll/">Image caption in Jekyll</a><time datetime="2018-02-03T00:00:00+00:00">2018-02-03</time></li>
+
+<li><a href="/2018/01/17/showing-the-word-count/">Showing the word count in Jekyll</a><time datetime="2018-01-17T00:00:00+00:00">2018-01-17</time></li>
+
+<li><a href="/2017/11/15/custom-404-page-for-jekyll-on-github-pages/">Custom 404 page for Jekyll on Github pages</a><time datetime="2017-11-15T00:00:00+00:00">2017-11-15</time></li>
+
+<li><a href="/2017/11/10/redirect-jekyll-urls/">Redirect Jekyll URLs</a><time datetime="2017-11-10T00:00:00+00:00">2017-11-10</time></li>
+
+<li><a href="/2017/01/03/creating-navigation-menu-in-jekyll/">Creating navigation menu in Jekyll</a><time datetime="2017-01-03T00:00:00+00:00">2017-01-03</time></li>
+
+<li><a href="/2016/12/11/structured-data-markup-validation-and-testing-tools/">Structured Data markup validation and testing tools</a><time datetime="2016-12-11T00:00:00+00:00">2016-12-11</time></li>
+
+<li><a href="/2016/11/27/top-monospaced-fonts-for-coding/">Top monospaced fonts for coding</a><time datetime="2016-11-27T00:00:00+00:00">2016-11-27</time></li>
+
+<li><a href="/2015/07/31/places-where-you-can-learn-how-to-code/">Places where you can learn how to code</a><time datetime="2015-07-31T00:00:00+00:00">2015-07-31</time></li>
+
+<li><a href="/2014/05/12/css-hacks-you-may-not-know/">CSS hacks you may not know</a><time datetime="2014-05-12T00:00:00+00:00">2014-05-12</time></li>
+
+</ul>
+</section>
+:ET
