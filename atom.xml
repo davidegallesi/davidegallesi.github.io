@@ -4,7 +4,7 @@
  <title>Marginalia</title>
  <link href="https://www.davidegallesi.com/atom.xml" rel="self"/>
  <link href="https://www.davidegallesi.com/"/>
- <updated>2022-02-19T07:44:01+00:00</updated>
+ <updated>2022-02-19T07:49:47+00:00</updated>
  <id>https://www.davidegallesi.com</id>
  <author>
    <name>Davide Gallesi</name>
@@ -36,6 +36,72 @@
  </entry>
  
  <entry>
+   <title>Il mio workflow con iPad</title>
+   <link href="https://www.davidegallesi.com/2021/10/09/workflow/"/>
+   <updated>2021-10-09T00:00:00+00:00</updated>
+   <id>https://www.davidegallesi.com/2021/10/09/workflow</id>
+   <content type="html">&lt;p&gt;WikiLins!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;wiki-link&quot; href=&quot;/2021/09/16/la-foglia/&quot;&gt;Questa è l’etichetta del link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sono già state scritte centinaia di miglia di parole riguardo la possibilità di usare solo iPad per la produttività quotidiana. Con una veloce ricerca si trovano tonnellate di tutorial con consigli sulle applicazioni da utilizzare e relativo hardware a corredo. Sono risorse a cui ho attinto anche io.
+Ciascuno di noi ha il proprio workflow che prevede l’utilizzo di determinati strumenti. Per il mio, in estrema sintesi, non posso permettermi di utilizzare solo iPad.
+Il mio lavoro ha a che fare con l’automazione industriale e l’utilizzo di strumenti di programmazione per sistemi embedded disponibili solo per Linux o Windows. In queste situazioni non ho scelta, per tutto le altre però si.&lt;/p&gt;
+
+&lt;p&gt;iPad è uno strumento straordinario sia per il “consumo” che per la creazione di contenuti.&lt;/p&gt;
+
+&lt;p&gt;È una macchina estremamente potente, leggera e portatile, sempre connessa e immediatamente disponibile. Quando devo fare, leggere, cercare qualcosa, mi viene molto più naturale prendere in mano iPad piuttosto che accendere il MacBook.&lt;/p&gt;
+
+&lt;p&gt;Da quando, con l’avvento iPadOS 13 è possibile utilizzare anche un mouse esterno, il mio utilizzo per la produzione di contenuti si è fatto sempre più intenso.&lt;/p&gt;
+
+&lt;h2 id=&quot;gli-strumenti-per-me-essenziali&quot;&gt;Gli strumenti (per me) essenziali&lt;/h2&gt;
+&lt;p&gt;Non parlerò della possibilità di editare fogli di calcolo video, immagini. Ci sono mille app che lo consentono, la scelta di farlo su iPad o su altro è personale. Non faccio uso intensivo di questo strumento, quando mi capita posso tranquillamente farlo su iPad senza soffrire troppo della mancanza di uno schermo grande. Ciò che mi auguro è che con le prossime generazione la USB C consenta anche dii utilizzare finalmente uno schermo esterno addizionale (no duplicato) in full screen.&lt;/p&gt;
+
+&lt;p&gt;Questi sono gli strumenti irrinunciabili.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;un file system condiviso&lt;/li&gt;
+  &lt;li&gt;un terminale&lt;/li&gt;
+  &lt;li&gt;una VPN&lt;/li&gt;
+  &lt;li&gt;un development server&lt;/li&gt;
+  &lt;li&gt;un editor di testo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;file-system-condiviso&quot;&gt;File system condiviso&lt;/h2&gt;
+&lt;p&gt;Ho usato dropbox per anni, quando uscì era uno strumento innovativo e affidabile. Era il mio hard disk remoto e condiviso. Ma il modello di business è cambiato ibridando altre funzionalità che secondo me hanno creato troppa confusione. Mantengo il free tier ma ho annullato la sottoscrizione e no lo uso di fatto più.
+Uso iCloud, non è perfetto, non è disponibile su una macchina Linux, ma per me funziona.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-editor-di-testo&quot;&gt;Un editor di testo.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Ovunque&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim. Lo so è una scelta un po’ nerd ma è disponibile in qualsiasi macchina abbia una console e le possibilità di configurazione e personalizzazione sone pressoché infinite.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MacOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;BBedit&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iPadOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;iWriter
+TexTastic&lt;/p&gt;
+
+&lt;h2 id=&quot;cosa-faccio-con-ipad&quot;&gt;Cosa faccio con iPad&lt;/h2&gt;
+
+&lt;h2 id=&quot;cosa-non-posso-fare-con-ipad&quot;&gt;Cosa non posso fare con iPad&lt;/h2&gt;
+
+&lt;p&gt;Il mio lavoro prevede, di tanto in tanto, l’utilizzo di &lt;a href=&quot;https://www.codesys.com&quot; class=&quot;web-link&quot;&gt;questo&lt;/a&gt; ambiente di sviluppo che è disponibile solo per Windows.&lt;/p&gt;
+
+&lt;h2 id=&quot;documenti&quot;&gt;Documenti&lt;/h2&gt;
+&lt;p&gt;Per produrre documenti scrivo file di testo di norma in &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot; class=&quot;web-link&quot;&gt;markdown&lt;/a&gt;[^: anche questo blog è costruito con file di testo scritti in markdown, l’HTML è poi generato con Jekyll. La creazione di un sito statico partendo file di testo sarà argomento per un prossimo post.] o &lt;a href=&quot;https://www.latex-project.org/&quot; class=&quot;web-link&quot;&gt;LaTeX&lt;/a&gt; per documenti un poco più complessi.&lt;/p&gt;
+
+&lt;p&gt;Per generare poi il documento formattato uso Pandoc o un compilatore LaTeX.&lt;/p&gt;
+
+&lt;p&gt;I file di testo sono nati con il computing e sono un o standard condiviso, sopravvivono a qualsiasi cambiamento o novità. Occupano poco spazio e sono portabili, lo stesso file di testo può essere modificato con uno dei tanti su una macchina Linux, Windows, MacOS, iPadOS.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Code block formatting with CSS</title>
    <link href="https://www.davidegallesi.com/2021/10/03/code-block-test/"/>
    <updated>2021-10-03T00:00:00+00:00</updated>
@@ -46,7 +112,9 @@
 
 &lt;p&gt;Perché il link interno non funziona? Ha forse cessato di funzionare il plugin di jekyll?&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;invalid-wiki-link&quot;&gt;[[2021-10-09-workflow]]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;wiki-link&quot; href=&quot;/2021/10/09/workflow/&quot;&gt;il mio workflow con ipad&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ho modificato di nuovo il post di origine del link qui sopra. Ora il link interno dovrebbe funzionare.&lt;/p&gt;
 
 &lt;p&gt;Utilizzo il terminale e Tmux che mi consente di avere due &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panes&lt;/code&gt; uno di editing dove utilizzo Vim e uno minimale, essenzialmente una riga, dove posso utilizzare la riga di comando epr fare ciò che serve per sincronizzare e pubblicare.&lt;/p&gt;
 
