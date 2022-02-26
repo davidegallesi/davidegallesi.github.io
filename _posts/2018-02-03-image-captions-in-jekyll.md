@@ -3,6 +3,7 @@ layout: post
 title: Image caption in Jekyll
 description: Using an image caption in Jekyll
 summary: Using an image caption in Jekyll.
+published: false
 tags: [jekyll, coding]
 ---
 

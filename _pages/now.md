@@ -4,19 +4,22 @@ title: Now
 permalink: /now/
 ---
 
-Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It's autumn (I love autumn) and this is what I'm doing now.
+Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It’s winter and this is what I’m doing now.
 
 - Wearing a mask.
 - Loving and living my family.
-- Working with passion to grow my (really) [small company](http://www.nexo.me).
+- Working with passion to grow my (really) [small company](http://www.nexo.me/).
 - Reading.
 - Walking.
 - Biking.
-- Writing on paper with pencils and fountain pens.
+- Writing on paper with fountain pens and pencils.
 - Fighting daily against my ignorance.
 - Slowing down.
 - Sharing (rarely) short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi).
 
+Last update: January 2022
+
+
 ***
-<small>Updated September 2021<br>
-The **/now** page movement has been inspired by [Derek Sievers](https://sivers.org/nowff).</small>
+
+<small>The **/now** page movement has been inspired by [Derek Sievers](https://sivers.org/nowff).</small>

@@ -3,6 +3,7 @@ layout: post
 title: Syntax highlight with Rouge in Jekyll
 description: Enable syntax highlighting in your site
 summary: Enable syntax highlighting in your site.
+published: false
 comments: true
 tags: [jekyll, coding]
 ---
