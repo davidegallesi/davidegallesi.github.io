@@ -6,9 +6,7 @@ author: Davide
 layout: post
 guid: 'https://davidegallesi.com/?p=167'
 permalink: /2018/04/14/promemoria-andrea-bajani/
-tags:
-    - poetry
-format: quote
+tags: [poetry]
 ---
 
 > Ricordarsi prima di morire  
@@ -18,4 +16,5 @@ format: quote
 > arrivare. Glieli chiudono i vivi  
 > per non farsi guardare.
 > 
-> <cite>Andrea Bajani</cite>
+
+<cite>Andrea Bajani</cite>

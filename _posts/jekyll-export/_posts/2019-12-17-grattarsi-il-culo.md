@@ -12,5 +12,5 @@ format: quote
 ---
 
 > …per farlo non c’è bisogno di conoscere tutto il complesso meccanismo che coordina le almeno tre dozzine di muscoli interessati, né le sette aree neuronali implicate, nel grattarselo.
-> 
-> <cite>[Malvino](https://malvinodue.blogspot.com/2019/12/blog-post.html)</cite>
+
+<cite>[Malvino](https://malvinodue.blogspot.com/2019/12/blog-post.html)</cite>

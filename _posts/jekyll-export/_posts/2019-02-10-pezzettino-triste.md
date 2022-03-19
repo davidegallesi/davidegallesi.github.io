@@ -20,5 +20,5 @@ format: quote
 > di sognare me.  
 > Che bella balla  
 > che è il mondo.
-> 
-> <cite>Giovanni Previdi – Due fettine di salame, poesie.</cite>
+ 
+<cite>Giovanni Previdi – Due fettine di salame, poesie.</cite>

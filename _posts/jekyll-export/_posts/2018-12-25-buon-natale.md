@@ -1,21 +1,14 @@
 ---
-id: 187
 title: 'Buon Natale'
 date: '2018-12-25T15:26:54+00:00'
 author: Davide
 excerpt: 'Una cartolina.'
 layout: post
-guid: 'https://davidegallesi.com/?p=187'
-permalink: /2018/12/25/buon-natale/
-categories:
-    - Uncategorized
 tags:
-    - Uncategorized
-format: aside
 ---
 
 ```
-<pre class="wp-block-preformatted">       *             ,
+       *             ,
                    _/^\_
                   <     >
  *                 /.-.\         *
