@@ -1,0 +1,8 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "!\/bin\/sh\n\ngstatus=`git status --porcelain`\n\nif [ ${#gstatus} -ne 0 ]\nthen\n  git add --all\n  git commit -m `date +%Y-%m-%d-%H%m%S`\n  git pull --rebase\n  git push\nfi"
+    }
+  }
+}
