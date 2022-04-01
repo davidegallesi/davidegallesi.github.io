@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It’s spring and this is what I’m doing now.
+Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It’s spring (I love spring) and this is what I’m doing now.
 
 - Wearing a mask.
 - Loving and living my family.
