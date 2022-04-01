@@ -16,6 +16,7 @@ Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wik
 - Fighting daily against my ignorance.
 - Slowing down.
 - Sharing (rarely) short thoughts, photos, quotes [here](https://www.twitter.com/davidegallesi).
+- moving forward
 
 Last update: April 2022
 
