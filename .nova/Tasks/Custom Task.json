@@ -6,8 +6,12 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "cd ~\/documents\/davidegallesi.github.io\/ && \\\n\njekyll build\n"
+      "script" : "cd ~\/documents\/davidegallesi.github.io\/ && \\\n\njekyll -v"
     }
+  },
+  "environment" : {
+    "dir" : "${File}",
+    "var" : ""
   },
   "openLogOnRun" : "finish",
   "serverName" : "dgserver"
