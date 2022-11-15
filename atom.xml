@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>PHPetite</title>
+    <title>MARGINALIA</title>
     <link href="https://davidegallesi.github.io/atom.xml" rel="self"/>
     <link href="https://davidegallesi.github.io"/>
-    <updated>2022-11-15T08:58:43+00:00</updated>
+    <updated>2022-11-15T09:22:18+00:00</updated>
     <id>https://davidegallesi.github.io/</id>
     <author>
       <name>Davide</name>
       <email>davide@davidegallesi.com</email>
     </author>
+  <entry>
+    <title>La mia pianura</title>
+    <link href="https://davidegallesi.github.io#2022-11-15-pianura-la-mia-pianura"/>
+    <updated>2022-11-15T00:00:00+00:00</updated>
+    <id>https://davidegallesi.github.io/#2022-11-15-pianura-la-mia-pianura</id>
+    <content type="html">&lt;h1&gt;La mia pianura&lt;/h1&gt;
+&lt;figure&gt;&lt;img src="content/img/pianura.jpg" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /&gt;&lt;/figure&gt;</content>
+  </entry>
+  
   <entry>
     <title>Il nozionismo e l’illusione della competenza</title>
     <link href="https://davidegallesi.github.io#2022-01-21-il-nozionismo-e-lillusione-della-competenza-il-nozionismo-e-l-illusione-della-competenza"/>
