@@ -3,7 +3,7 @@
     <title>MARGINALIA</title>
     <link href="https://davidegallesi.github.io/atom.xml" rel="self"/>
     <link href="https://davidegallesi.github.io"/>
-    <updated>2022-11-15T09:22:18+00:00</updated>
+    <updated>2022-11-15T09:30:10+00:00</updated>
     <id>https://davidegallesi.github.io/</id>
     <author>
       <name>Davide</name>
@@ -15,7 +15,7 @@
     <updated>2022-11-15T00:00:00+00:00</updated>
     <id>https://davidegallesi.github.io/#2022-11-15-pianura-la-mia-pianura</id>
     <content type="html">&lt;h1&gt;La mia pianura&lt;/h1&gt;
-&lt;figure&gt;&lt;img src="content/img/pianura.jpg" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /&gt;&lt;/figure&gt;</content>
+&lt;figure&gt;&lt;img src="content/img/pianura_small.jpg" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /&gt;&lt;/figure&gt;</content>
   </entry>
   
   <entry>
