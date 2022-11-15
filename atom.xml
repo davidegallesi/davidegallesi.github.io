@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>MARGINALIA</title>
+    <title>marginalia</title>
     <link href="https://davidegallesi.github.io/atom.xml" rel="self"/>
     <link href="https://davidegallesi.github.io"/>
-    <updated>2022-11-15T09:30:10+00:00</updated>
+    <updated>2022-11-15T09:32:51+00:00</updated>
     <id>https://davidegallesi.github.io/</id>
     <author>
       <name>Davide</name>
