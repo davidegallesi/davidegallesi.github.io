@@ -3,7 +3,7 @@
     <title>marginalia</title>
     <link href="https://davidegallesi.github.io/atom.xml" rel="self"/>
     <link href="https://davidegallesi.github.io"/>
-    <updated>2022-11-22T13:11:54+00:00</updated>
+    <updated>2022-11-22T13:45:12+00:00</updated>
     <id>https://davidegallesi.github.io/</id>
     <author>
       <name>Davide</name>
@@ -15,7 +15,19 @@
     <updated>2022-11-15T00:00:00+00:00</updated>
     <id>https://davidegallesi.github.io/#2022-11-15-pianura-la-mia-pianura</id>
     <content type="html">&lt;h1&gt;La mia pianura&lt;/h1&gt;
-&lt;figure&gt;&lt;img src="content/img/pianura_small.jpg" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /&gt;&lt;/figure&gt;</content>
+&lt;figure&gt;&lt;img src="img/pianura_small.jpg" alt="This is the image alt text" title="This is the image title." width="1280" height="800" loading="lazy" /&gt;&lt;/figure&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Scrivere a mano</title>
+    <link href="https://davidegallesi.github.io#2022-04-10-kakuno-scrivere-a-mano"/>
+    <updated>2022-04-10T00:00:00+00:00</updated>
+    <id>https://davidegallesi.github.io/#2022-04-10-kakuno-scrivere-a-mano</id>
+    <content type="html">&lt;h1&gt;Scrivere a mano&lt;/h1&gt;
+&lt;p&gt;Questa mattina ho dato a Riccardo la sua prima penna stilografica, gli ho fato scegliere con quale inchiostro caricarla e da previsione ha scelto un rosso.&lt;/p&gt;
+&lt;p&gt;L'ho fatto perché ho notato che grazie alla sua insegnante di italiano si sta un minimo appassionando alla scrittura a mano.&lt;/p&gt;
+&lt;p&gt;L'ho fatto perché mi auguro che maturi come lo scrivere a mano, lentamente, porti alla meditazione, conduca alla riflessione profonda che aiuta a dipanare il rumore in cui siamo perennemente ingarbugliati.&lt;/p&gt;
+&lt;p&gt;Scrivere a mano è per me la necessità di un luogo di cui non riesco a fare a meno.&lt;/p&gt;</content>
   </entry>
   
   <entry>
