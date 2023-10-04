@@ -47,3 +47,20 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 #remote_theme: chesterhow/tale
 
 remote_theme: heiswayi/the-plain
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
