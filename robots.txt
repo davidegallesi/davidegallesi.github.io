@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://nxserver.local:4000/sitemap.xml
