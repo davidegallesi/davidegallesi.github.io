@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
+title: "now"
+author: "Davide"
+permalink: /now/
 ---
 
-## Welcome to another page
-
-_yay_
-
-[back](./)
+this is the now page
