@@ -44,4 +44,6 @@ plugins:
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
  
-remote_theme: chesterhow/tale
+#remote_theme: chesterhow/tale
+
+remote_theme: riggraz/no-style-please
