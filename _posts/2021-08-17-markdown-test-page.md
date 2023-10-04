@@ -13,7 +13,7 @@ Scrivo dal mio iPad Pro ma in in realtà sto scrivendo sul MacMini che ho a casa
 Ora provo a generare `HTML`.
 
 
-![Laputa Robot](img/Robot_laputa.png)
+![Laputa Robot](/img/Robot_laputa.png)
 
 ## TODO
 
