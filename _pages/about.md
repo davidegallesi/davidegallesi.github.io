@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "About"
+title: "now"
 author: "Chester"
-permalink: /about/
+permalink: /now/
 ---
 
 Stat rosa pristina nomine nomina nuda tenemus.
