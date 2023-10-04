@@ -8,6 +8,8 @@ url:            "https://davidegallesi.github.io"
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+paginate_path: ./page:num/
+
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
