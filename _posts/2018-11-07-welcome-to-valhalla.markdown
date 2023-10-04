@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Valhalla!"
 date:   2018-11-07 12:32:45 +0100
 categories:
+sticky: true
+hidden: true
 ---
 
 # Welcome to Valhalla!
