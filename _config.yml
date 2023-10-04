@@ -4,6 +4,11 @@ description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/"
 url:            "https://davidegallesi.github.io"
 
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
@@ -32,9 +37,7 @@ plugins:
  
   # - jemoji #Uncomment this to allow emoji in your post
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
