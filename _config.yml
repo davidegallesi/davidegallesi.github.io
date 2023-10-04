@@ -46,4 +46,4 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
  
 #remote_theme: chesterhow/tale
 
-remote_theme: riggraz/no-style-please
+remote_theme: alexcarpenter/butane-jekyll-theme
