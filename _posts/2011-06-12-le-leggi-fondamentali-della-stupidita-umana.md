@@ -1,6 +1,5 @@
+---
 title: 'Le leggi fondamentali della stupidità umana'
-date: '2011-06-12T20:25:37+00:00'
-author: Davide
 excerpt: 'Allegro ma non troppo. Con lo stupido sistemico c''è poco da fare, l''unica è darsela a gambe.'
 tags:
     - reading
