@@ -1,12 +1,7 @@
----
-id: 396
 title: 'Le leggi fondamentali della stupidità umana'
 date: '2011-06-12T20:25:37+00:00'
 author: Davide
 excerpt: 'Allegro ma non troppo. Con lo stupido sistemico c''è poco da fare, l''unica è darsela a gambe.'
-layout: post
-guid: 'http://www.probonomalum.com/?p=396'
-permalink: /2011/06/12/le-leggi-fondamentali-della-stupidita-umana/
 tags:
     - reading
     - riflessioni
