@@ -96,7 +96,7 @@ preferences:
     enabled: true
   highlighting:
     enabled: true
-    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
+    color: ffdd69 # DAEDFF original Takes hexadecimal and basic names like white, red, etc. 
                   # Do not add '#'(the pound symbol) before the hexadecimal number.
                   # In yml, it is considered as a comment
   backlinks:
