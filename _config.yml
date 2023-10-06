@@ -58,7 +58,7 @@ user:
   name: Raghuveer S
   bio: Programmer ∪ Writer. Interested in constraints and correspondences.
   email: raghu-veer@outlook.com
-  photo: /assets/img/profile.png
+  photo: /assets/img/favicon.png
   alt_link: rgvr.me
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
