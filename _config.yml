@@ -45,7 +45,7 @@ tagline: # subheading won't work without a tagline,
          # the subheading to support the main heading
          # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: An experiment to spark conversations
+  name: An attempt to disentangle the brain
 copyright: 
   year: 2023
   msg: Davide # This is a mandatory attribute for copyright to be displayed
