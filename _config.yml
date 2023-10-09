@@ -48,7 +48,7 @@ tagline: # subheading won't work without a tagline,
   name: An attempt to disentangle the brain
 copyright: 
   year: 2023
-  msg: Davide Gallesi# This is a mandatory attribute for copyright to be displayed
+  msg: Davide Gallesi # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
