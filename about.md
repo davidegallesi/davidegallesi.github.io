@@ -6,11 +6,8 @@ content-type: eg
 ---
 
 
-Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It’s spring (I love spring) and this is what I’m doing now.
+Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wiki/Milan), Italy. It’s autumn (I love autumn) and this is what I’m doing now.
 
-- Wearing a mask.
-- Loving and living my family.
-- Working with passion to grow my (really) [small company](http://www.nexo.me/).
 - Reading.
 - Walking.
 - Biking.
@@ -18,9 +15,10 @@ Hello, my name is Davide Gallesi I live in [Milano](https://en.wikipedia.org/wik
 - Fighting daily against my ignorance.
 - Slowing down.
 - Sharing (rarely) short thoughts, photos, quotes <a rel="me" href="https://mastodon.uno/@davidegallesi">here</a>.
+- Working with passion to grow my (really) [small company](http://www.nexo.me/).
 
 
-Last update: November 2022
+Last update: October 2023
 
 
 ***
