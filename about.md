@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: About
-permalink: /about/
+title: now
+permalink: /now/
 content-type: eg
 ---
 
