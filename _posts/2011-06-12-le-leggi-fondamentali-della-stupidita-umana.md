@@ -7,7 +7,10 @@ tags:
     - vita
 ---
 
-![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg){: width="150"; }
+
+A caption for an image.
+{:.figcaption}
 
 Ho riletto il breve e illuminante [“Allegro ma non troppo”](http://www.anobii.com/books/Allegro_ma_non_troppo/9788815019806/01fcf93803c752a7ec/).
 
@@ -21,3 +24,7 @@ Unica soluzione imparare a riconoscerlo, provare a evitarlo o alzare le difese n
 Lo stupido è irrazionale, imprevedibile, non agisce con un secondo fine, a differenza del malvagio che ha uno scopo; lo stupido è stupido e basta. Quando ne incontro uno e lo riconosco me la do a gambe perché secondo la terza legge fondamentale:
 
 > una persona stupida è una persona che causa un danno ad un’altra persona o gruppo di persone senza nel contempo realizzare alcun vantaggio per sé od addirittura subendo una perdita”.
+
+
+
+![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg#center){: width="150"; }
