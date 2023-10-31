@@ -7,7 +7,9 @@ tags:
     - vita
 ---
 
-![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg){: width="50%"} Ho riletto il breve e illuminante [“Allegro ma non troppo”](http://www.anobii.com/books/Allegro_ma_non_troppo/9788815019806/01fcf93803c752a7ec/).
+![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg){: width="100" }
+
+Ho riletto il breve e illuminante [“Allegro ma non troppo”](http://www.anobii.com/books/Allegro_ma_non_troppo/9788815019806/01fcf93803c752a7ec/).
 
 Sono due saggi, il primo parla dell’importanza delle spezie – del pepe in particolare – per lo sviluppo economico del Medioevo. Il secondo spiega le cinque leggi fondamentali della stupidità umana; da imparare a memoria.
 
