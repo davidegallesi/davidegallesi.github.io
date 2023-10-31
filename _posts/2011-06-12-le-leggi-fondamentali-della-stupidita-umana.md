@@ -21,8 +21,3 @@ Unica soluzione imparare a riconoscerlo, provare a evitarlo o alzare le difese n
 Lo stupido è irrazionale, imprevedibile, non agisce con un secondo fine, a differenza del malvagio che ha uno scopo; lo stupido è stupido e basta. Quando ne incontro uno e lo riconosco me la do a gambe perché secondo la terza legge fondamentale:
 
 > una persona stupida è una persona che causa un danno ad un’altra persona o gruppo di persone senza nel contempo realizzare alcun vantaggio per sé od addirittura subendo una perdita”.
-
-![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg)
-
-
-![alt text](/assets/img/profile.png "Logo Title Text 1")
