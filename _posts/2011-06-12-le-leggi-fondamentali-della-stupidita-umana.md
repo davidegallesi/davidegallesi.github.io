@@ -26,5 +26,3 @@ Lo stupido è irrazionale, imprevedibile, non agisce con un secondo fine, a diff
 > una persona stupida è una persona che causa un danno ad un’altra persona o gruppo di persone senza nel contempo realizzare alcun vantaggio per sé od addirittura subendo una perdita”.
 
 
-
-![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg#center){: width="150"; }
