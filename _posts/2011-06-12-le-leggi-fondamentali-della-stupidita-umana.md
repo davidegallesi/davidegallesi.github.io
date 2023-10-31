@@ -7,7 +7,7 @@ tags:
     - vita
 ---
 
-![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg)
+![Allegro ma non troppo](/assets/postimg/allegro_ma_non_troppo.jpg){: width="90" }
 
 Ho riletto il breve e illuminante [“Allegro ma non troppo”](http://www.anobii.com/books/Allegro_ma_non_troppo/9788815019806/01fcf93803c752a7ec/).
 
