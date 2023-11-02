@@ -2,7 +2,7 @@
 title: Usare carta e penna nel mondo digitale
 date: 2023-11-02
 published: true
-status: marginalia
+status: Ongoing
 tags: analog 
 ---
 
