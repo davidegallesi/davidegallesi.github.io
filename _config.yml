@@ -55,11 +55,11 @@ user:
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Davide G
+  name: Davide
   bio: Avid reader.
   email: davide@davidegallesi.com
   photo: /assets/img/favicon.png
-  alt_link: blog.davidegallesi.com
+  alt_link: www.davidegallesi.com
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
