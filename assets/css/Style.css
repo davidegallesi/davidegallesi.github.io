@@ -162,10 +162,9 @@ b, strong {
 /* Figures, Images, Code, Blockquotes, Tables */
 
 img {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
     max-width: 80%;
     height: auto;
 }
