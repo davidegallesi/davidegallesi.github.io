@@ -59,7 +59,7 @@ user:
   bio: Avid reader.
   email: davide@davidegallesi.com
   photo: /assets/img/favicon.png
-  alt_link: www.davidegallesi.com
+  alt_link: blog.davidegallesi.com
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
