@@ -1,6 +1,6 @@
 ---
 title: 'Le leggi fondamentali della stupidità umana'
-excerpt: 'Allegro ma non troppo. Con lo stupido sistemico c''è poco da fare, l''unica è darsela a gambe.'
+excerpt: 'Allegro ma non troppo. Con lo stupido sistemico c'è poco da fare, l''unica è darsela a gambe.'
 tags:
     - reading
     - riflessioni
