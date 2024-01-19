@@ -13,7 +13,7 @@ layout: Stylesheet
     --quaternary-bg-color: hsl(var(--main-hue), 0%, 93%);
     --quinary-bg-color: hsl(var(--main-hue), 100%, 100%);
 
-    /*--primary-border-color: hsl(var(--main-hue), 0%, 96.9%);*/
+    /*--primary-border-color: hsl(var(--main-hue), 0%, 96.9%); original */
 	--primary-border-color: hsl(var(--main-hue), 0%, 100.0%);
     --secondary-border-color: hsl(var(--main-hue), 0%, 91.4%);
     --ternary-border-color: hsl(var(--main-hue), 0%, 87.5%);
