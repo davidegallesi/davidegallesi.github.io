@@ -47,7 +47,7 @@ tagline: # subheading won't work without a tagline,
   enabled: true
   name: An attempt to disentangle the brain
 copyright: 
-  year: 2023
+  year: 2024
   msg: marginalia # This is a mandatory attribute for copyright to be displayed
 
 user:
