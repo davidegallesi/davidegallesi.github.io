@@ -298,6 +298,7 @@ hr {
 }
 
 .site-heading-rtl > .main-page-heading {
+	background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family:  var(--primary-font-family);
     font-weight: 600;
