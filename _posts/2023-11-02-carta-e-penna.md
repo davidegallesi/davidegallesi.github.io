@@ -6,5 +6,4 @@ status: Ongoing
 tags: analog 
 ---
 
-Just testing micro blog cross post.
 
