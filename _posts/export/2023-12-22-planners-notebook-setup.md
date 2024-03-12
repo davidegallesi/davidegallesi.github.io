@@ -1,4 +1,4 @@
-<---
+---
 layout: post
 title: Palindromo
 date: 2023/12/22
