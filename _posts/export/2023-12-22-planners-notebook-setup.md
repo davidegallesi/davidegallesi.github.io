@@ -14,7 +14,10 @@ While it is just 3mm thicker than the standard Weeks the Mega offers 214 pages f
 
 It is like having an additional 130 pages notebook in just 3mm.
 
-<img src="/weeks-mega.jpg" alt="Hobonichi Weeks Standard vs Mega" width="90%"/><figcaption>Hobonichi Weeks Standard vs Mega</figcaption>
+<figure>
+<img src="./weeks-mega.jpg" alt="Hobonichi Weeks Standard vs Mega" width="90%">
+<figcaption>Hobonichi Weeks Standard vs Mega</figcaption>
+</figure>
 
 For daily journaling this year I have used a ruled A5 notebook, for 2024 I have decided to go with the Hobonichi Weeks memo pad. They're 40 pages, just 2mm thick and made of the same Tomoe River paper the Weeks is done with. I will carry everything into an undyed Leather Slim cover from Galen Leather.
 
