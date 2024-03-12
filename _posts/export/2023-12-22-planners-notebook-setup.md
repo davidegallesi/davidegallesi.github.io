@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Palindromo
+title: Planners and notebook setup
 date: 2023/12/22
 description: planner and notebook setup
 published: true
