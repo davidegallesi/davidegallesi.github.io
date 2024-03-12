@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a digital garden
-date: 2021-10-10
+date: 2023-03-12
 description: Building a Digital Garden with iAWriter DevonThink and Jekyll
 summary: Building a Digital Garden with iAWriter DevonThink and Jekyll
 published: true
