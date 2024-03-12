@@ -4,7 +4,7 @@ title: Building a digital garden
 date: 2021-10-10
 description: Building a Digital Garden with iAWriter DevonThink and Jekyll
 summary: Building a Digital Garden with iAWriter DevonThink and Jekyll
-published: false
+published: true
 tags: [jekyll, digital garden, iPadOS]
 ---
 
