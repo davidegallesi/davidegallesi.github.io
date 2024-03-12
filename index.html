@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+
+
+<section class="posts">
+
+<!-- <h2>Latest writings</h2> -->
+<p>
+Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma poiché tutti se ne rendono conto, possiamo ben considerarlo un discorso onesto, non vi pare?
+<br>
+<br>
+<cite>Ryūnosuke Akutagawa – KAPPA</cite>
+</p>
+<br>
+<br>
+<ul>
+{% for post in site.posts limit:10 %}
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
+
+<!-- {{ post.summary }} -->
+{% endfor %}      
+</ul>
+</section>
+
