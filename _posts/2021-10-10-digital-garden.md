@@ -8,6 +8,8 @@ published: true
 tags: [jekyll, digital garden, iPadOS]
 ---
 
+Ora sto scrivendo con Nova per verificare il workflow di pubblicazione, non so se utilizzare GitHub pages o pubblicare su un mio server, forse la seconda. proviamo
+
 Sto provando la beta della versione 6.0 di iAWriter che introduce un cambiamento importante, il supporto ai [wikilinks](https://it.wikipedia.org/wiki/Aiuto:Wikilink).
 
 Questo consente di creare una raccolta di annotazioni collegate tra loro per (è il principio alla base del metodo zettelkasten), per creare un sistema di conoscenza personale.
