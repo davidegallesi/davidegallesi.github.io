@@ -14,8 +14,6 @@ While it is just 3mm thicker than the standard Weeks the Mega offers 214 pages f
 
 It is like having an additional 130 pages notebook in just 3mm.
 
-![Hobonichi Weeks](/_posts/export/weeks-mega.jpg)
-
 <figure>
 <img src="/_posts/export/weeks-mega.jpg" alt="Hobonichi Weeks Standard vs Mega" width="90%">
 <figcaption>Hobonichi Weeks Standard vs Mega</figcaption>
