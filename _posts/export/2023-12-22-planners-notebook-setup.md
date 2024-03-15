@@ -15,7 +15,7 @@ While it is just 3mm thicker than the standard Weeks the Mega offers 214 pages f
 It is like having an additional 130 pages notebook in just 3mm.
 
 <figure>
-<img src="./weeks-mega.jpg" alt="Hobonichi Weeks Standard vs Mega" width="90%">
+<img src="/export/weeks-mega.jpg" alt="Hobonichi Weeks Standard vs Mega" width="90%">
 <figcaption>Hobonichi Weeks Standard vs Mega</figcaption>
 </figure>
 
@@ -23,6 +23,6 @@ For daily journaling this year I have used a ruled A5 notebook, for 2024 I have 
 
 Here's the cover with my beloved Delta Dolce Vita and, in the pen holder, a Lamy Safari special edition Cream with 1.1mm italic nib.
 
-<figure><img src="/delta.jpg" alt="Galen Leather undyed leather Slim cover" width="90%"/><figcaption>Galen Leather undyed leather Slim cover</figcaption></figure>
+<figure><img src="/export/delta.jpg" alt="Galen Leather undyed leather Slim cover" width="90%"/><figcaption>Galen Leather undyed leather Slim cover</figcaption></figure>
 
 It is a minimal approach, both the agenda and the notebook have the same size and I find more comfortable carrying around everything within a single cover. At some point for daily journaling I will probably come back to an A5 notebook, but will likely keep it at home for the morning pages and the end of the day reflections. The Weeks + memo pad setup will probably turn more into a every day carry for planning and work/personal common place book. Pens and inks will be a different chapter, I can't stick with a single pen and ink, I use to rotate them through the year.
