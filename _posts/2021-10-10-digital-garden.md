@@ -8,7 +8,9 @@ published: true
 tags: [jekyll, digital garden, iPadOS]
 ---
 
-Ora sto scrivendo con Nova per verificare il workflow di pubblicazione, non so se utilizzare GitHub pages o pubblicare su un mio server, forse la seconda. proviamo
+Ora sto scrivendo con Nova per verificare il workflow di pubblicazione, non so se utilizzare GitHub pages o pubblicare su un mio server, forse la seconda. Proviamo.
+
+Mi pare che funzioni, credo abbia senso usare GitHub in maniera nativa piuttosto che app esotiche che fanno solo dei casini. Si riesce tranquillamente a **committare** diretta mieinte all'interno di Nova, molto bene direi.
 
 Sto provando la beta della versione 6.0 di iAWriter che introduce un cambiamento importante, il supporto ai [wikilinks](https://it.wikipedia.org/wiki/Aiuto:Wikilink).
 
