@@ -1,5 +1,5 @@
 site: Marginalia
-url: " "
+url: "https://davidegallesi.github.io"
 title: Marginalia
 description: A digital garden
 twitter:
@@ -12,7 +12,6 @@ author:
   name: Davide Gallesi
   avatar: favicon.png
   email: marginalia.cc@gmail.com
-  url: ""
 permalink: pretty
 
 baseurl: ""
